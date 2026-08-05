@@ -64,11 +64,15 @@ jobs:
           fi
 
       - name: Deploy dashboard to Vercel
-        # Skipped automatically when the token secret is absent.
-        if: ${{ secrets.VERCEL_TOKEN != '' }}
+        # The `secrets` context is not available in step-level `if`, so the
+        # token is surfaced through env and tested there instead.
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
+          if [ -z "$VERCEL_TOKEN" ]; then
+            echo "VERCEL_TOKEN not set — skipping deploy (scan and alerts unaffected)."
+            exit 0
+          fi
           npx --yes vercel@latest deploy web --prod --yes --token "$VERCEL_TOKEN"
 
       - name: Report outcome
@@ -76,14 +80,7 @@ jobs:
         run: |
           echo "### Protest Radar scan" >> "$GITHUB_STEP_SUMMARY"
           if [ -f web/data.json ]; then
-            python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
-          import json
-          d = json.load(open("web/data.json"))
-          s = d["summary"]
-          print(f"- **Verdict:** {d.get('verdict')} ({d.get('verdict_label')})")
-          print(f"- Messages today: {d.get('messages_today')}/{d.get('messages_per_day_cap')}")
-          print(f"- Confirmed: {s['confirmed']} | Events: {s['total_events']} | Scanned: {s['sources_polled']}")
-          PY
+            python scripts/summarize.py >> "$GITHUB_STEP_SUMMARY"
           else
             echo "- Scan produced no data.json (see logs)." >> "$GITHUB_STEP_SUMMARY"
           fi
