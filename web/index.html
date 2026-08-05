@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anti-AI Protest Radar</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="pulse" id="pulse"></span>
+    <h1>Anti-AI Protest Radar</h1>
+  </div>
+  <div class="meta">
+    <span id="generated">loading…</span>
+    <span class="sep">·</span>
+    <span id="alertline"></span>
+  </div>
+</header>
+
+<main>
+  <section id="banner" class="banner banner-clear">
+    <div class="banner-title" id="bannerTitle">Loading…</div>
+    <div class="banner-sub" id="bannerSub"></div>
+  </section>
+
+  <section class="tiles" id="tiles"></section>
+
+  <section class="controls">
+    <div class="tabs" id="tabs"></div>
+    <input type="search" id="search" placeholder="Filter by keyword, city, source…" autocomplete="off">
+  </section>
+
+  <section id="events" class="events"></section>
+
+  <section class="panels">
+    <div class="panel">
+      <h2>Source health <span class="hint">items returned per collector, last run</span></h2>
+      <div id="collectors" class="collectors"></div>
+    </div>
+    <div class="panel">
+      <h2>Run history <span class="hint">every 12 hours</span></h2>
+      <div id="runs" class="runs"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>How alerting works.</strong> An event is <span class="chip chip-confirmed">CONFIRMED</span>
+    only when it scores at or above the confirm threshold, uses forward-looking
+    language, is dated in the future or published within the last 7 days, and
+    matches a US location. That combination — and only that — fires the burst of
+    urgent messages. <span class="chip chip-reported">REPORTED</span> means a real
+    protest that already happened, is outside the US, or could not be dated;
+    it appears here but never texts you.</p>
+  </footer>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

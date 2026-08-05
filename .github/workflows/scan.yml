@@ -1,0 +1,89 @@
+name: Protest Radar Scan
+
+on:
+  schedule:
+    # Every 6 hours (UTC). 02:00/08:00/14:00/20:00 UTC =
+    # 19:00/01:00/07:00/13:00 America/Los_Angeles.
+    - cron: "0 2,8,14,20 * * *"
+  workflow_dispatch:        # lets you trigger a scan by hand from the Actions tab
+
+# Never let two scans overlap — they'd fight over the SQLite state file.
+concurrency:
+  group: protest-radar-scan
+  cancel-in-progress: false
+
+permissions:
+  contents: write           # needed to commit the refreshed database back
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scan
+        env:
+          RADAR_NTFY_TOPIC:  ${{ secrets.RADAR_NTFY_TOPIC }}
+          RADAR_NTFY_SERVER: ${{ secrets.RADAR_NTFY_SERVER }}
+          RADAR_SITE_URL:    ${{ secrets.RADAR_SITE_URL }}
+          RADAR_ALERT_PHONE: ${{ secrets.RADAR_ALERT_PHONE }}
+          # Optional: real SMS. Ignored when unset.
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN:  ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_FROM_NUMBER: ${{ secrets.TWILIO_FROM_NUMBER }}
+          # No Mac here, so the AppleScript channel must stay off.
+          RADAR_IMESSAGE: "off"
+        run: python -m radar.main
+
+      - name: Commit refreshed state
+        # The SQLite file carries dedupe history and the "already alerted" flags.
+        # Committing it is what stops the next run re-alerting the same protest.
+        run: |
+          git config user.name  "protest-radar-bot"
+          git config user.email "protest-radar-bot@users.noreply.github.com"
+          git add -f data/radar.db web/data.json
+          if git diff --staged --quiet; then
+            echo "No state change to commit."
+          else
+            git commit -m "scan: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            # A concurrent push would otherwise fail the run; rebase and retry.
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push
+          fi
+
+      - name: Deploy dashboard to Vercel
+        # Skipped automatically when the token secret is absent.
+        if: ${{ secrets.VERCEL_TOKEN != '' }}
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          npx --yes vercel@latest deploy web --prod --yes --token "$VERCEL_TOKEN"
+
+      - name: Report outcome
+        if: always()
+        run: |
+          echo "### Protest Radar scan" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f web/data.json ]; then
+            python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          d = json.load(open("web/data.json"))
+          s = d["summary"]
+          print(f"- **Verdict:** {d.get('verdict')} ({d.get('verdict_label')})")
+          print(f"- Messages today: {d.get('messages_today')}/{d.get('messages_per_day_cap')}")
+          print(f"- Confirmed: {s['confirmed']} | Events: {s['total_events']} | Scanned: {s['sources_polled']}")
+          PY
+          else
+            echo "- Scan produced no data.json (see logs)." >> "$GITHUB_STEP_SUMMARY"
+          fi

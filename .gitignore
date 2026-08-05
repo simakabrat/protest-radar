@@ -1,0 +1,11 @@
+# Secrets — the ntfy topic is a password in all but name.
+.env
+
+# Local virtualenv
+.venv/
+__pycache__/
+*.pyc
+
+# Local logs (the database IS committed: it carries alert state)
+data/*.log
+.vercel/
