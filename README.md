@@ -17,6 +17,16 @@ Each scan produces a binary verdict:
 or how many scans run. The cap is enforced against a `sent_messages` table, so a
 restart or a second scan cannot reset it.
 
+## How it runs
+
+Scans execute on **GitHub Actions every 6 hours**, not on your Mac — so they
+happen whether or not the Mac is on. Alerts go out via **ntfy.sh push
+notifications** (and Twilio SMS if configured). See `SETUP_CLOUD.md` for the
+one-time setup.
+
+The local `launchd` job is disabled on purpose: running both would mean two
+separate databases, double alerts, and neither respecting the other's daily cap.
+
 ## Where this lives
 
 `~/protest-radar` — deliberately **not** in `~/Desktop`. macOS TCC blocks `launchd`
@@ -177,5 +187,8 @@ data/          radar.db, radar.log, alerts.log
   (7s and 8s per request — deliberate, to stay a good citizen).
 - Reddit returns 429 for some queries even so; the run continues and other
   collectors cover the gap. Check *Source health* on the dashboard.
-- `launchd` only fires while the Mac is awake. For guaranteed 12-hourly coverage,
-  run it on an always-on machine, or use Twilio + a small cloud VM.
+- GitHub Actions cron can start 5–30 minutes late under load and very
+  occasionally skips a run; four scans a day absorbs that.
+- The committed `data/radar.db` is what carries dedupe and "already alerted"
+  state between cloud runs. If it were not committed, every run would treat the
+  world as new and re-alert everything.
