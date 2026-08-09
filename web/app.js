@@ -235,11 +235,27 @@ function render(d){
     </div>`).join('') || '<div class="empty">No runs recorded yet.</div>';
 }
 
-fetch('data.json?t=' + Date.now())
-  .then(r => {
-    if(!r.ok) throw new Error('HTTP ' + r.status);
-    return r.json();
-  })
+/* Data is read live from the repo, which every cloud scan commits to. That
+   keeps this page current without redeploying it — the deployed bundle is
+   just the shell. The bundled copy is the fallback for local development and
+   for any moment GitHub is unreachable. */
+const REMOTE_DATA =
+  'https://raw.githubusercontent.com/simakabrat/protest-radar/main/web/data.json';
+
+function loadData(){
+  const bust = '?t=' + Date.now();
+  return fetch(REMOTE_DATA + bust, {cache: 'no-store'})
+    .then(r => {
+      if(!r.ok) throw new Error('remote HTTP ' + r.status);
+      return r.json();
+    })
+    .catch(() => fetch('data.json' + bust).then(r => {
+      if(!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }));
+}
+
+loadData()
   .then(render)
   .catch(err => {
     $('banner').className = 'banner';
