@@ -181,16 +181,43 @@ def detect_temporality(text: str, event_date: str = None, is_future: bool = Fals
     return "unknown"
 
 
+# National/continental words that say nothing about *where* an event is. A
+# Canadian post complaining about "the Americans" hits these, so they must
+# never outrank a named foreign city.
+US_GENERIC_TERMS = {"united states", "u.s.", "usa", "america", "american",
+                    "nationwide"}
+
+
 def detect_geo(text: str):
-    """Return (region_key, label) — 'sf_bay' | 'la' | 'us' | 'foreign' | 'unknown'."""
+    """Return (region_key, label) — 'sf_bay' | 'la' | 'us' | 'foreign' | 'unknown'.
+
+    Resolution is by specificity, not list order. A named place (Edmonton,
+    Chicago) beats a generic national reference, because a post can mention a
+    country while describing an event somewhere else entirely.
+    """
     for key, terms in config.PRIORITY_GEO.items():
         hits = _find_terms(text, terms)
         if hits:
             return key, hits[0].strip()
-    if _find_terms(text, config.US_GEO):
-        return "us", _find_terms(text, config.US_GEO)[0].strip()
-    if _find_terms(text, config.FOREIGN_GEO):
-        return "foreign", _find_terms(text, config.FOREIGN_GEO)[0].strip()
+
+    us_hits = _find_terms(text, config.US_GEO)
+    us_specific = [h for h in us_hits if h.strip() not in US_GENERIC_TERMS]
+    us_generic = [h for h in us_hits if h.strip() in US_GENERIC_TERMS]
+    foreign = _find_terms(text, config.FOREIGN_GEO)
+
+    if us_specific and not foreign:
+        return "us", us_specific[0].strip()
+    if foreign and not us_specific:
+        return "foreign", foreign[0].strip()
+    if us_specific and foreign:
+        # Both named. More mentions wins; a tie resolves to foreign, since a
+        # wrong "US" costs a false alert while a wrong "foreign" costs a
+        # dashboard entry.
+        if len(us_specific) > len(foreign):
+            return "us", us_specific[0].strip()
+        return "foreign", foreign[0].strip()
+    if us_generic:
+        return "us", us_generic[0].strip()
     return "unknown", ""
 
 
