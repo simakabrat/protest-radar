@@ -140,7 +140,7 @@ function render(d){
   $('alertline').innerHTML =
     `alerts to <b>${esc(d.alert_phone)}</b> via <b>${esc(d.alert_backend)}</b>
      <span class="sep">·</span> <b>${d.messages_today ?? 0}/${cap}</b> messages today
-     <span class="sep">·</span> rescans every <b>12h</b>`;
+     <span class="sep">·</span> rescans every <b>6h</b> in the cloud`;
 
   // ---- banner: the day's binary verdict
   const verdict = d.verdict ?? (confirmed.length ? 1 : 0);
