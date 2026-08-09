@@ -36,7 +36,6 @@ jobs:
       - name: Run scan
         env:
           RADAR_NTFY_TOPIC:  ${{ secrets.RADAR_NTFY_TOPIC }}
-          RADAR_NTFY_SERVER: ${{ secrets.RADAR_NTFY_SERVER }}
           RADAR_SITE_URL:    ${{ secrets.RADAR_SITE_URL }}
           RADAR_ALERT_PHONE: ${{ secrets.RADAR_ALERT_PHONE }}
           # Optional: real SMS. Ignored when unset.

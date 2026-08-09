@@ -3,6 +3,17 @@ import os
 import sys
 from pathlib import Path
 
+def env(name: str, default: str = "") -> str:
+    """Read an env var, treating empty as absent.
+
+    CI passes unset secrets through as empty strings, and a bare
+    os.environ.get(name, default) then returns "" instead of the default.
+    That silently pointed the ntfy URL at "/topic" and dropped every alert.
+    """
+    value = os.environ.get(name)
+    return value if value not in (None, "") else default
+
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 WEB_DIR = ROOT / "web"
@@ -17,40 +28,39 @@ HTTP_TIMEOUT = 25
 MAX_WORKERS = 8
 
 # ---------------------------------------------------------------- alerting
-ALERT_PHONE = os.environ.get("RADAR_ALERT_PHONE", "+14159335114")
+ALERT_PHONE = env("RADAR_ALERT_PHONE", "+14159335114")
 # The daily verdict is binary: 0 = no genuine protest news, send nothing;
 # 1 = there is news, send exactly ALERT_BURST messages carrying SITE_URL.
-ALERT_BURST = int(os.environ.get("RADAR_ALERT_BURST", "5"))
-ALERT_BURST_DELAY = float(os.environ.get("RADAR_ALERT_DELAY", "3"))
+ALERT_BURST = int(env("RADAR_ALERT_BURST", "5"))
+ALERT_BURST_DELAY = float(env("RADAR_ALERT_DELAY", "3"))
 # Absolute ceiling per calendar day, counted across every scan and every event.
 # Two scans a day plus several qualifying events must never exceed this.
-ALERT_MAX_PER_DAY = int(os.environ.get("RADAR_MAX_PER_DAY", "5"))
+ALERT_MAX_PER_DAY = int(env("RADAR_MAX_PER_DAY", "5"))
 # Public dashboard the alert messages link to (set by deploy_vercel.sh).
-SITE_URL = os.environ.get("RADAR_SITE_URL", "")
+SITE_URL = env("RADAR_SITE_URL", "")
 # Score at/above which an item is "CONFIRMED" and triggers the SMS burst.
-CONFIRM_THRESHOLD = int(os.environ.get("RADAR_CONFIRM_THRESHOLD", "70"))
+CONFIRM_THRESHOLD = int(env("RADAR_CONFIRM_THRESHOLD", "70"))
 # Score at/above which an item is a "SIGNAL" — shown on the dashboard, no SMS.
-SIGNAL_THRESHOLD = int(os.environ.get("RADAR_SIGNAL_THRESHOLD", "30"))
+SIGNAL_THRESHOLD = int(env("RADAR_SIGNAL_THRESHOLD", "30"))
 # Twilio (optional). Real SMS; works with every device off.
-TWILIO_SID = os.environ.get("TWILIO_ACCOUNT_SID", "")
-TWILIO_TOKEN = os.environ.get("TWILIO_AUTH_TOKEN", "")
-TWILIO_FROM = os.environ.get("TWILIO_FROM_NUMBER", "")
+TWILIO_SID = env("TWILIO_ACCOUNT_SID", "")
+TWILIO_TOKEN = env("TWILIO_AUTH_TOKEN", "")
+TWILIO_FROM = env("TWILIO_FROM_NUMBER", "")
 
 # ntfy.sh push notifications. Free, no account. Anyone who knows the topic can
 # read it, so it is treated as a secret and kept out of the repo.
-NTFY_TOPIC = os.environ.get("RADAR_NTFY_TOPIC", "")
-NTFY_SERVER = os.environ.get("RADAR_NTFY_SERVER", "https://ntfy.sh")
+NTFY_TOPIC = env("RADAR_NTFY_TOPIC", "")
+NTFY_SERVER = env("RADAR_NTFY_SERVER", "https://ntfy.sh")
 
 # iMessage only works on a Mac that is awake and signed in, so it is disabled
 # by default when the scan runs anywhere else (e.g. GitHub Actions on Linux).
-IMESSAGE_ENABLED = os.environ.get(
-    "RADAR_IMESSAGE", "auto").lower() in ("1", "true", "yes", "on") or (
-    os.environ.get("RADAR_IMESSAGE", "auto").lower() == "auto"
-    and sys.platform == "darwin")
+IMESSAGE_ENABLED = env("RADAR_IMESSAGE", "auto").lower() in ("1", "true", "yes", "on") \
+    or (env("RADAR_IMESSAGE", "auto").lower() == "auto"
+        and sys.platform == "darwin")
 
 # The calendar day the message cap is counted against. Fixed to the user's own
 # timezone so a UTC cloud runner does not roll over mid-afternoon in California.
-ALERT_TIMEZONE = os.environ.get("RADAR_TIMEZONE", "America/Los_Angeles")
+ALERT_TIMEZONE = env("RADAR_TIMEZONE", "America/Los_Angeles")
 
 # ---------------------------------------------------------------- vocabulary
 # Terms that mark the *subject* as AI.
