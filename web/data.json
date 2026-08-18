@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T08:46:58.346485Z",
+ "generated_at": "2026-08-18T14:43:36.372603Z",
  "verdict": 0,
  "verdict_label": "NO NEWS",
  "verdict_events": [],
@@ -16,22 +16,22 @@
   "total_events": 200,
   "total_tracked": 400,
   "confirmed": 6,
-  "reported": 129,
-  "signals": 65,
-  "new_24h": 26,
-  "upcoming_events": 44,
+  "reported": 132,
+  "signals": 62,
+  "new_24h": 20,
+  "upcoming_events": 42,
   "sf_bay": 42,
   "la": 4,
   "alerts_sent_this_run": 0,
-  "sources_polled": 2569
+  "sources_polled": 2345
  },
  "collector_stats": {
-  "google_news": 262,
+  "google_news": 270,
   "rss": 387,
-  "sites": 1497,
-  "reddit": 220,
-  "bluesky": 80,
-  "gdelt": 60,
+  "sites": 1393,
+  "reddit": 167,
+  "bluesky": 0,
+  "gdelt": 65,
   "bing_news": 59,
   "mobilize": 4
  },
@@ -866,6 +866,93 @@
    "url_is_direct": 1
   },
   {
+   "event_key": "unknown|undated|openai|['after', 'anthropic', 'anti', 'articles']",
+   "title": "Wynd Kaufmyn becomes first jailed anti-AI protester after OpenAI blockade - Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhMjU3TjlMZW9kUllrQUdtRXZ2UGFfTHdHTWd5eVFMTVZBX1dOSFJMU0p1RjNscVJ3endqX3NYSDNUWU1PcEdxZlB4a1JWZjh3VU50SVBXSnVQXzRsSG05NTZrejAxSGFKdzBFOXRNUW82Tjg?oc=5",
+   "score": 100,
+   "status": "REPORTED",
+   "region": "unknown",
+   "place": "",
+   "target": "openai",
+   "event_date": null,
+   "temporality": "unknown",
+   "source_count": 18,
+   "sources": [
+    "Bing News: \"AI protest\" San Francisco",
+    "Bing News: \"anti-AI protest\"",
+    "Google News: \"anti-AI protest\"",
+    "Google News: \"protest against AI\"",
+    "Google News: \"protest\" \"OpenAI\" headquarters",
+    "Google News: StopAI protest",
+    "Reddit search: protest Anthropic",
+    "Stop The Race"
+   ],
+   "reasons": [
+    "high-signal phrase: ai protest, anti-ai protest",
+    "AI subject: ai, openai",
+    "protest action: protest, protester, blockade",
+    "anti-AI stance: anti-ai",
+    "AI and protest terms in close proximity",
+    "core anti-AI / protest-wire source"
+   ],
+   "first_seen": "2026-08-18T14:43:36.316794",
+   "last_seen": "2026-08-18T14:43:36.316794",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "links": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhMjU3TjlMZW9kUllrQUdtRXZ2UGFfTHdHTWd5eVFMTVZBX1dOSFJMU0p1RjNscVJ3endqX3NYSDNUWU1PcEdxZlB4a1JWZjh3VU50SVBXSnVQXzRsSG05NTZrejAxSGFKdzBFOXRNUW82Tjg?oc=5",
+     "source": "Google News: \"anti-AI protest\"",
+     "title": "Wynd Kaufmyn becomes first jailed anti-AI protester after OpenAI blockade - Crypto Briefing",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOblN1a1dNemtqcTAySkU3dGlCbkJybWJxckRTaXk2Z0VSTUE0X0hxbEN2ZWdaR3VfTUN4WXlIWXhtMUZ2d01BTXY5eklOanRHTFlmdXdRaTNLR3E5MDVrR2xRUFhwTnAyZWJON0hMMEVYQ2lBNFYxSGI3X1J4bHpoS1d2d0xERGNwdzBjVU1aa2c0Zw?oc=5",
+     "source": "Google News: \"protest against AI\"",
+     "title": "The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: \u2018Regain your humanity\u2019 - The Guar",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVG9KX1dRZGpkajdZVVh3NDAtNmlGd1dFaUpiS21lTmxCbnVxTGVSMzZPZzE5WUt0dWpLUFU0T0k5aVhvM3ZWNC1JamZjUTBERVQ1aHc2ODloVUpBMi1sUHJiZ2dIWE5xX0tFYk9LV3hEQUhpdGhYLVhCMGtFS1lZWEJqSFpYX2Q1ejluU0VyN09DNEYxMVljQWFqRnRPUW9LT1RWeFRBdk9aUHA5RWd6azcwdUNMOVJ6QkdfSHBiYkNObnJDSVhSNUdrTGFjWUXSAc8BQVVfeXFMTlRvSl9XUWRqZGo3WVVYdzQwLTZpRndXRWlKYkttZU5sQm51cUxlUjM2T2cxOVlLdHVqS1BVNE9JOWlYbzN2VjQtSWpmY1EwREVUNWh3Njg5aFVKQTItbFByYmdnSFhOcV9LRWJPS1d4REFIaXRoWC1YQjBrRUtZWVhCakhaWF9kNXo5blNFcjdPQzRGMTFZY0FhakZ0T1FvS09UVnhUQXZPWlBwOUVnems3MHVDTDlSekJHX0hwYmJDTm5yQ0lYUjVHa0xhY1lF?oc=5",
+     "source": "Google News: \"protest\" \"OpenAI\" headquarters",
+     "title": "First AI Protester Sent To Jail Tells OpenAI, Anthropic And Meta To \"Regain Your Humanity\" - NDTV",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPT1BTUkhSN3ZoSEJmQWZNS1k3Q0pfRkNNeWw3dmkyVXluMEV6OGpQQlo0WGtHel9JWUo1TTFQakR1c3ZWdGhIdjFSajNVdnJmMWpmaGl0a1dCdmZCQmlvaDlLVmppN2xWako3Zm5BNmpLWVV4cGRNVW5iaVZGbjRZa2dkeXZGT2NiWEdpYlhaWnlkYVFtY2pzSlpTTlU0OFZiTWJ0b3BoZGpjN0xQd3FTQWNKVDNpZS1ld1ZPb2xXWkVmZXhWcG5F0gHPAUFVX3lxTE5Ub0pfV1FkamRqN1lVWHc0MC02aUZ3V0VpSmJLbWVObEJudXFMZVIzNk9nMTlZS3R1aktQVTRPSTlpWG8zdlY0LUlqZmNRMERFVDVodzY4OWhVSkEyLWxQcmJnZ0hYTnFfS0ViT0tXeERBSGl0aFgtWEIwa0VLWVlYQmpIWlhfZDV6OW5TRXI3T0M0RjExWWNBYWpGdE9Rb0tPVFZ4VEF2T1pQcDlFZ3prNzB1Q0w5UnpCR19IcGJiQ05uckNJWFI1R2tMYWNZRQ?oc=5",
+     "source": "Google News: StopAI protest",
+     "title": "First AI Protester Sent To Jail Tells OpenAI, Anthropic And Meta To \"Regain Your Humanity\" - NDTV",
+     "direct": true
+    },
+    {
+     "url": "https://www.reddit.com/r/DefendingAI/comments/1vrezmf/the_first_antiai_protester_to_be_jailed_has_a/",
+     "source": "Reddit search: protest Anthropic",
+     "title": "The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: \u2018Regain your humanity\u2019",
+     "direct": true
+    },
+    {
+     "url": "https://www.reddit.com/r/trueantiAI/comments/1vqbov5/the_first_antiai_protester_to_be_jailed_has_a/",
+     "source": "Reddit search: protest Anthropic",
+     "title": "The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: \u2018Regain your humanity\u2019",
+     "direct": true
+    },
+    {
+     "url": "https://www.reddit.com/r/antiai/comments/1vqbokd/the_first_antiai_protester_to_be_jailed_has_a/",
+     "source": "Reddit search: protest Anthropic",
+     "title": "The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: \u2018Regain your humanity\u2019",
+     "direct": true
+    },
+    {
+     "url": "https://www.reddit.com/r/Foodforthought/comments/1vq33zw/the_first_antiai_protester_to_be_jailed_has_a/",
+     "source": "Reddit search: protest Anthropic",
+     "title": "The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: \u2018Regain your humanity\u2019",
+     "direct": true
+    }
+   ],
+   "url_is_direct": 1
+  },
+  {
    "event_key": "sf_bay|undated|openai|['200', '2187599', 'about', 'activists']",
    "title": "Outside OpenAI\u2019s San Francisco headquarters, activists have been writing chalk messages about artificial intelligence risks as part of the ongoing Occupy OpenAI protest.",
    "url": "https://www.reddit.com/r/AIdaily_news/comments/1vnn8xs/outside_openais_san_francisco_headquarters/",
@@ -1499,7 +1586,7 @@
     "stale (730d old) \u2014 already happened"
    ],
    "first_seen": "2026-07-29T06:33:32.359052",
-   "last_seen": "2026-08-17T20:37:27.629888",
+   "last_seen": "2026-08-18T14:43:36.317032",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": null,
@@ -1578,7 +1665,7 @@
    "source_count": 2,
    "sources": [
     "Bing News: \"anti-AI protest\"",
-    "Reddit search: anti-AI protest"
+    "Reddit search: protest Anthropic"
    ],
    "reasons": [
     "high-signal phrase: ai protest, stopai protest",
@@ -1590,19 +1677,19 @@
     "retrospective coverage (protest already happened)"
    ],
    "first_seen": "2026-08-18T03:05:39.800287",
-   "last_seen": "2026-08-18T08:46:58.297050",
+   "last_seen": "2026-08-18T14:43:36.317101",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
    "links": [
     {
      "url": "https://www.reddit.com/r/AIGuild/comments/1vqdzht/a_69yearold_protester_has_been_jailed_after/",
-     "source": "Reddit search: anti-AI protest",
+     "source": "Reddit search: protest Anthropic",
      "title": "A 69-year-old protester has been jailed after blocking OpenAI's HQ over fears of superintelligent AI",
      "direct": true
     },
     {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a841bf7b7f849b7bbae0f90a8e0a2ca&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fus%2farticles%2f69-old-just-became-first-182647158.html&c=7438770830034659359&mkt=en-us",
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8cffe9466fb1ce25813dd360b5&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fus%2farticles%2f69-old-just-became-first-182647158.html&c=7438770830034659359&mkt=en-us",
      "source": "Bing News: \"anti-AI protest\"",
      "title": "A 69-Year-Old Just Became the First Person Jailed for Protesting AI. No Regrets.",
      "direct": true
@@ -1635,7 +1722,7 @@
     "forward-looking language (protest has not happened yet)"
    ],
    "first_seen": "2026-07-29T06:33:32.358966",
-   "last_seen": "2026-08-17T20:37:27.630021",
+   "last_seen": "2026-08-18T14:43:36.317187",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": null,
@@ -1800,7 +1887,7 @@
   {
    "event_key": "unknown|undated|openai|['around', 'awkward', 'cringeworthy', 'demonstrators']",
    "title": "Awkward moment nerdy demonstrators prance around AI offices in cringeworthy protest",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a841bf7b7f849b7bbae0f90a8e0a2ca&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2ftechnology%2fawkward-moment-nerdy-demonstrators-prance-around-ai-offices-in-cringeworthy-protest%2far-AA2adov3&c=2536684715145507003&mkt=en-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8c0c074b48908ab6660d1887d5&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2ftechnology%2fawkward-moment-nerdy-demonstrators-prance-around-ai-offices-in-cringeworthy-protest%2far-AA2ad4zH&c=5667149764344636866&mkt=en-us",
    "score": 100,
    "status": "REPORTED",
    "region": "unknown",
@@ -1810,7 +1897,7 @@
    "temporality": "unknown",
    "source_count": 1,
    "sources": [
-    "Bing News: \"anti-AI protest\""
+    "Bing News: \"AI protest\""
    ],
    "reasons": [
     "high-signal phrase: ai protest, anti-ai protest",
@@ -1820,14 +1907,14 @@
     "AI and protest terms in close proximity"
    ],
    "first_seen": "2026-08-16T03:12:14.761208",
-   "last_seen": "2026-08-18T08:46:58.297091",
+   "last_seen": "2026-08-18T14:43:36.317135",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
    "links": [
     {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a841bf7b7f849b7bbae0f90a8e0a2ca&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2ftechnology%2fawkward-moment-nerdy-demonstrators-prance-around-ai-offices-in-cringeworthy-protest%2far-AA2adov3&c=2536684715145507003&mkt=en-us",
-     "source": "Bing News: \"anti-AI protest\"",
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8c0c074b48908ab6660d1887d5&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2ftechnology%2fawkward-moment-nerdy-demonstrators-prance-around-ai-offices-in-cringeworthy-protest%2far-AA2ad4zH&c=5667149764344636866&mkt=en-us",
+     "source": "Bing News: \"AI protest\"",
      "title": "Awkward moment nerdy demonstrators prance around AI offices in cringeworthy protest",
      "direct": true
     }
@@ -1875,7 +1962,7 @@
   {
    "event_key": "us|undated|openai|['anthropic', 'anti', 'first', 'has']",
    "title": "The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: \u2018Regain your humanity\u2019",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a841bf738194425b2abc0f58c0c42c1&url=https%3a%2f%2fwww.theguardian.com%2fus-news%2f2026%2faug%2f16%2fcalifornia-openai-protester-wynd-kaufman&c=286952173937363133&mkt=en-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8cffe9466fb1ce25813dd360b5&url=https%3a%2f%2fwww.theguardian.com%2fus-news%2f2026%2faug%2f16%2fcalifornia-openai-protester-wynd-kaufman&c=286952173937363133&mkt=en-us",
    "score": 100,
    "status": "REPORTED",
    "region": "us",
@@ -1885,7 +1972,7 @@
    "temporality": "unknown",
    "source_count": 1,
    "sources": [
-    "Bing News: \"AI protest\" San Francisco"
+    "Bing News: \"anti-AI protest\""
    ],
    "reasons": [
     "high-signal phrase: ai protest, anti-ai protest",
@@ -1896,14 +1983,14 @@
     "US geography: california"
    ],
    "first_seen": "2026-08-16T08:40:10.170818",
-   "last_seen": "2026-08-18T08:46:58.297215",
+   "last_seen": "2026-08-18T14:43:36.317213",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
    "links": [
     {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a841bf738194425b2abc0f58c0c42c1&url=https%3a%2f%2fwww.theguardian.com%2fus-news%2f2026%2faug%2f16%2fcalifornia-openai-protester-wynd-kaufman&c=286952173937363133&mkt=en-us",
-     "source": "Bing News: \"AI protest\" San Francisco",
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8cffe9466fb1ce25813dd360b5&url=https%3a%2f%2fwww.theguardian.com%2fus-news%2f2026%2faug%2f16%2fcalifornia-openai-protester-wynd-kaufman&c=286952173937363133&mkt=en-us",
+     "source": "Bing News: \"anti-AI protest\"",
      "title": "The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: \u2018Regain your humanity\u2019",
      "direct": true
     }
@@ -1951,7 +2038,7 @@
   {
    "event_key": "sf_bay|undated|openai|['anthropic', 'google', 'layoffs', 'offices']",
    "title": "\u2018Stop AI Race\u2019: Workers, students protest at OpenAI, Anthropic, Google\u2019s US offices as layoffs surge",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a841bf738194425b2abc0f58c0c42c1&url=https%3a%2f%2fwww.financialexpress.com%2fworld-news%2fus-news%2fstop-ai-race-workers-students-protest-at-openai-anthropic-googles-us-offices-as-layoffs-surge%2f4289945%2f&c=2279704773048693827&mkt=en-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8cffe9466fb1ce25813dd360b5&url=https%3a%2f%2fwww.financialexpress.com%2fworld-news%2fus-news%2fstop-ai-race-workers-students-protest-at-openai-anthropic-googles-us-offices-as-layoffs-surge%2f4289945%2f&c=2279704773048693827&mkt=en-us",
    "score": 100,
    "status": "REPORTED",
    "region": "sf_bay",
@@ -1961,7 +2048,7 @@
    "temporality": "past",
    "source_count": 1,
    "sources": [
-    "Bing News: \"AI protest\" San Francisco"
+    "Bing News: \"anti-AI protest\""
    ],
    "reasons": [
     "high-signal phrase: protest at openai",
@@ -1974,14 +2061,14 @@
     "stale (34d old) \u2014 already happened"
    ],
    "first_seen": "2026-08-16T20:33:28.262774",
-   "last_seen": "2026-08-18T08:46:58.297152",
+   "last_seen": "2026-08-18T14:43:36.317162",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
    "links": [
     {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a841bf738194425b2abc0f58c0c42c1&url=https%3a%2f%2fwww.financialexpress.com%2fworld-news%2fus-news%2fstop-ai-race-workers-students-protest-at-openai-anthropic-googles-us-offices-as-layoffs-surge%2f4289945%2f&c=2279704773048693827&mkt=en-us",
-     "source": "Bing News: \"AI protest\" San Francisco",
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8cffe9466fb1ce25813dd360b5&url=https%3a%2f%2fwww.financialexpress.com%2fworld-news%2fus-news%2fstop-ai-race-workers-students-protest-at-openai-anthropic-googles-us-offices-as-layoffs-surge%2f4289945%2f&c=2279704773048693827&mkt=en-us",
+     "source": "Bing News: \"anti-AI protest\"",
      "title": "\u2018Stop AI Race\u2019: Workers, students protest at OpenAI, Anthropic, Google\u2019s US offices as layoffs surge",
      "direct": true
     }
@@ -3109,6 +3196,91 @@
    "url_is_direct": 1
   },
   {
+   "event_key": "unknown|undated|general|['activist', 'aged', 'albawaba', 'anti']",
+   "title": "Who is Wynd Kaufmyn, the first person jailed for an anti-AI protest? | \u2018I don\u2019t believe I\u2019m guilty' | Inshorts - Inshorts",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ3hSb21IVGZHdWVDaXlJYS1rcFl4b2VSOE5sNlg0ZHRtdEJzQzFLZEVrQ3c1RF9sLVVkWHJxdVBONlJDOWd1V3Aydzg4ZkpyVGRZcWkwV1h6anBxNEtmZFBuYUgyRGQzSTBZV2JnbDRPbTRHbFBTQldjT18xcmJlX3lILWJ1ZnRReFI2U1lHNl9MQWpwYkV6c1lSc1pBSEFpd3dyM1JCUGpfa2VaaHk5QWR3TW1DZ9IBtgFBVV95cUxPZ3hSb21IVGZHdWVDaXlJYS1rcFl4b2VSOE5sNlg0ZHRtdEJzQzFLZEVrQ3c1RF9sLVVkWHJxdVBONlJDOWd1V3Aydzg4ZkpyVGRZcWkwV1h6anBxNEtmZFBuYUgyRGQzSTBZV2JnbDRPbTRHbFBTQldjT18xcmJlX3lILWJ1ZnRReFI2U1lHNl9MQWpwYkV6c1lSc1pBSEFpd3dyM1JCUGpfa2VaaHk5QWR3TW1DZw?oc=5",
+   "score": 94,
+   "status": "REPORTED",
+   "region": "unknown",
+   "place": "",
+   "target": "general",
+   "event_date": null,
+   "temporality": "unknown",
+   "source_count": 9,
+   "sources": [
+    "Google News: \"AI protest\"",
+    "Google News: \"AI protest\" San Francisco",
+    "Google News: \"anti-AI protest\"",
+    "Google News: \"protest\" \"OpenAI\" headquarters",
+    "Google News: StopAI protest",
+    "PauseAI \u2014 Blog"
+   ],
+   "reasons": [
+    "high-signal phrase: ai protest, anti-ai protest",
+    "AI subject: ai",
+    "protest action: protest",
+    "anti-AI stance: anti-ai",
+    "AI and protest terms in close proximity",
+    "core anti-AI / protest-wire source"
+   ],
+   "first_seen": "2026-08-18T14:43:36.317242",
+   "last_seen": "2026-08-18T14:43:36.317242",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "links": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ3hSb21IVGZHdWVDaXlJYS1rcFl4b2VSOE5sNlg0ZHRtdEJzQzFLZEVrQ3c1RF9sLVVkWHJxdVBONlJDOWd1V3Aydzg4ZkpyVGRZcWkwV1h6anBxNEtmZFBuYUgyRGQzSTBZV2JnbDRPbTRHbFBTQldjT18xcmJlX3lILWJ1ZnRReFI2U1lHNl9MQWpwYkV6c1lSc1pBSEFpd3dyM1JCUGpfa2VaaHk5QWR3TW1DZ9IBtgFBVV95cUxPZ3hSb21IVGZHdWVDaXlJYS1rcFl4b2VSOE5sNlg0ZHRtdEJzQzFLZEVrQ3c1RF9sLVVkWHJxdVBONlJDOWd1V3Aydzg4ZkpyVGRZcWkwV1h6anBxNEtmZFBuYUgyRGQzSTBZV2JnbDRPbTRHbFBTQldjT18xcmJlX3lILWJ1ZnRReFI2U1lHNl9MQWpwYkV6c1lSc1pBSEFpd3dyM1JCUGpfa2VaaHk5QWR3TW1DZw?oc=5",
+     "source": "Google News: \"anti-AI protest\"",
+     "title": "Who is Wynd Kaufmyn, the first person jailed for an anti-AI protest? | \u2018I don\u2019t believe I\u2019m guilty' | Inshorts - Inshort",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcmVPMEZCSDFienJfbGd5bVNsSXBKaC1SRElUTmIyUkZQMnRwOTJ4QXBQVHMteVhqeFgxeTZDQU1scWF2ZzV2V0ZvZThyeVB4bWswSWU0UWdFUEtLVzA5TzIwNjdXLVZPZWE1bjEwRlhxSjdkMmIzdnQyZzhlaHJQTEg2YmYwZDBvbDBOUWx5QWFObzRxTmRTVVNFM1lIbFpBVko4NVpGWkg2WjdHLW1nSU94c25Xd9IBtgFBVV95cUxNcmVPMEZCSDFienJfbGd5bVNsSXBKaC1SRElUTmIyUkZQMnRwOTJ4QXBQVHMteVhqeFgxeTZDQU1scWF2ZzV2V0ZvZThyeVB4bWswSWU0UWdFUEtLVzA5TzIwNjdXLVZPZWE1bjEwRlhxSjdkMmIzdnQyZzhlaHJQTEg2YmYwZDBvbDBOUWx5QWFObzRxTmRTVVNFM1lIbFpBVko4NVpGWkg2WjdHLW1nSU94c25Xdw?oc=5",
+     "source": "Google News: \"anti-AI protest\"",
+     "title": "69-year-old activist becomes first to be jailed over anti-AI protest | Kaufmyn has defended the protest as necessary | I",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbW5yREFaX0k1SENUOGQ3bEFGLUNtRGpEVjN6RnV1c2pwa0hvOVRoTll3ZFFrX2tDNl9iZkMxYV9ZRWNGZ2thZ3MtNFNnRUFzMERVQ1FkdWVpaEtJZWJKWWcwNHItQ1hqcEwyWlpuMWx3M2F6azJma25GWk9OWG1PZ3pZejNPb1o2VER2SDZQeEZPSUw4Qk1ZRHo1TFh2SWoxbXhlakkyazlPS1JDV1NPdtIBtgFBVV95cUxPZ3hSb21IVGZHdWVDaXlJYS1rcFl4b2VSOE5sNlg0ZHRtdEJzQzFLZEVrQ3c1RF9sLVVkWHJxdVBONlJDOWd1V3Aydzg4ZkpyVGRZcWkwV1h6anBxNEtmZFBuYUgyRGQzSTBZV2JnbDRPbTRHbFBTQldjT18xcmJlX3lILWJ1ZnRReFI2U1lHNl9MQWpwYkV6c1lSc1pBSEFpd3dyM1JCUGpfa2VaaHk5QWR3TW1DZw?oc=5",
+     "source": "Google News: StopAI protest",
+     "title": "Who is Wynd Kaufmyn, the first person jailed for an anti-AI protest? | \u2018I don\u2019t believe I\u2019m guilty' | Inshorts - Inshort",
+     "direct": true
+    },
+    {
+     "url": "https://pauseai.info/organizing-a-protest",
+     "source": "PauseAI \u2014 Blog",
+     "title": "Organizing a PauseAI Protest",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTkcyWDVEcGxDYVYzZFJ5WkRDYWk5aHNKRkt1OFhXZ3pWemJUOV91YU5SNThWX1NqQkQwNGI3b01sN3JGTjBudndBTEp6Mm8yUDdTVTdPcWVZV2VtMVdwT2liOUU5T3BaTldNcjJuT3paN0JnU2xrN3NlMnR2ZFo3QkhlZXZ2R1ctZmstQWZ5RGE3eEhpYi1SOFBQM0lsLVJuWWJVbzlNMWN5blk?oc=5",
+     "source": "Google News: \"anti-AI protest\"",
+     "title": "A 69-Year-Old Just Became the First Person Jailed for Protesting AI. No Regrets. - Gadget Review",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbElhakttRUZLaHdab3dZUV9tamhnZE40UXgxaWRqVXY4ZV9jMUFvcTBvUzVtWmc2MExZdXFUaUhrcFVjRjZ5N2FaLUl4UDF2M21pNHMtSUhKVmJMZVNjSnYzLWpnWUstQXViMjRjcUFzdVkwcExTdUZVSFg1bWVTR0duSFJyTm5r?oc=5",
+     "source": "Google News: \"AI protest\"",
+     "title": "First person jailed for protesting AI is woman aged 69 - albawaba.com",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTmJBblBNM05qU3JtcFZvbTRkN2VHSDBaOG9xa2FkckFiZkh0RVhDTzlSQU05VjBLNUl4MWZGNlF5eDJrbWFDLW9hbElDbl9UancyVzRURWtmcEpMaTByLU9ZMS14MXduaDhLMzBZVld4VlIxX0UyUDBsLUFTeDNpNGdPVHI?oc=5",
+     "source": "Google News: \"AI protest\" San Francisco",
+     "title": "A 69-Year-Old Just Became the First Person Jailed for Protesting AI. No Regrets. - Yahoo",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPblVSZS1HUmhSejI2S1NvV1E1ZHl5OE8xcUwta2tNTlNTZW5IUHVBR1BmcVMzRXNjS0I3SEg5eTJtUlRlUnFUdTQ1TmxMZl90Y1gycmNZVHdFb01oN2Z0SWtLV1FBeXVxSVNWSm1qeGxpYURFcWdfam9nTnB4VEdtUVRKWFdGY3lCaXlwS3pJTlZmNnU3M05yV3IwRGwwdkUxUkFsY3NMREI?oc=5",
+     "source": "Google News: \"protest\" \"OpenAI\" headquarters",
+     "title": "Who is Wynd Kaufmyn, first person jailed for protesting AI? - NewsBytes",
+     "direct": true
+    }
+   ],
+   "url_is_direct": 1
+  },
+  {
    "event_key": "unknown|undated|general|['activist', 'anti', 'became', 'becomes']",
    "title": "69-year-old activist becomes first to be jailed over anti-AI protest | Kaufmyn has defended the protest as necessary | Inshorts - Inshorts",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcmVPMEZCSDFienJfbGd5bVNsSXBKaC1SRElUTmIyUkZQMnRwOTJ4QXBQVHMteVhqeFgxeTZDQU1scWF2ZzV2V0ZvZThyeVB4bWswSWU0UWdFUEtLVzA5TzIwNjdXLVZPZWE1bjEwRlhxSjdkMmIzdnQyZzhlaHJQTEg2YmYwZDBvbDBOUWx5QWFObzRxTmRTVVNFM1lIbFpBVko4NVpGWkg2WjdHLW1nSU94c25Xd9IBtgFBVV95cUxNcmVPMEZCSDFienJfbGd5bVNsSXBKaC1SRElUTmIyUkZQMnRwOTJ4QXBQVHMteVhqeFgxeTZDQU1scWF2ZzV2V0ZvZThyeVB4bWswSWU0UWdFUEtLVzA5TzIwNjdXLVZPZWE1bjEwRlhxSjdkMmIzdnQyZzhlaHJQTEg2YmYwZDBvbDBOUWx5QWFObzRxTmRTVVNFM1lIbFpBVko4NVpGWkg2WjdHLW1nSU94c25Xdw?oc=5",
@@ -3531,49 +3703,6 @@
    "url_is_direct": 1
   },
   {
-   "event_key": "unknown|undated|general|['code', 'conduct', 'pauseai', 'protesters']",
-   "title": "PauseAI Protests",
-   "url": "https://pauseai.info/protesters-code-of-conduct",
-   "score": 93,
-   "status": "REPORTED",
-   "region": "unknown",
-   "place": "",
-   "target": "general",
-   "event_date": null,
-   "temporality": "upcoming",
-   "source_count": 2,
-   "sources": [
-    "PauseAI \u2014 Blog"
-   ],
-   "reasons": [
-    "high-signal phrase: ai protest, pauseai protest",
-    "protest action: protest, protests",
-    "anti-AI stance: pauseai",
-    "core anti-AI / protest-wire source",
-    "forward-looking language (protest has not happened yet)"
-   ],
-   "first_seen": "2026-08-03T03:47:37.594123",
-   "last_seen": "2026-08-18T08:46:58.297341",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "links": [
-    {
-     "url": "https://pauseai.info/protesters-code-of-conduct",
-     "source": "PauseAI \u2014 Blog",
-     "title": "PauseAI Protesters Code of Conduct",
-     "direct": true
-    },
-    {
-     "url": "https://pauseai.info/protests",
-     "source": "PauseAI \u2014 Blog",
-     "title": "PauseAI Protests",
-     "direct": false
-    }
-   ],
-   "url_is_direct": 1
-  },
-  {
    "event_key": "unknown|undated|openai|['agi', 'demand', 'development', 'halt']",
    "title": "STOP AI protests demand halt to AGI development outside OpenAI headquarters",
    "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a6a56f444154d30be3b338bcfd07722&url=https%3a%2f%2fbiz.chosun.com%2fen%2fen-it%2f2025%2f02%2f25%2fAC3U5W2EZVAEVNX2GNG7TJXA7Q%2f&c=17942749815670572440&mkt=en-us",
@@ -3627,7 +3756,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-08-17T03:10:20.044256",
-   "last_seen": "2026-08-17T20:37:27.630152",
+   "last_seen": "2026-08-18T14:43:36.317304",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -3796,6 +3925,45 @@
      "url": "https://sfstandard.com/2026/08/14/69-s-first-person-jailed-protesting-ai-has-regrets/",
      "source": "SF Standard RSS",
      "title": "At 69, she\u2019s the first person jailed for protesting AI. She has no regrets",
+     "direct": true
+    }
+   ],
+   "url_is_direct": 1
+  },
+  {
+   "event_key": "sf_bay|d:2026-08-14|general|[\"'regain\", \"'sounding\", \"alarm'\", 'anti']",
+   "title": "'Regain your humanity': First person jailed for anti-AI protest says she's 'sounding the alarm' on AI CEOs",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8cffe9466fb1ce25813dd360b5&url=https%3a%2f%2fwww.msn.com%2fen-gb%2fnews%2fworld%2fregain-your-humanity-first-person-jailed-for-anti-ai-protest-says-she-s-sounding-the-alarm-on-ai-ceos%2far-AA2ao3sB&c=7000222520882871107&mkt=en-us",
+   "score": 92,
+   "status": "REPORTED",
+   "region": "sf_bay",
+   "place": "berkeley",
+   "target": "general",
+   "event_date": "2026-08-14",
+   "temporality": "unknown",
+   "source_count": 1,
+   "sources": [
+    "Bing News: \"anti-AI protest\""
+   ],
+   "reasons": [
+    "high-signal phrase: ai protest, anti-ai protest",
+    "AI subject: ai",
+    "protest action: protest",
+    "anti-AI stance: anti-ai",
+    "AI and protest terms in close proximity",
+    "priority geography: berkeley",
+    "stale (4d old) \u2014 already happened"
+   ],
+   "first_seen": "2026-08-18T14:43:36.317331",
+   "last_seen": "2026-08-18T14:43:36.317331",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "links": [
+    {
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8cffe9466fb1ce25813dd360b5&url=https%3a%2f%2fwww.msn.com%2fen-gb%2fnews%2fworld%2fregain-your-humanity-first-person-jailed-for-anti-ai-protest-says-she-s-sounding-the-alarm-on-ai-ceos%2far-AA2ao3sB&c=7000222520882871107&mkt=en-us",
+     "source": "Bing News: \"anti-AI protest\"",
+     "title": "'Regain your humanity': First person jailed for anti-AI protest says she's 'sounding the alarm' on AI CEOs",
      "direct": true
     }
    ],
@@ -4041,6 +4209,51 @@
    "url_is_direct": 1
   },
   {
+   "event_key": "foreign|undated|openai|[\"'rosa\", 'after', \"ai'\", 'blocking']",
+   "title": "69-Year-Old AI Protester Jailed After Blocking OpenAI HQ: Supporters Call Her the 'Rosa Parks of AI' - International Business Times UK",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8cffe9466fb1ce25813dd360b5&url=https%3a%2f%2fwww.ibtimes.co.uk%2fretired-teacher-jailed-anti-ai-protest-openai-1814518&c=16954868862488142713&mkt=en-us",
+   "score": 90,
+   "status": "REPORTED",
+   "region": "foreign",
+   "place": "uk",
+   "target": "openai",
+   "event_date": null,
+   "temporality": "unknown",
+   "source_count": 2,
+   "sources": [
+    "Bing News: \"anti-AI protest\"",
+    "Google News: \"anti-AI protest\""
+   ],
+   "reasons": [
+    "high-signal phrase: ai protest",
+    "AI subject: ai, openai",
+    "protest action: protest, protester",
+    "AI and protest terms in close proximity",
+    "non-US location: uk",
+    "core anti-AI / protest-wire source"
+   ],
+   "first_seen": "2026-08-17T08:54:21.743749",
+   "last_seen": "2026-08-18T14:43:36.317386",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "links": [
+    {
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8cffe9466fb1ce25813dd360b5&url=https%3a%2f%2fwww.ibtimes.co.uk%2fretired-teacher-jailed-anti-ai-protest-openai-1814518&c=16954868862488142713&mkt=en-us",
+     "source": "Bing News: \"anti-AI protest\"",
+     "title": "69-Year-Old AI Protester Jailed After Blocking OpenAI HQ: Supporters Call Her the 'Rosa Parks of AI'",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUDd0OTk2VnpUeFVaXzdmb3Q4R2dyUVdvMmtKX1NrZWVYQ0c3TENRNGtwZ3hpc2w4LWFfYXVQMWpmdWtEc2R5N0JWQUM0ZmVqOVpwSDk4Z0dDdkFvUUVWSjc2dHNuY01XUXdROFUtTHRNYV9PMUs2dk5GU2JNNC1Rb2dVVDEydw?oc=5",
+     "source": "Google News: \"anti-AI protest\"",
+     "title": "69-Year-Old AI Protester Jailed After Blocking OpenAI HQ: Supporters Call Her the 'Rosa Parks of AI' - International Bus",
+     "direct": true
+    }
+   ],
+   "url_is_direct": 1
+  },
+  {
    "event_key": "sf_bay|undated|general|['24hhotnewsai', \"boom's\", 'chars', 'chipflation']",
    "title": "PauseAI Protests",
    "url": "https://bsky.app/profile/24hhotnewsai.bsky.social/post/3mqh4br7ind2k",
@@ -4143,7 +4356,7 @@
     "stale (1095d old) \u2014 already happened"
    ],
    "first_seen": "2026-07-29T06:33:32.359011",
-   "last_seen": "2026-08-18T08:46:58.297449",
+   "last_seen": "2026-08-18T14:43:36.317415",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": null,
@@ -4209,7 +4422,7 @@
    "temporality": "unknown",
    "source_count": 1,
    "sources": [
-    "Reddit search: anti-AI protest"
+    "Reddit search: protest Anthropic"
    ],
    "reasons": [
     "high-signal phrase: ai protest, anti-ai protest",
@@ -4220,15 +4433,52 @@
     "stale (1d old) \u2014 already happened"
    ],
    "first_seen": "2026-08-17T08:54:21.743365",
-   "last_seen": "2026-08-18T08:46:58.297484",
+   "last_seen": "2026-08-18T14:43:36.317463",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
    "links": [
     {
      "url": "https://www.reddit.com/r/u_Excellent-Target-847/comments/1vqha2c/oneminute_daily_ai_news_8162026/",
-     "source": "Reddit search: anti-AI protest",
+     "source": "Reddit search: protest Anthropic",
      "title": "One-Minute Daily AI News 8/16/2026",
+     "direct": true
+    }
+   ],
+   "url_is_direct": 1
+  },
+  {
+   "event_key": "unknown|undated|general|['code', 'conduct', 'pauseai', 'protesters']",
+   "title": "PauseAI Protests",
+   "url": "https://pauseai.info/protesters-code-of-conduct",
+   "score": 88,
+   "status": "REPORTED",
+   "region": "unknown",
+   "place": "",
+   "target": "general",
+   "event_date": null,
+   "temporality": "unknown",
+   "source_count": 1,
+   "sources": [
+    "PauseAI \u2014 Blog"
+   ],
+   "reasons": [
+    "high-signal phrase: ai protest, pauseai protest",
+    "protest action: protest, protests",
+    "anti-AI stance: pauseai",
+    "core anti-AI / protest-wire source",
+    "forward-looking language (protest has not happened yet)"
+   ],
+   "first_seen": "2026-08-03T03:47:37.594123",
+   "last_seen": "2026-08-18T14:43:36.317487",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "links": [
+    {
+     "url": "https://pauseai.info/protesters-code-of-conduct",
+     "source": "PauseAI \u2014 Blog",
+     "title": "PauseAI Protesters Code of Conduct",
      "direct": true
     }
    ],
@@ -4555,7 +4805,7 @@
     "stale (730d old) \u2014 already happened"
    ],
    "first_seen": "2026-07-29T06:33:32.359028",
-   "last_seen": "2026-08-18T08:46:58.297513",
+   "last_seen": "2026-08-18T14:43:36.317512",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": null,
@@ -4644,7 +4894,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-08-14T15:03:01.824515",
-   "last_seen": "2026-08-18T08:46:58.297534",
+   "last_seen": "2026-08-18T14:43:36.317532",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -4681,7 +4931,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-08-18T08:46:58.297561",
-   "last_seen": "2026-08-18T08:46:58.297561",
+   "last_seen": "2026-08-18T14:43:36.317555",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -5163,7 +5413,7 @@
     "forward-looking language (protest has not happened yet)"
    ],
    "first_seen": "2026-08-14T04:19:44.184368",
-   "last_seen": "2026-08-18T08:46:58.297622",
+   "last_seen": "2026-08-18T14:43:36.317578",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -5460,7 +5710,7 @@
   {
    "event_key": "us|undated|datacenter|['against', 'centers', 'data', 'join']",
    "title": "Mount Pleasant to join nationwide protest against AI data centers: What to know",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8370fbc7f545a5ba80365b0887d7d1&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fmount-pleasant-to-join-nationwide-protest-against-ai-data-centers-what-to-know%2far-AA27Yxp1&c=9100648811873732415&mkt=en-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8ccbe849d8a978003f029aa600&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fmount-pleasant-to-join-nationwide-protest-against-ai-data-centers-what-to-know%2far-AA27Yxp1&c=9100648811873732415&mkt=en-us",
    "score": 83,
    "status": "REPORTED",
    "region": "us",
@@ -5482,13 +5732,13 @@
     "stale (32d old) \u2014 already happened"
    ],
    "first_seen": "2026-08-17T03:10:20.044385",
-   "last_seen": "2026-08-17T20:37:27.630330",
+   "last_seen": "2026-08-18T14:43:36.317606",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
    "links": [
     {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8370fbc7f545a5ba80365b0887d7d1&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fmount-pleasant-to-join-nationwide-protest-against-ai-data-centers-what-to-know%2far-AA27Yxp1&c=9100648811873732415&mkt=en-us",
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8ccbe849d8a978003f029aa600&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fmount-pleasant-to-join-nationwide-protest-against-ai-data-centers-what-to-know%2far-AA27Yxp1&c=9100648811873732415&mkt=en-us",
      "source": "Bing News: \"protest against AI\"",
      "title": "Mount Pleasant to join nationwide protest against AI data centers: What to know",
      "direct": true
@@ -5678,7 +5928,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-07-29T06:33:32.359038",
-   "last_seen": "2026-08-17T20:37:27.630357",
+   "last_seen": "2026-08-18T14:43:36.317631",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": null,
@@ -5720,7 +5970,7 @@
     "stale (1095d old) \u2014 already happened"
    ],
    "first_seen": "2026-07-29T06:33:32.359043",
-   "last_seen": "2026-08-18T08:46:58.297736",
+   "last_seen": "2026-08-18T14:43:36.317653",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": null,
@@ -5798,7 +6048,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-07-29T06:33:32.359048",
-   "last_seen": "2026-08-18T08:46:58.297760",
+   "last_seen": "2026-08-18T14:43:36.317666",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": null,
@@ -6056,7 +6306,7 @@
     "stale (1095d old) \u2014 already happened"
    ],
    "first_seen": "2026-07-29T06:33:32.359062",
-   "last_seen": "2026-08-18T08:46:58.297802",
+   "last_seen": "2026-08-18T14:43:36.317679",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": null,
@@ -6337,7 +6587,7 @@
   {
    "event_key": "us|undated|openai|['agents', 'balloons', 'bellevue', 'dressed']",
    "title": "Protesters dressed as rogue AI agents target OpenAI in Bellevue with balloons and hot pink vests",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a841bf7e29643c19e54d51b72b76856&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fus%2fprotesters-dressed-as-rogue-ai-agents-target-openai-in-bellevue-with-balloons-and-hot-pink-vests%2far-AA2aiWyc&c=12771245489736984026&mkt=en-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8c0c074b48908ab6660d1887d5&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fus%2fprotesters-dressed-as-rogue-ai-agents-target-openai-in-bellevue-with-balloons-and-hot-pink-vests%2far-AA2aiWyc&c=12771245489736984026&mkt=en-us",
    "score": 74,
    "status": "REPORTED",
    "region": "us",
@@ -6347,7 +6597,7 @@
    "temporality": "unknown",
    "source_count": 1,
    "sources": [
-    "Bing News: \"protest against AI\""
+    "Bing News: \"AI protest\""
    ],
    "reasons": [
     "AI subject: ai, openai",
@@ -6357,14 +6607,14 @@
     "US geography: seattle"
    ],
    "first_seen": "2026-08-17T20:37:27.630431",
-   "last_seen": "2026-08-18T08:46:58.297831",
+   "last_seen": "2026-08-18T14:43:36.317702",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
    "links": [
     {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a841bf7e29643c19e54d51b72b76856&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fus%2fprotesters-dressed-as-rogue-ai-agents-target-openai-in-bellevue-with-balloons-and-hot-pink-vests%2far-AA2aiWyc&c=12771245489736984026&mkt=en-us",
-     "source": "Bing News: \"protest against AI\"",
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8c0c074b48908ab6660d1887d5&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fus%2fprotesters-dressed-as-rogue-ai-agents-target-openai-in-bellevue-with-balloons-and-hot-pink-vests%2far-AA2aiWyc&c=12771245489736984026&mkt=en-us",
+     "source": "Bing News: \"AI protest\"",
      "title": "Protesters dressed as rogue AI agents target OpenAI in Bellevue with balloons and hot pink vests",
      "direct": true
     }
@@ -6394,7 +6644,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-07-29T06:33:32.359076",
-   "last_seen": "2026-08-18T08:46:58.297858",
+   "last_seen": "2026-08-18T14:43:36.317724",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": null,
@@ -6578,7 +6828,7 @@
     "retrospective coverage (protest already happened)"
    ],
    "first_seen": "2026-07-29T06:33:32.359081",
-   "last_seen": "2026-08-18T08:46:58.297901",
+   "last_seen": "2026-08-18T14:43:36.317737",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": null,
@@ -6587,44 +6837,6 @@
      "url": "https://pauseai.info/stop-the-ai-race-march",
      "source": "PauseAI \u2014 Blog",
      "title": "PauseAI Joined the march to stop the AI race",
-     "direct": true
-    }
-   ],
-   "url_is_direct": 1
-  },
-  {
-   "event_key": "foreign|undated|openai|[\"'rosa\", 'after', \"ai'\", 'blocking']",
-   "title": "69-Year-Old AI Protester Jailed After Blocking OpenAI HQ: Supporters Call Her the 'Rosa Parks of AI' - International Business Times UK",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUDd0OTk2VnpUeFVaXzdmb3Q4R2dyUVdvMmtKX1NrZWVYQ0c3TENRNGtwZ3hpc2w4LWFfYXVQMWpmdWtEc2R5N0JWQUM0ZmVqOVpwSDk4Z0dDdkFvUUVWSjc2dHNuY01XUXdROFUtTHRNYV9PMUs2dk5GU2JNNC1Rb2dVVDEydw?oc=5",
-   "score": 72,
-   "status": "REPORTED",
-   "region": "foreign",
-   "place": "uk",
-   "target": "openai",
-   "event_date": null,
-   "temporality": "unknown",
-   "source_count": 1,
-   "sources": [
-    "Google News: \"anti-AI protest\""
-   ],
-   "reasons": [
-    "high-signal phrase: ai protest",
-    "AI subject: ai, openai",
-    "protest action: protest, protester",
-    "AI and protest terms in close proximity",
-    "non-US location: uk",
-    "core anti-AI / protest-wire source"
-   ],
-   "first_seen": "2026-08-17T08:54:21.743749",
-   "last_seen": "2026-08-18T08:46:58.297875",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "links": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUDd0OTk2VnpUeFVaXzdmb3Q4R2dyUVdvMmtKX1NrZWVYQ0c3TENRNGtwZ3hpc2w4LWFfYXVQMWpmdWtEc2R5N0JWQUM0ZmVqOVpwSDk4Z0dDdkFvUUVWSjc2dHNuY01XUXdROFUtTHRNYV9PMUs2dk5GU2JNNC1Rb2dVVDEydw?oc=5",
-     "source": "Google News: \"anti-AI protest\"",
-     "title": "69-Year-Old AI Protester Jailed After Blocking OpenAI HQ: Supporters Call Her the 'Rosa Parks of AI' - International Bus",
      "direct": true
     }
    ],
@@ -7102,50 +7314,6 @@
    "url_is_direct": 1
   },
   {
-   "event_key": "us|undated|datacenter|['almost', 'americans', 'arrested', 'arrests']",
-   "title": "Over 70% of Americans oppose AI data centers; US protests intensify as more arrests are being made \u2014 almost 40 arrested this year in backlash to AI factory buildout - Tom's Hardware",
-   "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPYzNtTlJIR0JGbjZGN3RwR2QwRV9xbUJvMlB0YTFTWUV2eWdJV0FYZHlybS1fSE9nSDVwZ3o3b090WV82blVMUEkyRXU0c3hXSXdkczNsY3gtSEJWeDN0QXhIOUhpdzJKc1UwWm5xcFE1bURMQ1lOT1lKM0hqOFJVdlJlczlPMnVEX2RUSkk4Q19rdG9kTDk2YW50VWNDNGxGX2lyWHN2WEE1cm9sakpKZlgwd3F3S2MxTFBmamVrc2ZvVTVGUjhLTmxBRWQ5dnpjR0JqdjVJdlA5emp1dUZpcmJ0SUxwd0ZRcnpkSlo1b0pqUmplVXJQX1U5d18zUVZpbXlFS3NYcUp6OE9DZm15SlJjQUZzRmM0Q3lJcy1zeFNyZTlCYXpXZm9ISk1iRGJuZ1Y5Wi1mai1YaVh5bnRLZEJPX3huTnc?oc=5",
-   "score": 69,
-   "status": "SIGNAL",
-   "region": "us",
-   "place": "america",
-   "target": "datacenter",
-   "event_date": null,
-   "temporality": "unknown",
-   "source_count": 2,
-   "sources": [
-    "Bing News: \"AI protest\" San Francisco",
-    "Google News: protest \"data center\" AI California"
-   ],
-   "reasons": [
-    "AI subject: ai, data center",
-    "protest action: protest, protests",
-    "AI and protest terms in close proximity",
-    "US geography: america",
-    "core anti-AI / protest-wire source"
-   ],
-   "first_seen": "2026-08-10T15:08:23.077531",
-   "last_seen": "2026-08-18T08:46:58.297981",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "links": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPYzNtTlJIR0JGbjZGN3RwR2QwRV9xbUJvMlB0YTFTWUV2eWdJV0FYZHlybS1fSE9nSDVwZ3o3b090WV82blVMUEkyRXU0c3hXSXdkczNsY3gtSEJWeDN0QXhIOUhpdzJKc1UwWm5xcFE1bURMQ1lOT1lKM0hqOFJVdlJlczlPMnVEX2RUSkk4Q19rdG9kTDk2YW50VWNDNGxGX2lyWHN2WEE1cm9sakpKZlgwd3F3S2MxTFBmamVrc2ZvVTVGUjhLTmxBRWQ5dnpjR0JqdjVJdlA5emp1dUZpcmJ0SUxwd0ZRcnpkSlo1b0pqUmplVXJQX1U5d18zUVZpbXlFS3NYcUp6OE9DZm15SlJjQUZzRmM0Q3lJcy1zeFNyZTlCYXpXZm9ISk1iRGJuZ1Y5Wi1mai1YaVh5bnRLZEJPX3huTnc?oc=5",
-     "source": "Google News: protest \"data center\" AI California",
-     "title": "Over 70% of Americans oppose AI data centers; US protests intensify as more arrests are being made \u2014 almost 40 arrested ",
-     "direct": true
-    },
-    {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a841bf738194425b2abc0f58c0c42c1&url=https%3a%2f%2fdecrypt.co%2f374921%2fai-data-center-protest-arrests&c=18171643824029624163&mkt=en-us",
-     "source": "Bing News: \"AI protest\" San Francisco",
-     "title": "Police Have Arrested 37 Americans Over AI Data Center Protests This Year",
-     "direct": true
-    }
-   ],
-   "url_is_direct": 1
-  },
-  {
    "event_key": "unknown|undated|google|['answered', 'ceo', 'deepmind', 'google']",
    "title": "PauseAI Presents: The Google DeepMind Protest",
    "url": "https://pauseai.info/deepmind-protest-2025",
@@ -7170,7 +7338,7 @@
     "forward-looking language (protest has not happened yet)"
    ],
    "first_seen": "2026-08-09T04:27:27.704898",
-   "last_seen": "2026-08-18T08:46:58.298013",
+   "last_seen": "2026-08-18T14:43:36.317759",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -7214,7 +7382,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-07-29T06:33:32.359092",
-   "last_seen": "2026-08-18T08:46:58.298041",
+   "last_seen": "2026-08-18T14:43:36.317788",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": null,
@@ -7522,7 +7690,7 @@
     "priority geography: sf"
    ],
    "first_seen": "2026-08-16T14:33:28.123912",
-   "last_seen": "2026-08-17T20:37:27.630623",
+   "last_seen": "2026-08-18T14:43:36.317801",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -8238,6 +8406,51 @@
    "url_is_direct": 1
   },
   {
+   "event_key": "foreign|undated|general|[\"'regain\", \"'sounding\", \"alarm'\", \"alberta's\"]",
+   "title": "'Regain Your Humanity': First Person Jailed for Anti-AI Protest Says She's 'Sounding the Alarm' on AI CEOs - International Business Times UK",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZmZaaXhTUUF4dWdFY1hGdzFTVGpnV0VWWmVacXk4OU13WUM5ejZFMkJWTl9MckFTQ0RqSjhMWXlibTNQUXI2RFZqN1kzdTZCcFhsX25JN0d0SVlCMjJlM2tOdHJBdU9zdUtMemZPekR1RktUYlFSeC0yc0Z6Z2dfdkFwY2ZvTHIxaWZLTnBB?oc=5",
+   "score": 64,
+   "status": "SIGNAL",
+   "region": "foreign",
+   "place": "uk",
+   "target": "general",
+   "event_date": null,
+   "temporality": "unknown",
+   "source_count": 2,
+   "sources": [
+    "Google News: \"anti-AI protest\""
+   ],
+   "reasons": [
+    "high-signal phrase: ai protest, anti-ai protest",
+    "AI subject: ai",
+    "protest action: protest",
+    "anti-AI stance: anti-ai",
+    "AI and protest terms in close proximity",
+    "non-US location: uk",
+    "core anti-AI / protest-wire source"
+   ],
+   "first_seen": "2026-08-18T14:43:36.317824",
+   "last_seen": "2026-08-18T14:43:36.317824",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "links": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZmZaaXhTUUF4dWdFY1hGdzFTVGpnV0VWWmVacXk4OU13WUM5ejZFMkJWTl9MckFTQ0RqSjhMWXlibTNQUXI2RFZqN1kzdTZCcFhsX25JN0d0SVlCMjJlM2tOdHJBdU9zdUtMemZPekR1RktUYlFSeC0yc0Z6Z2dfdkFwY2ZvTHIxaWZLTnBB?oc=5",
+     "source": "Google News: \"anti-AI protest\"",
+     "title": "'Regain Your Humanity': First Person Jailed for Anti-AI Protest Says She's 'Sounding the Alarm' on AI CEOs - Internation",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbEpfQ3VkcmFJckpZc2habjlmZU5GNEJyOWFXWkhaaEZaMnVEVkpUYk93c1RoTjYtLUluUVBlRTlRTjRFNmJzNFdsZnU3eTc2OTA3OTdia25VWjBjb1N5MlZwZGlkVElCZFdhYVZCUFJpbFRua2FUc2lCQVVsZkZXdTJ0RzMyUQ?oc=5",
+     "source": "Google News: \"anti-AI protest\"",
+     "title": "What I saw at Alberta's anti-AI protest - rebelnews.com",
+     "direct": true
+    }
+   ],
+   "url_is_direct": 1
+  },
+  {
    "event_key": "la|undated|waymo|['dtla', 'kings', 'photo', 'protest']",
    "title": "No Kings Protest DTLA Photo Set 1",
    "url": "https://la.indymedia.org/news/2025/06/302753.php",
@@ -8261,7 +8474,7 @@
     "stale (365d old) \u2014 already happened"
    ],
    "first_seen": "2026-07-29T06:33:32.359115",
-   "last_seen": "2026-08-18T08:46:58.298110",
+   "last_seen": "2026-08-18T14:43:36.317875",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": "2:30 PM",
@@ -8299,7 +8512,7 @@
     "stale (365d old) \u2014 already happened"
    ],
    "first_seen": "2026-07-29T06:33:32.359120",
-   "last_seen": "2026-08-18T08:46:58.298135",
+   "last_seen": "2026-08-18T14:43:36.317898",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": "2:30 PM",
@@ -8672,7 +8885,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-08-17T20:37:27.630648",
-   "last_seen": "2026-08-18T08:46:58.298092",
+   "last_seen": "2026-08-18T14:43:36.317844",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -8681,6 +8894,42 @@
      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVzZXVkpBVmNfcGNIYS1Oc2lEQ0llb1gwb2FXM29EbFBMd1NFTWtyU0lGTzFqMDBhR21JTVhpZTNPbFNaR3hRWU9haDBEYVh5WGZDVHhWQURNQnhhWEp1am10LXp6Q3hUckJRRldVZkdUYXFiWmllS1Zmb0JzU0I3cU9GZW80SzlEaERndzN3VHI5MG5LdnlYSUduMi03bmxKZ0xpY1dVMFNxRWJJQjN6b3BEVVhhVkJnTFMwMWxsRk93QjRhRWc?oc=5",
      "source": "Google News: \"protest\" \"OpenAI\" headquarters",
      "title": "Protesters dressed as rogue AI agents target OpenAI in Bellevue with balloons and hot pink vests - GeekWire",
+     "direct": true
+    }
+   ],
+   "url_is_direct": 1
+  },
+  {
+   "event_key": "unknown|undated|openai|['autonomous', 'briefing', 'crypto', 'demanding']",
+   "title": "Protesters storm OpenAI offices demanding AI remain a tool, not an autonomous entity - Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mcE9Za09udS1hUjRMOWNtMk16T0MySV9EbnRPaXVJekxOY1ctcHlqWVBISGRyOEZsZDVWX25idlNTdGdzdjdQanVLQTlid3hCTngyejBOOWRBY1BxbF9WZE9YV0UtQ1pYcWNwNFQ4bDIxSXFKY2c?oc=5",
+   "score": 64,
+   "status": "SIGNAL",
+   "region": "unknown",
+   "place": "",
+   "target": "openai",
+   "event_date": null,
+   "temporality": "unknown",
+   "source_count": 1,
+   "sources": [
+    "Google News: \"protest\" \"OpenAI\" headquarters"
+   ],
+   "reasons": [
+    "AI subject: ai, openai",
+    "protest action: protest, protester, protesters",
+    "AI and protest terms in close proximity",
+    "core anti-AI / protest-wire source"
+   ],
+   "first_seen": "2026-08-18T14:43:36.317859",
+   "last_seen": "2026-08-18T14:43:36.317859",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "links": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mcE9Za09udS1hUjRMOWNtMk16T0MySV9EbnRPaXVJekxOY1ctcHlqWVBISGRyOEZsZDVWX25idlNTdGdzdjdQanVLQTlid3hCTngyejBOOWRBY1BxbF9WZE9YV0UtQ1pYcWNwNFQ4bDIxSXFKY2c?oc=5",
+     "source": "Google News: \"protest\" \"OpenAI\" headquarters",
+     "title": "Protesters storm OpenAI offices demanding AI remain a tool, not an autonomous entity - Crypto Briefing",
      "direct": true
     }
    ],
@@ -8904,6 +9153,51 @@
    "url_is_direct": 1
   },
   {
+   "event_key": "us|undated|datacenter|['across', 'americans', 'anti', 'arrested']",
+   "title": "Anti-AI data center protesters rally across the US",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8cffe9466fb1ce25813dd360b5&url=https%3a%2f%2fwww.businessinsider.com%2fanti-ai-data-center-nationwide-protest-photos-2026-7&c=8310966558867038995&mkt=en-us",
+   "score": 61,
+   "status": "SIGNAL",
+   "region": "us",
+   "place": "nationwide",
+   "target": "datacenter",
+   "event_date": null,
+   "temporality": "unknown",
+   "source_count": 2,
+   "sources": [
+    "Bing News: \"AI protest\" San Francisco",
+    "Bing News: \"anti-AI protest\""
+   ],
+   "reasons": [
+    "AI subject: ai, data center",
+    "protest action: protest, protests, protester, protesters",
+    "anti-AI stance: anti-ai, against ai",
+    "AI and protest terms in close proximity",
+    "US geography: nationwide",
+    "stale (31d old) \u2014 already happened"
+   ],
+   "first_seen": "2026-08-18T14:43:36.317921",
+   "last_seen": "2026-08-18T14:43:36.317921",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "links": [
+    {
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8cffe9466fb1ce25813dd360b5&url=https%3a%2f%2fwww.businessinsider.com%2fanti-ai-data-center-nationwide-protest-photos-2026-7&c=8310966558867038995&mkt=en-us",
+     "source": "Bing News: \"anti-AI protest\"",
+     "title": "Anti-AI data center protesters rally across the US",
+     "direct": true
+    },
+    {
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8c1be54c80904a46c277c61eb5&url=https%3a%2f%2fdecrypt.co%2f374921%2fai-data-center-protest-arrests&c=18171643824029624163&mkt=en-us",
+     "source": "Bing News: \"AI protest\" San Francisco",
+     "title": "Police Have Arrested 37 Americans Over AI Data Center Protests This Year",
+     "direct": true
+    }
+   ],
+   "url_is_direct": 1
+  },
+  {
    "event_key": "us|undated|datacenter|['across', 'anti', 'center', 'data']",
    "title": "Anti-AI data center protesters rally across the US",
    "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8370fbc7f545a5ba80365b0887d7d1&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fmarkets%2fanti-ai-data-center-protesters-rally-across-the-us%2far-AA28c3eq&c=15373037650936541318&mkt=en-us",
@@ -9019,6 +9313,50 @@
    "url_is_direct": 1
   },
   {
+   "event_key": "us|undated|datacenter|['almost', 'americans', 'arrested', 'arrests']",
+   "title": "Over 70% of Americans oppose AI data centers; US protests intensify as more arrests are being made \u2014 almost 40 arrested this year in backlash to AI factory buildout - Tom's Hardware",
+   "url": "https://www.reddit.com/r/ControlProblem/comments/1vmgshl/over_70_of_americans_oppose_ai_data_centers_us/",
+   "score": 59,
+   "status": "SIGNAL",
+   "region": "us",
+   "place": "america",
+   "target": "datacenter",
+   "event_date": null,
+   "temporality": "unknown",
+   "source_count": 2,
+   "sources": [
+    "Google News: protest \"data center\" AI California",
+    "r/ControlProblem"
+   ],
+   "reasons": [
+    "AI subject: ai, data center",
+    "protest action: protest, protests",
+    "AI and protest terms in close proximity",
+    "US geography: america",
+    "core anti-AI / protest-wire source"
+   ],
+   "first_seen": "2026-08-10T15:08:23.077531",
+   "last_seen": "2026-08-18T14:43:36.317949",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "links": [
+    {
+     "url": "https://www.reddit.com/r/ControlProblem/comments/1vmgshl/over_70_of_americans_oppose_ai_data_centers_us/",
+     "source": "r/ControlProblem",
+     "title": "Over 70% of Americans oppose AI data centers; US protests intensify as more arrests are being made \u2014 almost 40 arrested ",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPYzNtTlJIR0JGbjZGN3RwR2QwRV9xbUJvMlB0YTFTWUV2eWdJV0FYZHlybS1fSE9nSDVwZ3o3b090WV82blVMUEkyRXU0c3hXSXdkczNsY3gtSEJWeDN0QXhIOUhpdzJKc1UwWm5xcFE1bURMQ1lOT1lKM0hqOFJVdlJlczlPMnVEX2RUSkk4Q19rdG9kTDk2YW50VWNDNGxGX2lyWHN2WEE1cm9sakpKZlgwd3F3S2MxTFBmamVrc2ZvVTVGUjhLTmxBRWQ5dnpjR0JqdjVJdlA5emp1dUZpcmJ0SUxwd0ZRcnpkSlo1b0pqUmplVXJQX1U5d18zUVZpbXlFS3NYcUp6OE9DZm15SlJjQUZzRmM0Q3lJcy1zeFNyZTlCYXpXZm9ISk1iRGJuZ1Y5Wi1mai1YaVh5bnRLZEJPX3huTnc?oc=5",
+     "source": "Google News: protest \"data center\" AI California",
+     "title": "Over 70% of Americans oppose AI data centers; US protests intensify as more arrests are being made \u2014 almost 40 arrested ",
+     "direct": true
+    }
+   ],
+   "url_is_direct": 1
+  },
+  {
    "event_key": "foreign|d:2026-08-11|general|['11th', 'august', 'hague', 'netherlands']",
    "title": "PauseAI Protest @ The Hague, Netherlands - August 11th",
    "url": "https://pauseai.info/2023-august-nl",
@@ -9046,7 +9384,7 @@
     "stale (1095d old) \u2014 already happened"
    ],
    "first_seen": "2026-07-29T06:33:32.359072",
-   "last_seen": "2026-08-18T08:46:58.298187",
+   "last_seen": "2026-08-18T14:43:36.317976",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": null,
@@ -9277,7 +9615,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-07-29T19:54:39.778836",
-   "last_seen": "2026-08-18T08:46:58.298203",
+   "last_seen": "2026-08-18T14:43:36.317989",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -9314,7 +9652,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-07-29T19:54:39.778848",
-   "last_seen": "2026-08-18T08:46:58.298227",
+   "last_seen": "2026-08-18T14:43:36.318011",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -9351,7 +9689,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-07-29T19:54:39.778866",
-   "last_seen": "2026-08-18T08:46:58.298251",
+   "last_seen": "2026-08-18T14:43:36.318034",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -9388,7 +9726,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-07-29T19:54:39.778871",
-   "last_seen": "2026-08-18T08:46:58.298266",
+   "last_seen": "2026-08-18T14:43:36.318047",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -9397,240 +9735,6 @@
      "url": "https://www.pauseai-us.org/merch/",
      "source": "PauseAI US",
      "title": "\ud83d\udc55 Merch Rep the movement. All proceeds support grassroots organizing.",
-     "direct": false
-    }
-   ],
-   "url_is_direct": 0
-  },
-  {
-   "event_key": "us|undated|datacenter|['against', 'because', 'centers', 'civil']",
-   "title": "I wish I was in Michigan because I\u2019d defo vote for fairer wages, against ai data centers, a defense for civil liberties and a right to protest and paid family leave like fuck it i guess that makes me ",
-   "url": "https://bsky.app/profile/leecarioaw.bsky.social/post/3ms4kwh7i5227",
-   "score": 58,
-   "status": "SIGNAL",
-   "region": "us",
-   "place": "michigan",
-   "target": "datacenter",
-   "event_date": null,
-   "temporality": "unknown",
-   "source_count": 1,
-   "sources": [
-    "Bluesky: anti-AI protest"
-   ],
-   "reasons": [
-    "AI subject: ai, data center",
-    "protest action: protest",
-    "anti-AI stance: against ai",
-    "AI and protest terms in close proximity",
-    "US geography: michigan"
-   ],
-   "first_seen": "2026-08-05T00:58:26.857080",
-   "last_seen": "2026-08-05T19:33:59.096870",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "links": [
-    {
-     "url": "https://bsky.app/profile/leecarioaw.bsky.social/post/3ms4kwh7i5227",
-     "source": "Bluesky: anti-AI protest",
-     "title": "I wish I was in Michigan because I\u2019d defo vote for fairer wages, against ai data centers, a defense for civil liberties ",
-     "direct": true
-    }
-   ],
-   "url_is_direct": 1
-  },
-  {
-   "event_key": "sf_bay|undated|openai|[\"'hard\", \"activist's\", 'activists', 'against']",
-   "title": "WSJ Reports on 'Hard-line Activists Ramping Up for the War With AI' A 27-year-old activist's sit-ins at OpenAI are representative of a broader movement against AI. Young individuals in the Bay Area ar",
-   "url": "https://bsky.app/profile/ai-news.at.thenote.app/post/3mqiia23gz22a",
-   "score": 58,
-   "status": "SIGNAL",
-   "region": "sf_bay",
-   "place": "bay area",
-   "target": "openai",
-   "event_date": null,
-   "temporality": "unknown",
-   "source_count": 1,
-   "sources": [
-    "Bluesky: protest OpenAI"
-   ],
-   "reasons": [
-    "AI subject: ai, openai",
-    "protest action: sit-in",
-    "anti-AI stance: anti-ai, against ai",
-    "AI and protest terms in close proximity",
-    "priority geography: bay area",
-    "stale (29d old) \u2014 already happened"
-   ],
-   "first_seen": "2026-08-11T20:53:50.306751",
-   "last_seen": "2026-08-16T14:33:28.124177",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "links": [
-    {
-     "url": "https://bsky.app/profile/ai-news.at.thenote.app/post/3mqiia23gz22a",
-     "source": "Bluesky: protest OpenAI",
-     "title": "WSJ Reports on 'Hard-line Activists Ramping Up for the War With AI' A 27-year-old activist's sit-ins at OpenAI are repre",
-     "direct": true
-    }
-   ],
-   "url_is_direct": 1
-  },
-  {
-   "event_key": "unknown|undated|datacenter|[\"'unacceptable\", \"'unaccountable'\", '120', '142']",
-   "title": "142 AI data center protests staged in 42 states as public opposition increases \u2014 organizers brand 'unaccountable' buildouts as an 'unacceptable infringement on our liberty' - Tom's Hardware",
-   "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNM1ZhWHMxRzh1UmZ4RFZXRW1BUGx1eVBmd0s1ZTN5U2hqUkloUi0zMkpkM3UtM2Y5RFNqdDh1UGptbDRLWGxDT0M1R2FJOEJXbTVrMzFBZVVqTUdfb2lNNWxId3YxLWlMbG8tcndDc3NhZS15aENRbDlsTWhjaU94MWdBNlFOUGZxeThUSGlHZ2JBd3M3eWxlUG5VSkRwWXNaOVRsbWdoaUY0c3BnelhfOVRsaE9tUEs1UnpxQ21mUW16d01DTzRDbFVwb3llT2lkSWxUeUdYbXQzTXYyWDNzbUJCeDE1Y2lsVlFtRUV3YnVTOWY0SU5jckJVOWtrODQ5bDFPTlV3b0d3VmFrQ2J0d3BuZ3M5NEp0VzhnMkM5XzJuR2R3UHF4dV9PMktUMDVEdEhKYktvSWw0TlAt?oc=5",
-   "score": 57,
-   "status": "SIGNAL",
-   "region": "unknown",
-   "place": "",
-   "target": "datacenter",
-   "event_date": null,
-   "temporality": "unknown",
-   "source_count": 3,
-   "sources": [
-    "Google News: \"protest against AI\"",
-    "Google News: protest artificial intelligence rally"
-   ],
-   "reasons": [
-    "AI subject: ai, data center",
-    "protest action: protest, protests",
-    "AI and protest terms in close proximity",
-    "core anti-AI / protest-wire source"
-   ],
-   "first_seen": "2026-07-29T06:33:32.359129",
-   "last_seen": "2026-07-30T00:20:20.215833",
-   "alerted": 1,
-   "alerted_at": "2026-07-29T06:33:32.359629",
-   "event_time": null,
-   "links": [],
-   "url_is_direct": 1
-  },
-  {
-   "event_key": "unknown|undated|datacenter|['about', 'amazon', 'behind', 'bradley']",
-   "title": "Data center protesters rally outside Amazon open house near Tri-Cities - Tri-City Herald",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFbmVkNl9BdnFQZTJXT1Jka043YjZvS2hnRkpqeHdFWnNlbjJrMlFKVGlzeEpyRUo0R3BqWWpnbmZQZWFDaG14V1p4RkJvbzdqOGtoNk5wdlE5MmtnblBYc09vM1htdFJkcG1YZ3ZhMjhRQkRm0gF0QVVfeXFMUFZCMXoxOWpXYmRPbTVpLXQzcGM5N2psQ2lzWjh3R0ZNTGFVMHNDYkU3dm9PdWpIMjMwR1FTcElOTmk4QmRWNEx6REhqc0dsZ19yZGh6Z3VySWxkal9fcmZHTnE2SGJDSVNtV3E2WnUxbzBWN3U?oc=5",
-   "score": 57,
-   "status": "SIGNAL",
-   "region": "unknown",
-   "place": "",
-   "target": "datacenter",
-   "event_date": null,
-   "temporality": "upcoming",
-   "source_count": 3,
-   "sources": [
-    "Google News: protest \"data center\" AI California",
-    "Google News: protest artificial intelligence rally",
-    "Reddit search: AI protest san francisco"
-   ],
-   "reasons": [
-    "AI subject: data center",
-    "protest action: protest, protester, protesters, rally",
-    "AI and protest terms in close proximity",
-    "core anti-AI / protest-wire source"
-   ],
-   "first_seen": "2026-08-17T03:10:20.044865",
-   "last_seen": "2026-08-17T03:10:20.044865",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "links": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFbmVkNl9BdnFQZTJXT1Jka043YjZvS2hnRkpqeHdFWnNlbjJrMlFKVGlzeEpyRUo0R3BqWWpnbmZQZWFDaG14V1p4RkJvbzdqOGtoNk5wdlE5MmtnblBYc09vM1htdFJkcG1YZ3ZhMjhRQkRm0gF0QVVfeXFMUFZCMXoxOWpXYmRPbTVpLXQzcGM5N2psQ2lzWjh3R0ZNTGFVMHNDYkU3dm9PdWpIMjMwR1FTcElOTmk4QmRWNEx6REhqc0dsZ19yZGh6Z3VySWxkal9fcmZHTnE2SGJDSVNtV3E2WnUxbzBWN3U?oc=5",
-     "source": "Google News: protest artificial intelligence rally",
-     "title": "Data center protesters rally outside Amazon open house near Tri-Cities - Tri-City Herald",
-     "direct": true
-    },
-    {
-     "url": "https://www.reddit.com/r/PuyallupWA/comments/1vqfoxu/ai_data_center_behind_bradley_lake_park_wa/",
-     "source": "Reddit search: AI protest san francisco",
-     "title": "AI Data Center behind Bradley Lake Park, WA",
-     "direct": true
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPX3Rac3NtVk1Gak5sa0lWZnAxREc2OHoxNUpOM0pjWDJqMlAxQ1ZoWk5IX0FkbkZyWlc3WFVnMms0WTBhVFVMQ0NaUUdUY2lOSzE1SEs1UnFyNmV5LVJlNmpLNVUzZFllemZ0X0t0SmJNdlZIMmFpMDdPWUktdVFRenRSRmdhS0Fzd2lWZ1JIX2dXUHlKMFMzNkZwZW1WelJWNXU2NlF5aU5KR3hUOTNxZXVXUTlyM2haRDBPREQxOV8tRV9rWXMzZU1tYzNNUnRTeHNqSWphNzlvaEpSbUpGU18xWHB4OVQwSkxibmJpRXE1blZKZ19TOU0tV21SbElwbjJ6OHRfMDhZNlN0anNUQ1RBejh5TV85SzNDU2ZnTFR4bzZGWWMtV3IxRUUtWnA3VHdiZTR1UFBpZFhmcWdQNXVIQ3RlcHZPRmFoWkg0NjJrNXZiU19ta0IwNHk?oc=5",
-     "source": "Google News: protest \"data center\" AI California",
-     "title": "Protesters haul a guillotine to city council meeting about a potential AI data center, company rep cornered by protestor",
-     "direct": true
-    }
-   ],
-   "url_is_direct": 1
-  },
-  {
-   "event_key": "unknown|undated|datacenter|['about', 'amazon', 'center', 'cities']",
-   "title": "Protesters haul a guillotine to city council meeting about a potential AI data center, company rep cornered by protestors \u2014 \u2018 it no longer felt safe to stay,\u2019 developer escorted out by police - Tom's Hardware",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFbmVkNl9BdnFQZTJXT1Jka043YjZvS2hnRkpqeHdFWnNlbjJrMlFKVGlzeEpyRUo0R3BqWWpnbmZQZWFDaG14V1p4RkJvbzdqOGtoNk5wdlE5MmtnblBYc09vM1htdFJkcG1YZ3ZhMjhRQkRm0gF0QVVfeXFMUFZCMXoxOWpXYmRPbTVpLXQzcGM5N2psQ2lzWjh3R0ZNTGFVMHNDYkU3dm9PdWpIMjMwR1FTcElOTmk4QmRWNEx6REhqc0dsZ19yZGh6Z3VySWxkal9fcmZHTnE2SGJDSVNtV3E2WnUxbzBWN3U?oc=5",
-   "score": 57,
-   "status": "SIGNAL",
-   "region": "unknown",
-   "place": "",
-   "target": "datacenter",
-   "event_date": null,
-   "temporality": "unknown",
-   "source_count": 2,
-   "sources": [
-    "Google News: protest \"data center\" AI California",
-    "Google News: protest artificial intelligence rally"
-   ],
-   "reasons": [
-    "AI subject: ai, data center",
-    "protest action: protest, protester, protesters",
-    "AI and protest terms in close proximity",
-    "core anti-AI / protest-wire source"
-   ],
-   "first_seen": "2026-08-12T20:55:42.587181",
-   "last_seen": "2026-08-18T03:05:39.801534",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "links": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFbmVkNl9BdnFQZTJXT1Jka043YjZvS2hnRkpqeHdFWnNlbjJrMlFKVGlzeEpyRUo0R3BqWWpnbmZQZWFDaG14V1p4RkJvbzdqOGtoNk5wdlE5MmtnblBYc09vM1htdFJkcG1YZ3ZhMjhRQkRm0gF0QVVfeXFMUFZCMXoxOWpXYmRPbTVpLXQzcGM5N2psQ2lzWjh3R0ZNTGFVMHNDYkU3dm9PdWpIMjMwR1FTcElOTmk4QmRWNEx6REhqc0dsZ19yZGh6Z3VySWxkal9fcmZHTnE2SGJDSVNtV3E2WnUxbzBWN3U?oc=5",
-     "source": "Google News: protest artificial intelligence rally",
-     "title": "Data center protesters rally outside Amazon open house near Tri-Cities - Tri-City Herald",
-     "direct": true
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPX3Rac3NtVk1Gak5sa0lWZnAxREc2OHoxNUpOM0pjWDJqMlAxQ1ZoWk5IX0FkbkZyWlc3WFVnMms0WTBhVFVMQ0NaUUdUY2lOSzE1SEs1UnFyNmV5LVJlNmpLNVUzZFllemZ0X0t0SmJNdlZIMmFpMDdPWUktdVFRenRSRmdhS0Fzd2lWZ1JIX2dXUHlKMFMzNkZwZW1WelJWNXU2NlF5aU5KR3hUOTNxZXVXUTlyM2haRDBPREQxOV8tRV9rWXMzZU1tYzNNUnRTeHNqSWphNzlvaEpSbUpGU18xWHB4OVQwSkxibmJpRXE1blZKZ19TOU0tV21SbElwbjJ6OHRfMDhZNlN0anNUQ1RBejh5TV85SzNDU2ZnTFR4bzZGWWMtV3IxRUUtWnA3VHdiZTR1UFBpZFhmcWdQNXVIQ3RlcHZPRmFoWkg0NjJrNXZiU19ta0IwNHk?oc=5",
-     "source": "Google News: protest \"data center\" AI California",
-     "title": "Protesters haul a guillotine to city council meeting about a potential AI data center, company rep cornered by protestor",
-     "direct": true
-    }
-   ],
-   "url_is_direct": 1
-  },
-  {
-   "event_key": "unknown|undated|google|['hunger', 'started', 'strike']",
-   "title": "The hunger strike that started this.",
-   "url": "https://stoptherace.ai/",
-   "score": 57,
-   "status": "SIGNAL",
-   "region": "unknown",
-   "place": "",
-   "target": "google",
-   "event_date": null,
-   "temporality": "unknown",
-   "source_count": 1,
-   "sources": [
-    "Stop The Race"
-   ],
-   "reasons": [
-    "AI subject: deepmind, google deepmind",
-    "protest action: strike, hunger strike",
-    "AI and protest terms in close proximity",
-    "core anti-AI / protest-wire source"
-   ],
-   "first_seen": "2026-07-29T06:33:32.359133",
-   "last_seen": "2026-08-18T08:46:58.298332",
-   "alerted": 1,
-   "alerted_at": "2026-07-29T06:33:32.359629",
-   "event_time": null,
-   "links": [
-    {
-     "url": "https://stoptherace.ai/",
-     "source": "Stop The Race",
-     "title": "The hunger strike that started this.",
      "direct": false
     }
    ],
@@ -9719,7 +9823,7 @@
    ],
    "published": "2026-08-18T04:29:29",
    "first_seen": "2026-08-18T08:46:58.284833",
-   "last_seen": "2026-08-18T08:46:58.284833",
+   "last_seen": "2026-08-18T14:43:36.311232",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -9748,7 +9852,7 @@
    ],
    "published": "2026-08-17T08:56:00",
    "first_seen": "2026-08-17T20:37:27.624289",
-   "last_seen": "2026-08-18T08:46:58.285991",
+   "last_seen": "2026-08-18T14:43:36.311620",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -9778,7 +9882,7 @@
    ],
    "published": "2026-08-17T11:26:00",
    "first_seen": "2026-08-17T20:37:27.624180",
-   "last_seen": "2026-08-18T08:46:58.286086",
+   "last_seen": "2026-08-18T14:43:36.311567",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -9838,36 +9942,6 @@
    "published": "2026-08-17T13:57:34",
    "first_seen": "2026-08-17T14:38:26.482972",
    "last_seen": "2026-08-18T08:46:58.284930",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "url_is_direct": 1
-  },
-  {
-   "fingerprint": "7228cf82c8d32729141495803fbaf438",
-   "title": "69-year-old AI protester jailed after blocking OpenAI HQ: Supporters call her the 'Rosa Parks of AI'",
-   "summary": "A 69-year-old retired teacher has been jailed after taking part in a blockade outside OpenAI's San Francisco headquarters, in what has been described as the first jail sentence linked to an anti-AI ...",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a82cc32b2c24865b6ab5ea907195d20&url=https%3a%2f%2fwww.msn.com%2fen-gb%2fnews%2fother%2f69-year-old-ai-protester-jailed-after-blocking-openai-hq-supporters-call-her-the-rosa-parks-of-ai%2far-AA2ah0Jm&c=1634117710577523721&mkt=en-us",
-   "source": "Bing News: \"AI protest\"",
-   "source_type": "news_search",
-   "score": 100,
-   "status": "REPORTED",
-   "region": "sf_bay",
-   "place": "san francisco",
-   "event_date": null,
-   "is_future": 0,
-   "temporality": "unknown",
-   "reasons": [
-    "high-signal phrase: ai protest",
-    "AI subject: ai, openai",
-    "protest action: protest, protester, blockade",
-    "anti-AI stance: anti-ai",
-    "AI and protest terms in close proximity",
-    "priority geography: san francisco"
-   ],
-   "published": "2026-08-17T00:39:25",
-   "first_seen": "2026-08-17T08:54:21.732142",
-   "last_seen": "2026-08-18T08:46:58.286181",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -10190,7 +10264,7 @@
    ],
    "published": "2026-08-16T11:34:30",
    "first_seen": "2026-08-17T08:54:21.728608",
-   "last_seen": "2026-08-18T08:46:58.283997",
+   "last_seen": "2026-08-18T14:43:36.310342",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -10219,7 +10293,7 @@
    ],
    "published": "2026-08-16T23:15:14",
    "first_seen": "2026-08-17T03:10:20.037980",
-   "last_seen": "2026-08-18T08:46:58.285018",
+   "last_seen": "2026-08-18T14:43:36.311301",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -10248,7 +10322,7 @@
    ],
    "published": "2026-08-16T23:15:38",
    "first_seen": "2026-08-17T03:10:20.037960",
-   "last_seen": "2026-08-18T08:46:58.284993",
+   "last_seen": "2026-08-18T14:43:36.311290",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -10279,7 +10353,7 @@
    ],
    "published": "2026-08-17T01:00:59",
    "first_seen": "2026-08-17T03:10:20.037889",
-   "last_seen": "2026-08-18T08:46:58.284969",
+   "last_seen": "2026-08-18T14:43:36.311266",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -10308,7 +10382,7 @@
    ],
    "published": "2026-08-16T16:06:18",
    "first_seen": "2026-08-16T20:33:28.255553",
-   "last_seen": "2026-08-18T08:46:58.285064",
+   "last_seen": "2026-08-18T14:43:36.311323",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -10337,7 +10411,7 @@
    ],
    "published": "2026-08-16T17:30:54",
    "first_seen": "2026-08-16T20:33:28.255410",
-   "last_seen": "2026-08-18T08:46:58.285030",
+   "last_seen": "2026-08-18T14:43:36.311312",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -10687,7 +10761,7 @@
    ],
    "published": "2026-08-16T09:18:36",
    "first_seen": "2026-08-16T14:33:28.109770",
-   "last_seen": "2026-08-17T20:37:27.623918",
+   "last_seen": "2026-08-18T14:43:36.311386",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -10716,7 +10790,7 @@
    ],
    "published": "2026-08-16T09:23:25",
    "first_seen": "2026-08-16T14:33:28.109750",
-   "last_seen": "2026-08-17T20:37:27.623892",
+   "last_seen": "2026-08-18T14:43:36.311365",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -10745,7 +10819,7 @@
    ],
    "published": "2026-08-16T10:07:43",
    "first_seen": "2026-08-16T14:33:28.109726",
-   "last_seen": "2026-08-17T20:37:27.623862",
+   "last_seen": "2026-08-18T14:43:36.311354",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -10774,7 +10848,7 @@
    ],
    "published": "2026-08-16T10:17:20",
    "first_seen": "2026-08-16T14:33:28.109691",
-   "last_seen": "2026-08-18T08:46:58.285077",
+   "last_seen": "2026-08-18T14:43:36.311343",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -10803,7 +10877,7 @@
    ],
    "published": "2026-08-16T11:34:30",
    "first_seen": "2026-08-16T14:33:28.108617",
-   "last_seen": "2026-08-18T08:46:58.283763",
+   "last_seen": "2026-08-18T14:43:36.310469",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -10833,7 +10907,7 @@
    ],
    "published": "2026-08-16T01:01:00",
    "first_seen": "2026-08-16T08:40:10.159745",
-   "last_seen": "2026-08-18T08:46:58.286016",
+   "last_seen": "2026-08-18T14:43:36.311544",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -10891,7 +10965,7 @@
    ],
    "published": "2026-08-16T08:06:43",
    "first_seen": "2026-08-16T08:40:10.158193",
-   "last_seen": "2026-08-17T20:37:27.623931",
+   "last_seen": "2026-08-18T14:43:36.311397",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -10921,7 +10995,7 @@
    ],
    "published": "2026-08-16T08:00:00",
    "first_seen": "2026-08-16T08:40:10.157460",
-   "last_seen": "2026-08-18T08:46:58.283513",
+   "last_seen": "2026-08-18T14:43:36.310110",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -10951,7 +11025,7 @@
    ],
    "published": "2026-08-16T08:15:37",
    "first_seen": "2026-08-16T08:40:10.157352",
-   "last_seen": "2026-08-18T08:46:58.283372",
+   "last_seen": "2026-08-18T14:43:36.309924",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -11010,7 +11084,7 @@
    ],
    "published": "2026-08-15T18:49:05",
    "first_seen": "2026-08-16T03:12:14.750897",
-   "last_seen": "2026-08-18T08:46:58.286099",
+   "last_seen": "2026-08-18T14:43:36.311736",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -11070,7 +11144,7 @@
    ],
    "published": "2026-08-14T13:00:00",
    "first_seen": "2026-08-14T20:40:22.638799",
-   "last_seen": "2026-08-18T08:46:58.283715",
+   "last_seen": "2026-08-18T14:43:36.310299",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -11195,7 +11269,7 @@
    ],
    "published": "2026-07-13T00:26:00",
    "first_seen": "2026-07-29T19:39:45.064958",
-   "last_seen": "2026-08-18T08:46:58.285967",
+   "last_seen": "2026-08-18T14:43:36.311593",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -11293,6 +11367,37 @@
    "url_is_direct": 1
   },
   {
+   "fingerprint": "f8029c3322083dce88e6b3a196c12096",
+   "title": "PauseAI Protests",
+   "summary": "PauseAI Protests Upcoming protest See our events for upcoming protests. Past Protests 2025 13th of December, Amsterdam 30th of June, London 7th - 11th of February, 15+ cities 2024 21st of November, 10+ cities 22nd of September, NYC 30th of July, Washington, DC (World Pause Coalition) 23rd of July, San Francisco, London, Paris 13th of May, San Francisco, London, Stockholm, Berlin, Den Haag, Rome, P",
+   "url": "https://pauseai.info/protests",
+   "source": "PauseAI \u2014 Protests",
+   "source_type": "html",
+   "score": 100,
+   "status": "CONFIRMED",
+   "region": "sf_bay",
+   "place": "san francisco",
+   "event_date": null,
+   "is_future": 0,
+   "temporality": "upcoming",
+   "reasons": [
+    "high-signal phrase: ai protest, pauseai protest",
+    "protest action: protest, protests",
+    "anti-AI stance: pauseai",
+    "priority geography: san francisco",
+    "core anti-AI / protest-wire source",
+    "noise terms: stock",
+    "forward-looking language (protest has not happened yet)"
+   ],
+   "published": null,
+   "first_seen": "2026-07-29T06:33:32.355187",
+   "last_seen": "2026-08-18T14:43:36.310766",
+   "alerted": 1,
+   "alerted_at": null,
+   "event_time": null,
+   "url_is_direct": 1
+  },
+  {
    "fingerprint": "242755a8ecf2b010bbc6e6c8afa5197d",
    "title": "First AI protester sent to jail tells OpenAI, Anthropic and Meta to regain your humanity",
    "summary": "Kaufman has defended the protest as necessary, saying she believes the rapid development of advanced AI could pose a serious threat to humanity.",
@@ -11314,7 +11419,7 @@
    ],
    "published": "2026-08-16T04:44:27",
    "first_seen": "2026-08-16T14:33:28.112263",
-   "last_seen": "2026-08-18T08:46:58.286004",
+   "last_seen": "2026-08-18T14:43:36.311653",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -11557,7 +11662,7 @@
    ],
    "published": "2026-08-17T07:28:38",
    "first_seen": "2026-08-17T14:38:26.481638",
-   "last_seen": "2026-08-18T08:46:58.282879",
+   "last_seen": "2026-08-18T14:43:36.309464",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -11587,7 +11692,7 @@
    ],
    "published": "2026-08-17T07:19:31",
    "first_seen": "2026-08-17T14:38:26.481118",
-   "last_seen": "2026-08-18T08:46:58.283336",
+   "last_seen": "2026-08-18T14:43:36.309891",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -11647,7 +11752,7 @@
    ],
    "published": "2026-08-17T07:34:50",
    "first_seen": "2026-08-17T08:54:21.727767",
-   "last_seen": "2026-08-18T08:46:58.283915",
+   "last_seen": "2026-08-18T14:43:36.310493",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12069,7 +12174,7 @@
    ],
    "published": "2026-08-17T00:11:56",
    "first_seen": "2026-08-17T03:10:20.036804",
-   "last_seen": "2026-08-18T08:46:58.283691",
+   "last_seen": "2026-08-18T14:43:36.310245",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12101,35 +12206,6 @@
    "first_seen": "2026-07-29T19:39:45.064934",
    "last_seen": "2026-08-05T19:33:59.093298",
    "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "url_is_direct": 1
-  },
-  {
-   "fingerprint": "f8029c3322083dce88e6b3a196c12096",
-   "title": "PauseAI Protests",
-   "summary": "PauseAI Protests Upcoming protest See our events for upcoming protests. Past Protests 2025 13th of December, Amsterdam 30th of June, London 7th - 11th of February, 15+ cities 2024 21st of November, 10+ cities 22nd of September, NYC 30th of July, Washington, DC (World Pause Coalition) 23rd of July, San Francisco, London, Paris 13th of May, San Francisco, London, Stockholm, Berlin, Den Haag, Rome, P",
-   "url": "https://pauseai.info/protests",
-   "source": "PauseAI \u2014 Protests",
-   "source_type": "html",
-   "score": 93,
-   "status": "REPORTED",
-   "region": "sf_bay",
-   "place": "san francisco",
-   "event_date": null,
-   "is_future": 0,
-   "temporality": "upcoming",
-   "reasons": [
-    "high-signal phrase: ai protest, pauseai protest",
-    "protest action: protest, protests",
-    "anti-AI stance: pauseai",
-    "core anti-AI / protest-wire source",
-    "forward-looking language (protest has not happened yet)"
-   ],
-   "published": null,
-   "first_seen": "2026-07-29T06:33:32.355187",
-   "last_seen": "2026-08-18T08:46:58.284452",
-   "alerted": 1,
    "alerted_at": null,
    "event_time": null,
    "url_is_direct": 1
@@ -12194,6 +12270,37 @@
    "first_seen": "2026-07-29T06:33:32.354540",
    "last_seen": "2026-08-03T04:18:14.784524",
    "alerted": 1,
+   "alerted_at": null,
+   "event_time": null,
+   "url_is_direct": 1
+  },
+  {
+   "fingerprint": "e74987a079af3fd2e2ac79d5ec8a6299",
+   "title": "'Regain your humanity': First person jailed for anti-AI protest says she's 'sounding the alarm' on AI CEOs",
+   "summary": "Wynd Kaufmyn, a 69-year-old retired teacher from Berkeley, California, is believed to be the first person jailed for an anti-AI protest. Before beginning her seven-day jail term on Friday, August 14, ...",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a846f8cffe9466fb1ce25813dd360b5&url=https%3a%2f%2fwww.msn.com%2fen-gb%2fnews%2fworld%2fregain-your-humanity-first-person-jailed-for-anti-ai-protest-says-she-s-sounding-the-alarm-on-ai-ceos%2far-AA2ao3sB&c=7000222520882871107&mkt=en-us",
+   "source": "Bing News: \"anti-AI protest\"",
+   "source_type": "news_search",
+   "score": 92,
+   "status": "REPORTED",
+   "region": "sf_bay",
+   "place": "berkeley",
+   "event_date": "2026-08-14",
+   "is_future": 0,
+   "temporality": "unknown",
+   "reasons": [
+    "high-signal phrase: ai protest, anti-ai protest",
+    "AI subject: ai",
+    "protest action: protest",
+    "anti-AI stance: anti-ai",
+    "AI and protest terms in close proximity",
+    "priority geography: berkeley",
+    "stale (4d old) \u2014 already happened"
+   ],
+   "published": "2026-08-18T06:03:00",
+   "first_seen": "2026-08-18T14:43:36.311506",
+   "last_seen": "2026-08-18T14:43:36.311506",
+   "alerted": 0,
    "alerted_at": null,
    "event_time": null,
    "url_is_direct": 1
@@ -12437,6 +12544,36 @@
    "url_is_direct": 1
   },
   {
+   "fingerprint": "7228cf82c8d32729141495803fbaf438",
+   "title": "69-year-old AI protester jailed after blocking OpenAI HQ: Supporters call her the 'Rosa Parks of AI'",
+   "summary": "A 69-year-old retired teacher has been jailed after taking part in a blockade outside OpenAI's San Francisco headquarters, in what has been described as the first jail sentence linked to an anti-AI ...",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a82cc32b2c24865b6ab5ea907195d20&url=https%3a%2f%2fwww.msn.com%2fen-gb%2fnews%2fother%2f69-year-old-ai-protester-jailed-after-blocking-openai-hq-supporters-call-her-the-rosa-parks-of-ai%2far-AA2ah0Jm&c=1634117710577523721&mkt=en-us",
+   "source": "Bing News: \"AI protest\"",
+   "source_type": "news_search",
+   "score": 90,
+   "status": "REPORTED",
+   "region": "sf_bay",
+   "place": "san francisco",
+   "event_date": null,
+   "is_future": 0,
+   "temporality": "unknown",
+   "reasons": [
+    "high-signal phrase: ai protest, anti-ai protest, protest at openai",
+    "AI subject: ai, artificial intelligence, openai",
+    "protest action: protest, protester, civil disobedience",
+    "anti-AI stance: anti-ai, ai safety",
+    "AI and protest terms in close proximity",
+    "non-US location: uk"
+   ],
+   "published": "2026-08-17T00:39:25",
+   "first_seen": "2026-08-17T08:54:21.732142",
+   "last_seen": "2026-08-18T14:43:36.311580",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "url_is_direct": 1
+  },
+  {
    "fingerprint": "5d419a7d77bea4ccb00dc11cb361e1eb",
    "title": "Anti-AI protest reaches OpenAI HQ: Why protesters left body bags outside office",
    "summary": "The body bags were reportedly part of an anti-AI protest at the OpenAI HQ, showcasing disapproval of the company's deal with the Department of Defence (DoD).",
@@ -12580,7 +12717,7 @@
    ],
    "published": "2026-08-17T03:39:38",
    "first_seen": "2026-08-17T08:54:21.729579",
-   "last_seen": "2026-08-18T08:46:58.284955",
+   "last_seen": "2026-08-18T14:43:36.311254",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12705,7 +12842,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355228",
-   "last_seen": "2026-08-18T08:46:58.284195",
+   "last_seen": "2026-08-18T14:43:36.310893",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -12733,7 +12870,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355292",
-   "last_seen": "2026-08-18T08:46:58.284438",
+   "last_seen": "2026-08-18T14:43:36.311077",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -12823,7 +12960,7 @@
    ],
    "published": "2026-08-17T13:24:52",
    "first_seen": "2026-08-18T03:05:39.785947",
-   "last_seen": "2026-08-18T08:46:58.283787",
+   "last_seen": "2026-08-18T14:43:36.310357",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12852,7 +12989,7 @@
    ],
    "published": "2026-08-12T16:44:13",
    "first_seen": "2026-08-14T15:03:01.810995",
-   "last_seen": "2026-08-18T08:46:58.283613",
+   "last_seen": "2026-08-18T14:43:36.310176",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12947,7 +13084,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355270",
-   "last_seen": "2026-08-18T08:46:58.284333",
+   "last_seen": "2026-08-18T14:43:36.311019",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -13492,11 +13629,11 @@
     "anti-AI stance: against ai",
     "AI and protest terms in close proximity",
     "US geography: u.s.",
-    "stale (33d old) \u2014 already happened"
+    "stale (34d old) \u2014 already happened"
    ],
    "published": "2026-07-15T12:38:43",
    "first_seen": "2026-08-10T04:06:47.854156",
-   "last_seen": "2026-08-18T08:46:58.286146",
+   "last_seen": "2026-08-18T14:43:36.311748",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -13528,7 +13665,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355274",
-   "last_seen": "2026-08-18T08:46:58.284346",
+   "last_seen": "2026-08-18T14:43:36.311030",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -13623,7 +13760,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355252",
-   "last_seen": "2026-08-18T08:46:58.284271",
+   "last_seen": "2026-08-18T14:43:36.310961",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -13651,7 +13788,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355214",
-   "last_seen": "2026-08-18T08:46:58.284155",
+   "last_seen": "2026-08-18T14:43:36.310858",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -13682,7 +13819,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355196",
-   "last_seen": "2026-08-18T08:46:58.284089",
+   "last_seen": "2026-08-18T14:43:36.310801",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -13714,7 +13851,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355261",
-   "last_seen": "2026-08-18T08:46:58.284306",
+   "last_seen": "2026-08-18T14:43:36.310996",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -14184,7 +14321,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355247",
-   "last_seen": "2026-08-18T08:46:58.284259",
+   "last_seen": "2026-08-18T14:43:36.310949",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -14242,7 +14379,7 @@
    ],
    "published": "2026-08-17T08:10:59",
    "first_seen": "2026-08-17T20:37:27.624031",
-   "last_seen": "2026-08-18T08:46:58.286133",
+   "last_seen": "2026-08-18T14:43:36.311725",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -14304,7 +14441,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355266",
-   "last_seen": "2026-08-18T08:46:58.284321",
+   "last_seen": "2026-08-18T14:43:36.311008",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -14335,7 +14472,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355257",
-   "last_seen": "2026-08-18T08:46:58.284284",
+   "last_seen": "2026-08-18T14:43:36.310974",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -14484,7 +14621,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355283",
-   "last_seen": "2026-08-18T08:46:58.284371",
+   "last_seen": "2026-08-18T14:43:36.311054",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -14514,7 +14651,7 @@
    ],
    "published": "2026-08-17T07:39:25",
    "first_seen": "2026-08-17T08:54:21.728356",
-   "last_seen": "2026-08-18T08:46:58.283479",
+   "last_seen": "2026-08-18T14:43:36.310081",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -14542,7 +14679,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355288",
-   "last_seen": "2026-08-18T08:46:58.284417",
+   "last_seen": "2026-08-18T14:43:36.311065",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -14573,7 +14710,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355192",
-   "last_seen": "2026-08-18T08:46:58.284064",
+   "last_seen": "2026-08-18T14:43:36.310789",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -14726,35 +14863,6 @@
    "url_is_direct": 1
   },
   {
-   "fingerprint": "c833db69ea25bd49e0a0f0c4375f7825",
-   "title": "Over 70% of Americans oppose AI data centers; US protests intensify as more arrests are being made \u2014 almost 40 arrested this year in backlash to AI factory buildout - Tom's Hardware",
-   "summary": "Over 70% of Americans oppose AI data centers; US protests intensify as more arrests are being made \u2014 almost 40 arrested this year in backlash to AI factory buildout &nbsp;&nbsp; Tom's Hardware",
-   "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPYzNtTlJIR0JGbjZGN3RwR2QwRV9xbUJvMlB0YTFTWUV2eWdJV0FYZHlybS1fSE9nSDVwZ3o3b090WV82blVMUEkyRXU0c3hXSXdkczNsY3gtSEJWeDN0QXhIOUhpdzJKc1UwWm5xcFE1bURMQ1lOT1lKM0hqOFJVdlJlczlPMnVEX2RUSkk4Q19rdG9kTDk2YW50VWNDNGxGX2lyWHN2WEE1cm9sakpKZlgwd3F3S2MxTFBmamVrc2ZvVTVGUjhLTmxBRWQ5dnpjR0JqdjVJdlA5emp1dUZpcmJ0SUxwd0ZRcnpkSlo1b0pqUmplVXJQX1U5d18zUVZpbXlFS3NYcUp6OE9DZm15SlJjQUZzRmM0Q3lJcy1zeFNyZTlCYXpXZm9ISk1iRGJuZ1Y5Wi1mai1YaVh5bnRLZEJPX3huTnc?oc=5",
-   "source": "Google News: protest artificial intelligence rally",
-   "source_type": "news_search",
-   "score": 69,
-   "status": "SIGNAL",
-   "region": "us",
-   "place": "america",
-   "event_date": null,
-   "is_future": 0,
-   "temporality": "unknown",
-   "reasons": [
-    "AI subject: ai, data center",
-    "protest action: protest, protests",
-    "AI and protest terms in close proximity",
-    "US geography: america",
-    "core anti-AI / protest-wire source"
-   ],
-   "published": "2026-08-10T11:40:00",
-   "first_seen": "2026-08-10T15:08:23.064034",
-   "last_seen": "2026-08-18T08:46:58.283939",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "url_is_direct": 1
-  },
-  {
    "fingerprint": "31f531b712bd89277f872a2245edcebe",
    "title": "Recent Campaign Achievements",
    "summary": "Recent Campaign Achievements Sponsored and passed SB 53, California\u2019s landmark AI safety law. Helped pass the RAISE Act, New York\u2019s landmark AI safety law. Launched Game Plan (planforai.org), a playbook for young people entering the AI economy. Led a historic coalition to strike down the proposed 10-year moratorium on U.S. states regulating AI. Passed the TAKE IT DOWN Act, the first federal law ag",
@@ -14778,7 +14886,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355326",
-   "last_seen": "2026-08-18T08:46:58.284702",
+   "last_seen": "2026-08-18T14:43:36.311088",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -14808,7 +14916,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355206",
-   "last_seen": "2026-08-18T08:46:58.284118",
+   "last_seen": "2026-08-18T14:43:36.310825",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -15040,7 +15148,7 @@
    ],
    "published": null,
    "first_seen": "2026-08-17T20:37:27.623728",
-   "last_seen": "2026-08-17T20:37:27.623728",
+   "last_seen": "2026-08-18T14:43:36.311210",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -15250,6 +15358,37 @@
    "url_is_direct": 1
   },
   {
+   "fingerprint": "feaf9d1a020c31bcfca5dd9256a9b8f0",
+   "title": "'Regain Your Humanity': First Person Jailed for Anti-AI Protest Says She's 'Sounding the Alarm' on AI CEOs - International Business Times UK",
+   "summary": "'Regain Your Humanity': First Person Jailed for Anti-AI Protest Says She's 'Sounding the Alarm' on AI CEOs &nbsp;&nbsp; International Business Times UK",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZmZaaXhTUUF4dWdFY1hGdzFTVGpnV0VWWmVacXk4OU13WUM5ejZFMkJWTl9MckFTQ0RqSjhMWXlibTNQUXI2RFZqN1kzdTZCcFhsX25JN0d0SVlCMjJlM2tOdHJBdU9zdUtMemZPekR1RktUYlFSeC0yc0Z6Z2dfdkFwY2ZvTHIxaWZLTnBB?oc=5",
+   "source": "Google News: \"anti-AI protest\"",
+   "source_type": "news_search",
+   "score": 64,
+   "status": "SIGNAL",
+   "region": "foreign",
+   "place": "uk",
+   "event_date": null,
+   "is_future": 0,
+   "temporality": "unknown",
+   "reasons": [
+    "high-signal phrase: ai protest, anti-ai protest",
+    "AI subject: ai",
+    "protest action: protest",
+    "anti-AI stance: anti-ai",
+    "AI and protest terms in close proximity",
+    "non-US location: uk",
+    "core anti-AI / protest-wire source"
+   ],
+   "published": "2026-08-18T13:03:51",
+   "first_seen": "2026-08-18T14:43:36.309955",
+   "last_seen": "2026-08-18T14:43:36.309955",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "url_is_direct": 1
+  },
+  {
    "fingerprint": "d49b87005ed83942997296cd9a6a9ca9",
    "title": "Protesters dressed as rogue AI agents target OpenAI in Bellevue with balloons and hot pink vests - GeekWire",
    "summary": "Protesters dressed as rogue AI agents target OpenAI in Bellevue with balloons and hot pink vests &nbsp;&nbsp; GeekWire",
@@ -15271,7 +15410,7 @@
    ],
    "published": "2026-08-17T15:10:59",
    "first_seen": "2026-08-17T20:37:27.622834",
-   "last_seen": "2026-08-18T08:46:58.283811",
+   "last_seen": "2026-08-18T14:43:36.310377",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -15299,7 +15438,7 @@
    ],
    "published": "2026-08-16T14:42:17",
    "first_seen": "2026-08-16T20:33:28.254546",
-   "last_seen": "2026-08-18T08:46:58.283825",
+   "last_seen": "2026-08-18T14:43:36.310388",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -15359,7 +15498,7 @@
    ],
    "published": "2026-08-12T19:43:25",
    "first_seen": "2026-08-12T20:55:42.573154",
-   "last_seen": "2026-08-18T08:46:58.283431",
+   "last_seen": "2026-08-18T14:43:36.310051",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -15599,7 +15738,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355343",
-   "last_seen": "2026-08-18T08:46:58.284738",
+   "last_seen": "2026-08-18T14:43:36.311199",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -15629,7 +15768,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355338",
-   "last_seen": "2026-08-18T08:46:58.284724",
+   "last_seen": "2026-08-18T14:43:36.311187",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -15662,7 +15801,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355238",
-   "last_seen": "2026-08-18T08:46:58.284231",
+   "last_seen": "2026-08-18T14:43:36.310926",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -15720,11 +15859,11 @@
     "anti-AI stance: anti-ai, against ai",
     "AI and protest terms in close proximity",
     "US geography: nationwide",
-    "stale (30d old) \u2014 already happened"
+    "stale (31d old) \u2014 already happened"
    ],
    "published": "2026-07-18T13:31:00",
    "first_seen": "2026-08-09T04:27:27.694848",
-   "last_seen": "2026-08-18T08:46:58.286111",
+   "last_seen": "2026-08-18T14:43:36.311631",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -15807,7 +15946,7 @@
    ],
    "published": "2026-08-12T15:07:59",
    "first_seen": "2026-08-14T04:19:44.170947",
-   "last_seen": "2026-08-17T20:37:27.623963",
+   "last_seen": "2026-08-18T14:43:36.311453",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -15896,7 +16035,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355219",
-   "last_seen": "2026-08-18T08:46:58.284168",
+   "last_seen": "2026-08-18T14:43:36.310869",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -15955,7 +16094,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T19:54:39.774795",
-   "last_seen": "2026-08-18T08:46:58.284690",
+   "last_seen": "2026-08-18T14:43:36.311176",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -15984,7 +16123,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T19:54:39.774782",
-   "last_seen": "2026-08-18T08:46:58.284678",
+   "last_seen": "2026-08-18T14:43:36.311164",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -16013,7 +16152,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T19:54:39.774736",
-   "last_seen": "2026-08-18T08:46:58.284656",
+   "last_seen": "2026-08-18T14:43:36.311144",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -16042,7 +16181,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T19:54:39.774711",
-   "last_seen": "2026-08-18T08:46:58.284632",
+   "last_seen": "2026-08-18T14:43:36.311132",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -16131,7 +16270,7 @@
    ],
    "published": "2026-08-17T09:54:54",
    "first_seen": "2026-08-17T14:38:26.482014",
-   "last_seen": "2026-08-18T08:46:58.283848",
+   "last_seen": "2026-08-18T14:43:36.310415",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -16159,7 +16298,7 @@
    ],
    "published": "2026-08-12T19:55:24",
    "first_seen": "2026-08-12T20:55:42.573687",
-   "last_seen": "2026-08-18T08:46:58.283879",
+   "last_seen": "2026-08-18T14:43:36.310457",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -16187,7 +16326,7 @@
    ],
    "published": "2026-08-11T18:28:50",
    "first_seen": "2026-08-11T20:53:50.292844",
-   "last_seen": "2026-08-18T08:46:58.283540",
+   "last_seen": "2026-08-18T14:43:36.310129",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -16215,7 +16354,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355300",
-   "last_seen": "2026-08-18T08:46:58.284519",
+   "last_seen": "2026-08-18T14:43:36.310689",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -16243,7 +16382,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355296",
-   "last_seen": "2026-08-18T08:46:58.284506",
+   "last_seen": "2026-08-18T14:43:36.310667",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -16671,7 +16810,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355243",
-   "last_seen": "2026-08-18T08:46:58.284246",
+   "last_seen": "2026-08-18T14:43:36.310938",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -16826,6 +16965,35 @@
    "url_is_direct": 1
   },
   {
+   "fingerprint": "a8a0b37766bf902355777dd8f6effd4f",
+   "title": "2026-08-ai-protest-07 - alaskalandmine.com",
+   "summary": "2026-08-ai-protest-07 &nbsp;&nbsp; alaskalandmine.com",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcHhzNVhsblZzbDVmMWtzRElpZ1E1dVRYNXdvNDBONzhrWFZWclRwd2U1NFVYVjAzRWRiaWo5V3JEMURaVENVUXE3UXdnLVVFZkNvREVWeHNmUXkwdk1BaVBoNEFPd1N5bHFGNkJLMGtWbjZMTGNmZGdPdTRkNWlaLTJva21leVlLWE1DZk5jNDdoWERRZ1ZwMllOYjBpOVN1SU9LTzZKWFdBa09XTmZQQWZuaW5mWGsybW5USkdyZTczLUtEMnBNeG9zSFFycy1XVG40?oc=5",
+   "source": "Google News: \"AI protest\"",
+   "source_type": "news_search",
+   "score": 53,
+   "status": "SIGNAL",
+   "region": "us",
+   "place": "alaska",
+   "event_date": null,
+   "is_future": 0,
+   "temporality": "unknown",
+   "reasons": [
+    "AI subject: ai",
+    "protest action: protest",
+    "AI and protest terms in close proximity",
+    "US geography: alaska",
+    "core anti-AI / protest-wire source"
+   ],
+   "published": "2026-08-15T00:07:49",
+   "first_seen": "2026-08-18T14:43:36.310197",
+   "last_seen": "2026-08-18T14:43:36.310197",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "url_is_direct": 1
+  },
+  {
    "fingerprint": "c916e7d876e5788d785873440ca8fdd3",
    "title": "Who is Wynd Kaufmyn, first person jailed for protesting AI?",
    "summary": "Wynd Kaufmyn, 69, made history as the first person jailed for protesting AI, urging tech giants OpenAI, Anthropic, and Meta to prioritize humanity over innovation.",
@@ -16846,7 +17014,7 @@
    ],
    "published": "2026-08-16T14:11:00",
    "first_seen": "2026-08-17T08:54:21.732288",
-   "last_seen": "2026-08-18T08:46:58.286050",
+   "last_seen": "2026-08-18T14:43:36.311686",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -16874,6 +17042,35 @@
    "published": "2026-08-16T11:53:34.687779",
    "first_seen": "2026-08-16T14:33:28.110765",
    "last_seen": "2026-08-16T14:33:28.110765",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "url_is_direct": 1
+  },
+  {
+   "fingerprint": "3b752e5fe20b40f8ea9aeb35dac8ac25",
+   "title": "Awkward moment nerdy demonstrators prance around AI offices in cringeworthy protest - New York Post",
+   "summary": "Awkward moment nerdy demonstrators prance around AI offices in cringeworthy protest &nbsp;&nbsp; New York Post",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSy1GOU1Sd19meElLRXIyOGM5NGNQdjJxUm5oSVVodzhUa0QzM2tDVzJPSS1rMGFxVlNTQ1NzR2hKUGFUSDRsZFJuYWxDM0E1a1hvS3lLWHRWNk1XaHBuSS1ROW01ZTdYYzdtUEdmMmdyaWpDLU1EOXVvbG5VUG9OTnJ6OE1SeXFCNVFfM2RrQkhGOHNLZnZrNkZR?oc=5",
+   "source": "Google News: \"protest\" \"OpenAI\" headquarters",
+   "source_type": "news_search",
+   "score": 53,
+   "status": "SIGNAL",
+   "region": "us",
+   "place": "new york",
+   "event_date": null,
+   "is_future": 0,
+   "temporality": "unknown",
+   "reasons": [
+    "AI subject: ai",
+    "protest action: protest",
+    "AI and protest terms in close proximity",
+    "US geography: new york",
+    "core anti-AI / protest-wire source"
+   ],
+   "published": "2026-08-16T01:49:00",
+   "first_seen": "2026-08-16T03:12:14.747795",
+   "last_seen": "2026-08-18T14:43:36.310321",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17337,7 +17534,7 @@
    ],
    "published": "2026-08-13T19:45:00",
    "first_seen": "2026-08-13T20:53:32.361014",
-   "last_seen": "2026-08-18T08:46:58.285931",
+   "last_seen": "2026-08-18T14:43:36.311474",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17366,7 +17563,7 @@
    ],
    "published": "2026-08-13T14:45:10",
    "first_seen": "2026-08-13T15:08:13.442486",
-   "last_seen": "2026-08-15T20:32:38.399249",
+   "last_seen": "2026-08-18T14:43:36.310569",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17395,7 +17592,7 @@
    ],
    "published": "2026-08-12T19:15:00",
    "first_seen": "2026-08-13T04:23:16.102814",
-   "last_seen": "2026-08-18T08:46:58.285945",
+   "last_seen": "2026-08-18T14:43:36.311486",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17543,7 +17740,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T19:54:39.771901",
-   "last_seen": "2026-08-18T08:46:58.284608",
+   "last_seen": "2026-08-18T14:43:36.311110",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17898,6 +18095,34 @@
    "url_is_direct": 1
   },
   {
+   "fingerprint": "9840c3e3e699e776141267b565209490",
+   "title": "First person jailed for protesting AI is woman aged 69 - albawaba.com",
+   "summary": "First person jailed for protesting AI is woman aged 69 &nbsp;&nbsp; albawaba.com",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbElhakttRUZLaHdab3dZUV9tamhnZE40UXgxaWRqVXY4ZV9jMUFvcTBvUzVtWmc2MExZdXFUaUhrcFVjRjZ5N2FaLUl4UDF2M21pNHMtSUhKVmJMZVNjSnYzLWpnWUstQXViMjRjcUFzdVkwcExTdUZVSFg1bWVTR0duSFJyTm5r?oc=5",
+   "source": "Google News: \"AI protest\"",
+   "source_type": "news_search",
+   "score": 50,
+   "status": "SIGNAL",
+   "region": "unknown",
+   "place": "",
+   "event_date": null,
+   "is_future": 0,
+   "temporality": "unknown",
+   "reasons": [
+    "AI subject: ai",
+    "protest action: protest, protesting",
+    "AI and protest terms in close proximity",
+    "core anti-AI / protest-wire source"
+   ],
+   "published": "2026-08-18T12:32:00",
+   "first_seen": "2026-08-18T14:43:36.310267",
+   "last_seen": "2026-08-18T14:43:36.310267",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "url_is_direct": 1
+  },
+  {
    "fingerprint": "53734268077b4c34dbaaf73b614c19a8",
    "title": "A 69-Year-Old Just Became the First Person Jailed for Protesting AI. No Regrets. - Gadget Review",
    "summary": "A 69-Year-Old Just Became the First Person Jailed for Protesting AI. No Regrets. &nbsp;&nbsp; Gadget Review",
@@ -17919,7 +18144,7 @@
    ],
    "published": "2026-08-17T18:26:47",
    "first_seen": "2026-08-17T20:37:27.622397",
-   "last_seen": "2026-08-18T08:46:58.283274",
+   "last_seen": "2026-08-18T14:43:36.309839",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17947,7 +18172,7 @@
    ],
    "published": "2026-08-17T18:26:47",
    "first_seen": "2026-08-17T20:37:27.621942",
-   "last_seen": "2026-08-18T08:46:58.283572",
+   "last_seen": "2026-08-18T14:43:36.310288",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17975,7 +18200,7 @@
    ],
    "published": "2026-08-17T05:41:00",
    "first_seen": "2026-08-17T08:54:21.728673",
-   "last_seen": "2026-08-18T08:46:58.283866",
+   "last_seen": "2026-08-18T14:43:36.310446",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -18322,6 +18547,36 @@
    "url_is_direct": 1
   },
   {
+   "fingerprint": "c833db69ea25bd49e0a0f0c4375f7825",
+   "title": "Over 70% of Americans oppose AI data centers; US protests intensify as more arrests are being made \u2014 almost 40 arrested this year in backlash to AI factory buildout - Tom's Hardware",
+   "summary": "Over 70% of Americans oppose AI data centers; US protests intensify as more arrests are being made \u2014 almost 40 arrested this year in backlash to AI factory buildout &nbsp;&nbsp; Tom's Hardware",
+   "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPYzNtTlJIR0JGbjZGN3RwR2QwRV9xbUJvMlB0YTFTWUV2eWdJV0FYZHlybS1fSE9nSDVwZ3o3b090WV82blVMUEkyRXU0c3hXSXdkczNsY3gtSEJWeDN0QXhIOUhpdzJKc1UwWm5xcFE1bURMQ1lOT1lKM0hqOFJVdlJlczlPMnVEX2RUSkk4Q19rdG9kTDk2YW50VWNDNGxGX2lyWHN2WEE1cm9sakpKZlgwd3F3S2MxTFBmamVrc2ZvVTVGUjhLTmxBRWQ5dnpjR0JqdjVJdlA5emp1dUZpcmJ0SUxwd0ZRcnpkSlo1b0pqUmplVXJQX1U5d18zUVZpbXlFS3NYcUp6OE9DZm15SlJjQUZzRmM0Q3lJcy1zeFNyZTlCYXpXZm9ISk1iRGJuZ1Y5Wi1mai1YaVh5bnRLZEJPX3huTnc?oc=5",
+   "source": "Google News: protest artificial intelligence rally",
+   "source_type": "news_search",
+   "score": 49,
+   "status": "SIGNAL",
+   "region": "us",
+   "place": "america",
+   "event_date": null,
+   "is_future": 0,
+   "temporality": "unknown",
+   "reasons": [
+    "AI subject: ai, data center",
+    "protest action: protest, protests",
+    "AI and protest terms in close proximity",
+    "US geography: america",
+    "core anti-AI / protest-wire source",
+    "stale (8d old) \u2014 already happened"
+   ],
+   "published": "2026-08-10T11:40:00",
+   "first_seen": "2026-08-10T15:08:23.064034",
+   "last_seen": "2026-08-18T14:43:36.310514",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "url_is_direct": 1
+  },
+  {
    "fingerprint": "92e862df3ba90187215ffe3fe4b9f980",
    "title": "\u2018People pay the bill:\u2019 Protesters object data centers during Trump\u2019s Michigan speech - MLive.com",
    "summary": "\u2018People pay the bill:\u2019 Protesters object data centers during Trump\u2019s Michigan speech &nbsp;&nbsp; MLive.com",
@@ -18642,7 +18897,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355210",
-   "last_seen": "2026-08-18T08:46:58.284141",
+   "last_seen": "2026-08-18T14:43:36.310846",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -19031,11 +19286,11 @@
     "anti-AI stance: against ai",
     "AI and protest terms in close proximity",
     "US geography: america",
-    "stale (13d old) \u2014 already happened"
+    "stale (14d old) \u2014 already happened"
    ],
    "published": "2026-08-04T13:30:00",
    "first_seen": "2026-08-09T04:27:27.694971",
-   "last_seen": "2026-08-18T08:46:58.286064",
+   "last_seen": "2026-08-18T14:43:36.311704",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -19301,7 +19556,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355223",
-   "last_seen": "2026-08-18T08:46:58.284182",
+   "last_seen": "2026-08-18T14:43:36.310882",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -20163,7 +20418,7 @@
    ],
    "published": "2026-08-07T14:32:26",
    "first_seen": "2026-08-09T04:27:27.692134",
-   "last_seen": "2026-08-18T08:46:58.283972",
+   "last_seen": "2026-08-18T14:43:36.310547",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -20222,7 +20477,7 @@
    ],
    "published": "2026-07-22T03:01:00",
    "first_seen": "2026-07-29T19:39:45.064938",
-   "last_seen": "2026-08-18T08:46:58.286027",
+   "last_seen": "2026-08-18T14:43:36.311665",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -20428,7 +20683,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355232",
-   "last_seen": "2026-08-18T08:46:58.284208",
+   "last_seen": "2026-08-18T14:43:36.310904",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -20457,7 +20712,7 @@
    ],
    "published": "2026-07-26T03:01:00",
    "first_seen": "2026-08-17T03:10:20.038553",
-   "last_seen": "2026-08-18T08:46:58.286215",
+   "last_seen": "2026-08-18T14:43:36.311791",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -20597,7 +20852,7 @@
    ],
    "published": "2026-08-09T23:18:35",
    "first_seen": "2026-08-10T09:32:40.401360",
-   "last_seen": "2026-08-18T03:05:39.789325",
+   "last_seen": "2026-08-18T14:43:36.311780",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -21151,7 +21406,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355201",
-   "last_seen": "2026-08-18T08:46:58.284104",
+   "last_seen": "2026-08-18T14:43:36.310813",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -21205,157 +21460,11 @@
     "protest action: protest, protests, speak out",
     "anti-AI stance: against ai",
     "AI and protest terms in close proximity",
-    "stale (33d old) \u2014 already happened"
+    "stale (34d old) \u2014 already happened"
    ],
    "published": "2026-07-15T08:01:00",
    "first_seen": "2026-08-09T04:27:27.695053",
-   "last_seen": "2026-08-18T08:46:58.286168",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "url_is_direct": 1
-  },
-  {
-   "fingerprint": "48fc8c4d3ad4b12dc2e270e65313be4d",
-   "title": "Maryland data center opponents rally in Frederick County over expansion plan",
-   "summary": "The event was part of a nationwide day of protests over data center development held on July 18.",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a73901a67224ffb981f225c20baff70&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fmarkets%2fmaryland-data-center-opponents-rally-in-frederick-county-over-expansion-plan%2far-AA28pJ4N&c=7477988805235287747&mkt=en-us",
-   "source": "Bing News: protest artificial intelligence rally",
-   "source_type": "news_search",
-   "score": 42,
-   "status": "SIGNAL",
-   "region": "us",
-   "place": "nationwide",
-   "event_date": "2026-07-18",
-   "is_future": 0,
-   "temporality": "unknown",
-   "reasons": [
-    "AI subject: data center",
-    "protest action: protest, protests, rally",
-    "AI and protest terms in close proximity",
-    "US geography: nationwide",
-    "stale (18d old) \u2014 already happened"
-   ],
-   "published": "2026-07-21T21:48:00",
-   "first_seen": "2026-08-05T19:33:59.093117",
-   "last_seen": "2026-08-05T19:33:59.093117",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "url_is_direct": 1
-  },
-  {
-   "fingerprint": "6289b729ec5df965b8b115972bb18b41",
-   "title": "Anger Over Data Centers Ramps Up With Nationwide Protests Across the US - PCMag",
-   "summary": "Anger Over Data Centers Ramps Up With Nationwide Protests Across the US &nbsp;&nbsp; PCMag",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOVhwYThOeVpYdnRLLU1PaE4wcFBvRkZ1bWM1OVFBOGZwR19HUExjQkpzZ25ueFBGR3VBVkFDT3dEdkJ2UGhVZ0FabkdhZ0FxSVlkRWhQUXV6bnIwdEFLT1M4RnREcW52ZmZaVzZVLUExNFBhZERjXzk0LVR0MjBDWHlIOGMwNVRvYmI4VUk1bHg3QjZoOGVwYTUtUS1fVUNFUWwxN3JR?oc=5",
-   "source": "Google News: protest \"data center\" AI California",
-   "source_type": "news_search",
-   "score": 42,
-   "status": "SIGNAL",
-   "region": "us",
-   "place": "nationwide",
-   "event_date": null,
-   "is_future": 0,
-   "temporality": "unknown",
-   "reasons": [
-    "AI subject: data center",
-    "protest action: protest, protests",
-    "AI and protest terms in close proximity",
-    "US geography: nationwide",
-    "core anti-AI / protest-wire source",
-    "stale (12d old) \u2014 already happened"
-   ],
-   "published": "2026-07-23T07:00:00",
-   "first_seen": "2026-08-03T03:47:37.590087",
-   "last_seen": "2026-08-05T05:48:26.770987",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "url_is_direct": 1
-  },
-  {
-   "fingerprint": "a1d3ba950f8ab96613e0ca4d2a114a6a",
-   "title": "OpenAI faces body bag protest outside headquarters amid growing anti-AI movement",
-   "summary": "AI companies are tightening security as protests and public criticism intensify over their military ties, with recent demonstrations outside OpenAI highlighting growing backlash.",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a6a56f444154d30be3b338bcfd07722&url=https%3a%2f%2fwww.msn.com%2fen-in%2fhealth%2fnutrition%2fopenai-faces-body-bag-protest-outside-headquarters-amid-growing-anti-ai-movement%2far-AA287mmh&c=11555383255979189405&mkt=en-us",
-   "source": "Bing News: \"protest\" \"OpenAI\" headquarters",
-   "source_type": "news_search",
-   "score": 42,
-   "status": "SIGNAL",
-   "region": "unknown",
-   "place": "",
-   "event_date": null,
-   "is_future": 0,
-   "temporality": "unknown",
-   "reasons": [
-    "AI subject: ai, openai",
-    "protest action: protest, protests, demonstration",
-    "anti-AI stance: anti-ai",
-    "AI and protest terms in close proximity",
-    "stale (28d old) \u2014 already happened"
-   ],
-   "published": "2026-07-17T01:11:00",
-   "first_seen": "2026-07-29T19:39:45.064917",
-   "last_seen": "2026-08-14T20:40:22.642223",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "url_is_direct": 1
-  },
-  {
-   "fingerprint": "df96e6288dbe7addd79c994011050db7",
-   "title": "March and March outlines three-month action plan after June 30 protests https://www.europesays.com/africa/321943/ Story audio is generated using AI The March and March movement says it will intensify ",
-   "summary": "March and March outlines three-month action plan after June 30 protests https://www.europesays.com/africa/321943/ Story audio is generated using AI The March and March movement says it will intensify its campaign against\u2026",
-   "url": "https://bsky.app/profile/europe-africa.bsky.social/post/3mq53262c3q2j",
-   "source": "Bluesky: march against AI",
-   "source_type": "bluesky",
-   "score": 42,
-   "status": "SIGNAL",
-   "region": "unknown",
-   "place": "",
-   "event_date": "2026-06-30",
-   "is_future": 0,
-   "temporality": "upcoming",
-   "reasons": [
-    "AI subject: ai",
-    "protest action: protest, protests, march",
-    "AI and protest terms in close proximity",
-    "forward-looking language (protest has not happened yet)",
-    "stale (41d old) \u2014 already happened"
-   ],
-   "published": "2026-07-08T12:00:09",
-   "first_seen": "2026-07-29T19:39:45.064888",
-   "last_seen": "2026-08-10T15:08:23.066801",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "url_is_direct": 1
-  },
-  {
-   "fingerprint": "b231a1dab8e2e080c936b523f94bc17d",
-   "title": "Anti-AI data center protesters rally across the US (Business Insider)",
-   "summary": "Anti-AI data center protesters rally across the US (Business Insider)",
-   "url": "https://bsky.app/profile/deeprun-news.bsky.social/post/3mqxajutit32n",
-   "source": "Bluesky: rally against AI",
-   "source_type": "bluesky",
-   "score": 42,
-   "status": "SIGNAL",
-   "region": "unknown",
-   "place": "",
-   "event_date": null,
-   "is_future": 0,
-   "temporality": "unknown",
-   "reasons": [
-    "AI subject: ai, data center",
-    "protest action: protest, protester, protesters, rally",
-    "anti-AI stance: anti-ai",
-    "AI and protest terms in close proximity",
-    "stale (21d old) \u2014 already happened"
-   ],
-   "published": "2026-07-18T21:47:46",
-   "first_seen": "2026-07-29T19:39:45.064857",
-   "last_seen": "2026-08-09T14:44:49.516883",
+   "last_seen": "2026-08-18T14:43:36.311769",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -21363,16 +21472,15 @@
   }
  ],
  "new_this_run": [
-  "333998d614fcde104a63cb5472c0aa25",
-  "ec9c55852b539c339af3a73f706a3692",
-  "37b06fb9d80523b9beb657b388d2d3c2",
-  "319597b60d0d44dba79518cf1dff42de",
-  "b1d1538a0e194d45fd79d1112b4c93ab"
+  "feaf9d1a020c31bcfca5dd9256a9b8f0",
+  "a8a0b37766bf902355777dd8f6effd4f",
+  "9840c3e3e699e776141267b565209490",
+  "e74987a079af3fd2e2ac79d5ec8a6299"
  ],
  "runs": [
   {
-   "id": 51,
-   "started_at": "2026-08-18T08:37:40.050798",
+   "id": 52,
+   "started_at": "2026-08-18T14:33:54.348206",
    "finished_at": null,
    "collected": null,
    "scored": null,
@@ -21380,6 +21488,27 @@
    "confirmed": null,
    "alerts_sent": null,
    "stats": {},
+   "error": null
+  },
+  {
+   "id": 51,
+   "started_at": "2026-08-18T08:37:40.050798",
+   "finished_at": "2026-08-18T08:46:58.363465",
+   "collected": 2569,
+   "scored": 2270,
+   "new_signals": 5,
+   "confirmed": 0,
+   "alerts_sent": 0,
+   "stats": {
+    "google_news": 262,
+    "rss": 387,
+    "sites": 1497,
+    "reddit": 220,
+    "bluesky": 80,
+    "gdelt": 60,
+    "bing_news": 59,
+    "mobilize": 4
+   },
    "error": null
   },
   {
@@ -21756,27 +21885,6 @@
     "bluesky": 400,
     "gdelt": 66,
     "bing_news": 49,
-    "mobilize": 4
-   },
-   "error": null
-  },
-  {
-   "id": 32,
-   "started_at": "2026-08-13T14:58:18.821105",
-   "finished_at": "2026-08-13T15:08:13.571417",
-   "collected": 2626,
-   "scored": 2343,
-   "new_signals": 13,
-   "confirmed": 0,
-   "alerts_sent": 0,
-   "stats": {
-    "google_news": 227,
-    "rss": 389,
-    "sites": 1332,
-    "reddit": 220,
-    "bluesky": 400,
-    "gdelt": 3,
-    "bing_news": 51,
     "mobilize": 4
    },
    "error": null
