@@ -1,14 +1,12 @@
 {
- "generated_at": "2026-10-09T00:19:36.400366Z",
- "verdict": 1,
- "verdict_label": "NEWS FOUND",
- "verdict_events": [
-  "From killer-robot protests to tech talks for seniors, S.F. Bay Area residents wrestle with AI - Los Angeles Times"
- ],
+ "generated_at": "2026-10-09T08:43:27.071407Z",
+ "verdict": 0,
+ "verdict_label": "NO NEWS",
+ "verdict_events": [],
  "site_url": "https://web-beige-iota-38.vercel.app",
  "alert_phone": "+14159335114",
  "alert_backend": "ntfy",
- "messages_today": 5,
+ "messages_today": 0,
  "messages_per_day_cap": 5,
  "thresholds": {
   "confirm": 70,
@@ -20,21 +18,21 @@
   "confirmed": 12,
   "reported": 188,
   "signals": 0,
-  "new_24h": 3,
-  "upcoming_events": 64,
+  "new_24h": 4,
+  "upcoming_events": 65,
   "sf_bay": 98,
   "la": 5,
-  "alerts_sent_this_run": 5,
-  "sources_polled": 2963
+  "alerts_sent_this_run": 0,
+  "sources_polled": 2785
  },
  "collector_stats": {
-  "google_news": 269,
+  "google_news": 263,
   "rss": 359,
-  "sites": 1598,
-  "reddit": 232,
-  "bluesky": 393,
-  "gdelt": 60,
-  "bing_news": 48,
+  "sites": 1493,
+  "reddit": 220,
+  "bluesky": 394,
+  "gdelt": 5,
+  "bing_news": 47,
   "mobilize": 4
  },
  "events": [
@@ -2349,90 +2347,6 @@
    "url_is_direct": 1
   },
   {
-   "event_key": "sf_bay|undated|openai|['12th', '2024', '71lqgmni', 'activists']",
-   "title": "Activists protest outside OpenAI conference in San Francisco youtu.be/71LqGMni_Xo?...",
-   "url": "https://bsky.app/profile/howardbreen.bsky.social/post/3mx5pry7cbk2f",
-   "score": 100,
-   "status": "REPORTED",
-   "region": "sf_bay",
-   "place": "san francisco",
-   "target": "openai",
-   "event_date": null,
-   "temporality": "upcoming",
-   "source_count": 14,
-   "sources": [
-    "Bing News: \"AI protest\" San Francisco",
-    "Bing News: \"protest\" \"OpenAI\" headquarters",
-    "Bluesky: AI protest San Francisco",
-    "Bluesky: protest OpenAI",
-    "Google News: protest artificial intelligence rally",
-    "PauseAI \u2014 Blog"
-   ],
-   "reasons": [
-    "high-signal phrase: protest outside openai",
-    "AI subject: openai",
-    "protest action: protest",
-    "AI and protest terms in close proximity",
-    "priority geography: san francisco"
-   ],
-   "first_seen": "2026-10-06T19:29:21.915719",
-   "last_seen": "2026-10-09T00:19:23.149676",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "links": [
-    {
-     "url": "https://bsky.app/profile/howardbreen.bsky.social/post/3mx5pry7cbk2f",
-     "source": "Bluesky: protest OpenAI",
-     "title": "Activists protest outside OpenAI conference in San Francisco youtu.be/71LqGMni_Xo?...",
-     "direct": true
-    },
-    {
-     "url": "https://bsky.app/profile/rankednews.bsky.social/post/3mtafoq6lgi2y",
-     "source": "Bluesky: AI protest San Francisco",
-     "title": "The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: \u2018Regain your humanity\u2019: Wynd Kauf",
-     "direct": true
-    },
-    {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac832fdc10d4ec0b6f270bff234852c&url=https%3a%2f%2fapnews.com%2fvideo%2factivists-protest-outside-openai-conference-in-san-francisco-7a1ccd0c12c84cf6b569a4642e3e04fc&c=17690909713045430090&mkt=en-us",
-     "source": "Bing News: \"AI protest\" San Francisco",
-     "title": "Activists protest outside OpenAI conference in San Francisco",
-     "direct": true
-    },
-    {
-     "url": "https://bsky.app/profile/toppnews.bsky.social/post/3mwuquhspyq2u",
-     "source": "Bluesky: protest OpenAI",
-     "title": "#agent #agents #AI #artificial intelligence #California #ChatGPT #intelligence #Meta #Muse #OpenAI #protest #protesters ",
-     "direct": true
-    },
-    {
-     "url": "https://pauseai.info/2024-february",
-     "source": "PauseAI \u2014 Blog",
-     "title": "PauseAI / No AGI Protest @ OpenAI San Francisco - February 12th, 2024",
-     "direct": true
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdUZ1Sl9mcHc3bDlvWXF0M3Zsblg5bXpQY214VE0xUDJCamE2R2FZeGdDOTU5T1JtMl8yUmxsMUdjVWUyVjNIN1k4UXczTGdIVGFEdGRJbUxoOE55bmRzc2pkNkhha2RYLUpYdGVFb2hSVmNSNHBhMWxrWDg0dXdiU1VQcDl0Mkd3UFZLTzNWaUVWcGRNN3c?oc=5",
-     "source": "Google News: protest artificial intelligence rally",
-     "title": "Protesters gather outside OpenAI DevDay conference in San Francisco - The Voice of San Francisco",
-     "direct": true
-    },
-    {
-     "url": "https://bsky.app/profile/toppnews.bsky.social/post/3mvrp7u3z3x23",
-     "source": "Bluesky: protest OpenAI",
-     "title": "#AI #AI safety #Anthropic #OpenAI #protest #protesters #San Francisco #target \ud83c\udf10 www.newsmart.ch",
-     "direct": true
-    },
-    {
-     "url": "https://bsky.app/profile/toppnews.bsky.social/post/3mx2xsot3jj2s",
-     "source": "Bluesky: protest OpenAI",
-     "title": "#agent #agents #AI #artificial intelligence #California #intelligence #Machin #Meta #Muse #OpenAI #past #protest #Sam Al",
-     "direct": true
-    }
-   ],
-   "url_is_direct": 1
-  },
-  {
    "event_key": "unknown|undated|openai|[\"'regain\", '2025', '2026', '2030']",
    "title": "Jailed for protesting against AI The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: \u2018Regain your humanity\u2019 www.theguardian.com/us-news/2026... #ai #dl #ml #risk #pr",
    "url": "https://bsky.app/profile/opusminus.bsky.social/post/3mtgv2po5tc2t",
@@ -2600,6 +2514,90 @@
      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2da19c3fb48a086d0a7706d5dbdaf&url=https%3a%2f%2fwww.nbcbayarea.com%2fnews%2flocal%2fopenai-developer-conference-protests-san-francisco%2f4150350%2f&c=6544700238565790466&mkt=en-us",
      "source": "Bing News: \"AI protest\" San Francisco",
      "title": "OpenAI developer conference draws protests as company unveils new AI agents",
+     "direct": true
+    }
+   ],
+   "url_is_direct": 1
+  },
+  {
+   "event_key": "sf_bay|undated|openai|['12th', '2024', '71lqgmni', 'activists']",
+   "title": "Activists protest outside OpenAI conference in San Francisco youtu.be/71LqGMni_Xo?...",
+   "url": "https://bsky.app/profile/howardbreen.bsky.social/post/3mx5pry7cbk2f",
+   "score": 100,
+   "status": "REPORTED",
+   "region": "sf_bay",
+   "place": "san francisco",
+   "target": "openai",
+   "event_date": null,
+   "temporality": "upcoming",
+   "source_count": 13,
+   "sources": [
+    "Bing News: \"AI protest\" San Francisco",
+    "Bing News: \"protest\" \"OpenAI\" headquarters",
+    "Bluesky: AI protest San Francisco",
+    "Bluesky: protest OpenAI",
+    "Google News: protest artificial intelligence rally",
+    "PauseAI \u2014 Blog"
+   ],
+   "reasons": [
+    "high-signal phrase: protest outside openai",
+    "AI subject: openai",
+    "protest action: protest",
+    "AI and protest terms in close proximity",
+    "priority geography: san francisco"
+   ],
+   "first_seen": "2026-10-06T19:29:21.915719",
+   "last_seen": "2026-10-09T08:43:27.040385",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "links": [
+    {
+     "url": "https://bsky.app/profile/howardbreen.bsky.social/post/3mx5pry7cbk2f",
+     "source": "Bluesky: protest OpenAI",
+     "title": "Activists protest outside OpenAI conference in San Francisco youtu.be/71LqGMni_Xo?...",
+     "direct": true
+    },
+    {
+     "url": "https://bsky.app/profile/rankednews.bsky.social/post/3mtafoq6lgi2y",
+     "source": "Bluesky: AI protest San Francisco",
+     "title": "The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: \u2018Regain your humanity\u2019: Wynd Kauf",
+     "direct": true
+    },
+    {
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8a923de894436a60ea175fd9fd68e&url=https%3a%2f%2fapnews.com%2fvideo%2factivists-protest-outside-openai-conference-in-san-francisco-7a1ccd0c12c84cf6b569a4642e3e04fc&c=17690909713045430090&mkt=en-us",
+     "source": "Bing News: \"AI protest\" San Francisco",
+     "title": "Activists protest outside OpenAI conference in San Francisco",
+     "direct": true
+    },
+    {
+     "url": "https://bsky.app/profile/toppnews.bsky.social/post/3mwuquhspyq2u",
+     "source": "Bluesky: protest OpenAI",
+     "title": "#agent #agents #AI #artificial intelligence #California #ChatGPT #intelligence #Meta #Muse #OpenAI #protest #protesters ",
+     "direct": true
+    },
+    {
+     "url": "https://pauseai.info/2024-february",
+     "source": "PauseAI \u2014 Blog",
+     "title": "PauseAI / No AGI Protest @ OpenAI San Francisco - February 12th, 2024",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdUZ1Sl9mcHc3bDlvWXF0M3Zsblg5bXpQY214VE0xUDJCamE2R2FZeGdDOTU5T1JtMl8yUmxsMUdjVWUyVjNIN1k4UXczTGdIVGFEdGRJbUxoOE55bmRzc2pkNkhha2RYLUpYdGVFb2hSVmNSNHBhMWxrWDg0dXdiU1VQcDl0Mkd3UFZLTzNWaUVWcGRNN3c?oc=5",
+     "source": "Google News: protest artificial intelligence rally",
+     "title": "Protesters gather outside OpenAI DevDay conference in San Francisco - The Voice of San Francisco",
+     "direct": true
+    },
+    {
+     "url": "https://bsky.app/profile/toppnews.bsky.social/post/3mvrp7u3z3x23",
+     "source": "Bluesky: protest OpenAI",
+     "title": "#AI #AI safety #Anthropic #OpenAI #protest #protesters #San Francisco #target \ud83c\udf10 www.newsmart.ch",
+     "direct": true
+    },
+    {
+     "url": "https://bsky.app/profile/toppnews.bsky.social/post/3mx2xsot3jj2s",
+     "source": "Bluesky: protest OpenAI",
+     "title": "#agent #agents #AI #artificial intelligence #California #intelligence #Machin #Meta #Muse #OpenAI #past #protest #Sam Al",
      "direct": true
     }
    ],
@@ -3648,10 +3646,9 @@
    "temporality": "unknown",
    "source_count": 9,
    "sources": [
-    "Bing News: \"anti-AI protest\"",
+    "Bing News: \"protest against AI\"",
     "Bluesky: anti-AI protest",
     "Google News: \"AI protest\"",
-    "Google News: \"anti-AI protest\"",
     "Google News: \"protest against AI\""
    ],
    "reasons": [
@@ -3662,7 +3659,7 @@
     "AI and protest terms in close proximity"
    ],
    "first_seen": "2026-10-06T19:29:21.916036",
-   "last_seen": "2026-10-09T00:19:23.149879",
+   "last_seen": "2026-10-09T08:43:27.040586",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -3687,7 +3684,7 @@
     },
     {
      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTExYbUFSdVZtb3VYcDFQMloyYm1xUURlX0Z6YlJiNTRkb2FHb3NDQnZDdzJ4eEhYYjczdURjUHhDeWlnNVc1d3NWRjhOcl85Q045SDFtY2NSQU5fZVVnV0xLM2pXMlJGRWR3QTY1N21EWnNkeW40NDIwWEc3N1FfOThwWEctLUpaQ05KQlBfeTlyWEdOclE?oc=5",
-     "source": "Google News: \"anti-AI protest\"",
+     "source": "Google News: \"protest against AI\"",
      "title": "\u2018Pull the plug\u2019: protesters resort to direct action against AI firms - inkl",
      "direct": true
     },
@@ -3704,8 +3701,8 @@
      "direct": true
     },
     {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac832fd5acd4332b9a03e48c4e6e3a5&url=https%3a%2f%2fwww.theguardian.com%2ftechnology%2f2026%2foct%2f06%2fpull-the-plug-protesters-resort-to-direct-action-against-ai-firms&c=5457866490407081196&mkt=en-us",
-     "source": "Bing News: \"anti-AI protest\"",
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8a923e01346808ee35947b1b503df&url=https%3a%2f%2fwww.theguardian.com%2ftechnology%2f2026%2foct%2f06%2fpull-the-plug-protesters-resort-to-direct-action-against-ai-firms&c=5457866490407081196&mkt=en-us",
+     "source": "Bing News: \"protest against AI\"",
      "title": "\u2018Pull the plug\u2019: protesters resort to direct action against AI firms",
      "direct": true
     },
@@ -4746,7 +4743,7 @@
    "sources": [
     "Bluesky: AI protest San Francisco",
     "Bluesky: anti-AI protest",
-    "Google News: \"protest\" \"Anthropic\" office"
+    "Google News: \"protest\" \"OpenAI\" headquarters"
    ],
    "reasons": [
     "high-signal phrase: protest ai, protest ai data center",
@@ -4757,14 +4754,14 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-10-06T19:29:21.916093",
-   "last_seen": "2026-10-09T00:19:23.149941",
+   "last_seen": "2026-10-09T08:43:27.040649",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
    "links": [
     {
      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQl9jby1sbF9XMjN5SUR1cFdTYmFZd3dNNEE3dEY4bjV0V0dwZjhMWUpOTjFxTXN0aC05V3hWNGZKNDc2dmd6b1VOMGZVNHpzUUU5STlEdDZ1RVRzM1pwTElzbHUxb016VXlydUNCMWJnWFY4QTlzWi05MTlNbTQzM3hqeHE4Sm1RUEI5eDFqcUY0ZTRKVzVNX0d1NE9vNEJialA0Z2pfSElYWjlpbFAwYXNUVG5MV00?oc=5",
-     "source": "Google News: \"protest\" \"Anthropic\" office",
+     "source": "Google News: \"protest\" \"OpenAI\" headquarters",
      "title": "MAGA activists protest AI data centers at Big Tech headquarters in San Francisco - NBC News",
      "direct": true
     },
@@ -5262,7 +5259,7 @@
     "stale (6d old) \u2014 already happened"
    ],
    "first_seen": "2026-09-23T07:37:16.295523",
-   "last_seen": "2026-10-09T00:19:23.150021",
+   "last_seen": "2026-10-09T08:43:27.040729",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -5314,7 +5311,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-10-02T23:44:35.797390",
-   "last_seen": "2026-10-09T00:19:23.149984",
+   "last_seen": "2026-10-09T08:43:27.040692",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -5930,7 +5927,7 @@
   {
    "event_key": "sf_bay|undated|general|['about', 'activists', \"ai's\", 'alarm']",
    "title": "Silicon Valley Backlash Grows as Workers Protest AI Threat to Jobs",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac832fd5acd4332b9a03e48c4e6e3a5&url=https%3a%2f%2fwww.msn.com%2fen-xl%2fnews%2fother%2fsilicon-valley-anti-ai-movement-grows-pressuring-big-tech%2far-AA2dyCve&c=17240757330100442830&mkt=en-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8a92367104534b8de5f96e7b4ed05&url=https%3a%2f%2fwww.chosun.com%2fenglish%2findustry-en%2f2026%2f10%2f05%2fPMAGZXYT3FEDNLFGHPBSGSKMQI%2f&c=965892807317244513&mkt=en-us",
    "score": 100,
    "status": "REPORTED",
    "region": "sf_bay",
@@ -5952,15 +5949,15 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-07-29T19:39:45.067665",
-   "last_seen": "2026-10-09T00:19:23.150090",
+   "last_seen": "2026-10-09T08:43:27.040797",
    "alerted": 1,
    "alerted_at": "2026-09-21T23:13:12.170471",
    "event_time": null,
    "links": [
     {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac832fd5acd4332b9a03e48c4e6e3a5&url=https%3a%2f%2fwww.msn.com%2fen-xl%2fnews%2fother%2fsilicon-valley-anti-ai-movement-grows-pressuring-big-tech%2far-AA2dyCve&c=17240757330100442830&mkt=en-us",
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8a92367104534b8de5f96e7b4ed05&url=https%3a%2f%2fwww.chosun.com%2fenglish%2findustry-en%2f2026%2f10%2f05%2fPMAGZXYT3FEDNLFGHPBSGSKMQI%2f&c=965892807317244513&mkt=en-us",
      "source": "Bing News: \"anti-AI protest\"",
-     "title": "Silicon Valley anti-AI movement grows, pressuring big tech",
+     "title": "Silicon Valley Anti-AI Movement Grows, Pressuring Big Tech",
      "direct": true
     },
     {
@@ -6670,7 +6667,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-10-08T19:51:52.950966",
-   "last_seen": "2026-10-09T00:19:23.150056",
+   "last_seen": "2026-10-09T08:43:27.040763",
    "alerted": 1,
    "alerted_at": "2026-10-09T00:19:36.387777",
    "event_time": null,
@@ -7875,7 +7872,7 @@
     "stale (6d old) \u2014 already happened"
    ],
    "first_seen": "2026-09-23T07:37:16.295890",
-   "last_seen": "2026-10-09T00:19:23.150153",
+   "last_seen": "2026-10-09T08:43:27.040868",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -7952,7 +7949,7 @@
     "retrospective coverage (protest already happened)"
    ],
    "first_seen": "2026-09-25T13:27:42.593722",
-   "last_seen": "2026-10-09T00:19:23.150123",
+   "last_seen": "2026-10-09T08:43:27.040838",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -8221,7 +8218,7 @@
     "priority geography: san francisco"
    ],
    "first_seen": "2026-10-06T08:49:28.516907",
-   "last_seen": "2026-10-09T00:19:23.150253",
+   "last_seen": "2026-10-09T08:43:27.040945",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -8387,6 +8384,45 @@
      "url": "https://www.berkeleyside.org/2026/10/01/the-wire-first-anti-ai-protester-to-end-up-in-jail-is-a-berkeley-resident",
      "source": "Berkeleyside",
      "title": "The Wire: First anti-AI protester to end up in jail is a Berkeley resident",
+     "direct": true
+    }
+   ],
+   "url_is_direct": 1
+  },
+  {
+   "event_key": "unknown|d:2026-10-16|general|['friend', 'grimes', 'show', 'update']",
+   "title": "Grimes (friend of the show) update!",
+   "url": "https://www.reddit.com/r/Hasan_Piker/comments/1x1fjcl/grimes_friend_of_the_show_update/",
+   "score": 100,
+   "status": "REPORTED",
+   "region": "unknown",
+   "place": "",
+   "target": "general",
+   "event_date": "2026-10-16",
+   "temporality": "upcoming",
+   "source_count": 1,
+   "sources": [
+    "Reddit search: AI protest san francisco"
+   ],
+   "reasons": [
+    "high-signal phrase: protest against ai",
+    "AI subject: ai",
+    "protest action: protest",
+    "anti-AI stance: against ai",
+    "AI and protest terms in close proximity",
+    "upcoming date detected: 2026-10-16",
+    "forward-looking language (protest has not happened yet)"
+   ],
+   "first_seen": "2026-10-09T08:43:27.040886",
+   "last_seen": "2026-10-09T08:43:27.040886",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "links": [
+    {
+     "url": "https://www.reddit.com/r/Hasan_Piker/comments/1x1fjcl/grimes_friend_of_the_show_update/",
+     "source": "Reddit search: AI protest san francisco",
+     "title": "Grimes (friend of the show) update!",
      "direct": true
     }
    ],
@@ -9019,7 +9055,7 @@
    "temporality": "unknown",
    "source_count": 8,
    "sources": [
-    "Bing News: \"AI protest\" San Francisco",
+    "Bing News: \"AI protest\"",
     "Bluesky: AI protest San Francisco",
     "Bluesky: protest OpenAI",
     "Bluesky: rally against AI",
@@ -9034,7 +9070,7 @@
     "concrete logistics (address / meet-up time)"
    ],
    "first_seen": "2026-09-29T23:39:05.086807",
-   "last_seen": "2026-10-09T00:19:23.150285",
+   "last_seen": "2026-10-09T08:43:27.040976",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -9058,8 +9094,8 @@
      "direct": true
     },
     {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac832fdc10d4ec0b6f270bff234852c&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftechnology%2fartificial-intelligence%2fpeople-over-ai-dozens-protest-outside-openai-s-devday-conference%2far-AA2dgCUv&c=12291505449882525080&mkt=en-us",
-     "source": "Bing News: \"AI protest\" San Francisco",
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8a92347d74990bf2f5bcb52436d54&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftechnology%2fartificial-intelligence%2fpeople-over-ai-dozens-protest-outside-openai-s-devday-conference%2far-AA2dgCUv&c=12291505449882525080&mkt=en-us",
+     "source": "Bing News: \"AI protest\"",
      "title": "'People over AI:' Dozens protest outside OpenAI's DevDay conference",
      "direct": true
     },
@@ -9465,7 +9501,7 @@
     "stale (15d old) \u2014 already happened"
    ],
    "first_seen": "2026-10-03T17:59:00.491958",
-   "last_seen": "2026-10-09T00:19:23.150327",
+   "last_seen": "2026-10-09T08:43:27.041018",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -9477,7 +9513,7 @@
      "direct": true
     },
     {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac832fd5acd4332b9a03e48c4e6e3a5&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fai-protesters-rally-outside-dreamforce-conference-in-san-francisco-as-tech-bosses-shrug-off-fears%2far-AA2cskRp&c=67623679345749912&mkt=en-us",
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8a92367104534b8de5f96e7b4ed05&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fai-protesters-rally-outside-dreamforce-conference-in-san-francisco-as-tech-bosses-shrug-off-fears%2far-AA2cskRp&c=67623679345749912&mkt=en-us",
      "source": "Bing News: \"anti-AI protest\"",
      "title": "AI protesters rally outside Dreamforce conference in San Francisco as tech bosses shrug off fears",
      "direct": true
@@ -10253,7 +10289,7 @@
     "stale (14d old) \u2014 already happened"
    ],
    "first_seen": "2026-07-29T06:33:32.359102",
-   "last_seen": "2026-10-09T00:19:23.150356",
+   "last_seen": "2026-10-09T08:43:27.041048",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": null,
@@ -11204,7 +11240,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-10-04T18:09:44.239417",
-   "last_seen": "2026-10-09T00:19:23.150385",
+   "last_seen": "2026-10-09T08:43:27.041077",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -11269,7 +11305,7 @@
     "core anti-AI / protest-wire source"
    ],
    "first_seen": "2026-10-06T23:46:25.476476",
-   "last_seen": "2026-10-09T00:19:23.150421",
+   "last_seen": "2026-10-09T08:43:27.041142",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -11281,7 +11317,7 @@
      "direct": true
     },
     {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac832fd07a14f79a9625d080cfe1f62&url=https%3a%2f%2fwww.thehindu.com%2fnews%2fnational%2fandhra-pradesh%2fgreen-visakha-protest-against-ai-data-centres%2farticle71537760.ece&c=17435378208580115895&mkt=en-us",
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8a923e01346808ee35947b1b503df&url=https%3a%2f%2fwww.thehindu.com%2fnews%2fnational%2fandhra-pradesh%2fgreen-visakha-protest-against-ai-data-centres%2farticle71537760.ece&c=17435378208580115895&mkt=en-us",
      "source": "Bing News: \"protest against AI\"",
      "title": "Green Visakha protest against AI data centres",
      "direct": true
@@ -11768,60 +11804,40 @@
     }
    ],
    "url_is_direct": 1
-  },
-  {
-   "event_key": "unknown|undated|general|['anti', 'app', 'citizen', 'demonstration']",
-   "title": "Anti-AI Protest - Citizen app",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3b1lxM3VvbkNzdWV4VDRJSVFLVGVuZHlqQUU3UWNFLUpocFpneXZ5SV9mTDJvbzB0QnUwUXRmanBDb3lJNXFYT0lfa2ZlVTd4bUE?oc=5",
-   "score": 94,
-   "status": "REPORTED",
-   "region": "unknown",
-   "place": "",
-   "target": "general",
-   "event_date": null,
-   "temporality": "unknown",
-   "source_count": 3,
-   "sources": [
-    "Google News: \"anti-AI protest\"",
-    "PauseAI \u2014 Blog"
-   ],
-   "reasons": [
-    "high-signal phrase: ai protest, anti-ai protest",
-    "AI subject: ai",
-    "protest action: protest",
-    "anti-AI stance: anti-ai",
-    "AI and protest terms in close proximity",
-    "core anti-AI / protest-wire source"
-   ],
-   "first_seen": "2026-09-19T17:10:20.459274",
-   "last_seen": "2026-09-23T13:33:58.423807",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "links": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3b1lxM3VvbkNzdWV4VDRJSVFLVGVuZHlqQUU3UWNFLUpocFpneXZ5SV9mTDJvbzB0QnUwUXRmanBDb3lJNXFYT0lfa2ZlVTd4bUE?oc=5",
-     "source": "Google News: \"anti-AI protest\"",
-     "title": "Anti-AI Protest - Citizen app",
-     "direct": true
-    },
-    {
-     "url": "https://pauseai.info/organizing-a-protest",
-     "source": "PauseAI \u2014 Blog",
-     "title": "Organizing a PauseAI Protest",
-     "direct": true
-    },
-    {
-     "url": "https://pauseai.info/unprotest",
-     "source": "PauseAI \u2014 Blog",
-     "title": "PauseAI UN Demonstration",
-     "direct": false
-    }
-   ],
-   "url_is_direct": 1
   }
  ],
  "items": [
+  {
+   "fingerprint": "b39d73ae12bd6966720ccb219dd65142",
+   "title": "Grimes (friend of the show) update!",
+   "summary": "I think we have a reference , opinions? Alex Gibney used this image of Elon, and suddenly we have this picture of C. (Grimes friend of the hasanbi broadcast needs YOUR support in Psyopera coming this friday)The album and songs are political. And many of us believe it\u2019s going to protest against AI in the military and more topics. &#32; submitted by &#32; /u/Competitive-Form7896 &#32; to &#32; r/Hasan_Piker [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/Hasan_Piker/comments/1x1fjcl/grimes_friend_of_the_show_update/",
+   "source": "Reddit search: AI protest san francisco",
+   "source_type": "reddit",
+   "score": 100,
+   "status": "REPORTED",
+   "region": "unknown",
+   "place": "",
+   "event_date": "2026-10-16",
+   "is_future": 1,
+   "temporality": "upcoming",
+   "reasons": [
+    "high-signal phrase: protest against ai",
+    "AI subject: ai",
+    "protest action: protest",
+    "anti-AI stance: against ai",
+    "AI and protest terms in close proximity",
+    "upcoming date detected: 2026-10-16",
+    "forward-looking language (protest has not happened yet)"
+   ],
+   "published": "2026-10-09T08:04:38",
+   "first_seen": "2026-10-09T08:43:27.025067",
+   "last_seen": "2026-10-09T08:43:27.025067",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "url_is_direct": 1
+  },
   {
    "fingerprint": "396f5458d4b338b3e5453619480e943f",
    "title": "OpenAI Protesters Unveil Titanic-Themed Sculpture in San Francisco",
@@ -11902,14 +11918,14 @@
    "reasons": [
     "high-signal phrase: ai protest, anti-ai protest",
     "AI subject: ai",
-    "protest action: protest",
+    "protest action: protest, protests",
     "anti-AI stance: anti-ai",
     "AI and protest terms in close proximity",
     "priority geography: silicon valley"
    ],
    "published": "2026-10-05T19:13:31",
    "first_seen": "2026-10-06T08:49:28.506162",
-   "last_seen": "2026-10-09T00:19:23.138422",
+   "last_seen": "2026-10-09T08:43:27.027713",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -11938,7 +11954,7 @@
    ],
    "published": "2026-10-06T02:29:15.175000",
    "first_seen": "2026-10-06T08:49:28.504212",
-   "last_seen": "2026-10-09T00:19:23.137472",
+   "last_seen": "2026-10-09T08:43:27.026675",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -11967,7 +11983,7 @@
    ],
    "published": "2026-10-06T05:16:00.689000",
    "first_seen": "2026-10-06T08:49:28.504126",
-   "last_seen": "2026-10-09T00:19:23.137435",
+   "last_seen": "2026-10-09T08:43:27.026641",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -11996,7 +12012,7 @@
    ],
    "published": "2026-10-06T06:01:50",
    "first_seen": "2026-10-06T08:49:28.504097",
-   "last_seen": "2026-10-09T00:19:23.136596",
+   "last_seen": "2026-10-09T08:43:27.025814",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12025,7 +12041,7 @@
    ],
    "published": "2026-10-06T07:13:36.585000",
    "first_seen": "2026-10-06T08:49:28.503996",
-   "last_seen": "2026-10-09T00:19:23.137422",
+   "last_seen": "2026-10-09T08:43:27.026628",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12055,7 +12071,7 @@
    ],
    "published": "2026-10-06T01:55:00",
    "first_seen": "2026-10-06T08:49:28.502451",
-   "last_seen": "2026-10-09T00:19:23.134148",
+   "last_seen": "2026-10-09T08:43:27.023697",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12084,7 +12100,7 @@
    ],
    "published": "2026-10-05T20:07:52.822000",
    "first_seen": "2026-10-05T21:33:44.413017",
-   "last_seen": "2026-10-09T00:19:23.137032",
+   "last_seen": "2026-10-09T08:43:27.026211",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12206,7 +12222,7 @@
    ],
    "published": "2026-10-02T11:00:37",
    "first_seen": "2026-10-02T19:11:37.044554",
-   "last_seen": "2026-10-09T00:19:23.134195",
+   "last_seen": "2026-10-09T08:43:27.023711",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12548,7 +12564,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-23T07:37:16.281944",
-   "last_seen": "2026-10-09T00:19:23.135323",
+   "last_seen": "2026-10-09T08:43:27.024392",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12580,7 +12596,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-23T07:37:16.281918",
-   "last_seen": "2026-10-09T00:19:23.135309",
+   "last_seen": "2026-10-09T08:43:27.024378",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12613,7 +12629,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-23T07:37:16.281892",
-   "last_seen": "2026-10-09T00:19:23.135284",
+   "last_seen": "2026-10-09T08:43:27.024355",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12646,7 +12662,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-23T07:37:16.281825",
-   "last_seen": "2026-10-09T00:19:23.135257",
+   "last_seen": "2026-10-09T08:43:27.024329",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12679,7 +12695,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-23T07:37:16.281764",
-   "last_seen": "2026-10-09T00:19:23.135216",
+   "last_seen": "2026-10-09T08:43:27.024291",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -14112,7 +14128,7 @@
    ],
    "published": "2026-08-17T00:04:17.710000",
    "first_seen": "2026-08-17T08:54:21.729938",
-   "last_seen": "2026-10-09T00:19:23.137687",
+   "last_seen": "2026-10-09T08:43:27.026839",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -14863,7 +14879,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355187",
-   "last_seen": "2026-10-09T00:19:23.134752",
+   "last_seen": "2026-10-09T08:43:27.024219",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -15175,7 +15191,7 @@
    ],
    "published": "2026-09-29T17:49:57.311262",
    "first_seen": "2026-09-29T23:39:05.075335",
-   "last_seen": "2026-10-09T00:19:23.137265",
+   "last_seen": "2026-10-09T08:43:27.026479",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -15205,7 +15221,7 @@
    ],
    "published": "2026-09-17T14:45:00",
    "first_seen": "2026-09-17T22:52:30.177206",
-   "last_seen": "2026-10-09T00:19:23.138410",
+   "last_seen": "2026-10-09T08:43:27.027698",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -15235,7 +15251,7 @@
    ],
    "published": "2026-09-17T20:46:20.507656",
    "first_seen": "2026-09-17T22:52:30.176109",
-   "last_seen": "2026-10-09T00:19:23.137593",
+   "last_seen": "2026-10-09T08:43:27.026755",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -15659,7 +15675,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-23T07:37:16.281850",
-   "last_seen": "2026-10-09T00:19:23.135271",
+   "last_seen": "2026-10-09T08:43:27.024342",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -15718,7 +15734,7 @@
    ],
    "published": "2026-10-04T03:24:16",
    "first_seen": "2026-10-04T13:54:52.109204",
-   "last_seen": "2026-10-09T00:19:23.134124",
+   "last_seen": "2026-10-09T08:43:27.023674",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -15778,7 +15794,7 @@
    ],
    "published": "2026-10-02T18:14:46",
    "first_seen": "2026-10-02T19:11:37.044328",
-   "last_seen": "2026-10-09T00:19:23.134073",
+   "last_seen": "2026-10-09T08:43:27.023600",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -16471,7 +16487,7 @@
    ],
    "published": "2026-10-02T11:14:00",
    "first_seen": "2026-10-02T19:11:37.048010",
-   "last_seen": "2026-10-09T00:19:23.138638",
+   "last_seen": "2026-10-09T08:43:27.027618",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -16769,11 +16785,11 @@
     "protest action: protest, protester, civil disobedience",
     "anti-AI stance: anti-ai",
     "AI and protest terms in close proximity",
-    "stale (53d old) \u2014 already happened"
+    "stale (54d old) \u2014 already happened"
    ],
    "published": "2026-08-16T08:10:10.491717",
    "first_seen": "2026-08-16T08:40:10.158315",
-   "last_seen": "2026-10-09T00:19:23.137749",
+   "last_seen": "2026-10-09T08:43:27.026893",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17044,7 +17060,7 @@
    ],
    "published": "2026-10-01T14:45:57.466000",
    "first_seen": "2026-10-01T19:28:01.477287",
-   "last_seen": "2026-10-09T00:19:23.138375",
+   "last_seen": "2026-10-09T08:43:27.027491",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17316,7 +17332,7 @@
    ],
    "published": "2026-09-30T10:27:42",
    "first_seen": "2026-10-01T19:28:01.473454",
-   "last_seen": "2026-10-09T00:19:23.134330",
+   "last_seen": "2026-10-09T08:43:27.023849",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17346,7 +17362,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-25T07:23:09.086834",
-   "last_seen": "2026-10-09T00:19:23.135412",
+   "last_seen": "2026-10-09T08:43:27.024473",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17499,7 +17515,7 @@
    ],
    "published": null,
    "first_seen": "2026-08-25T03:09:04.068538",
-   "last_seen": "2026-10-09T00:19:23.135437",
+   "last_seen": "2026-10-09T08:43:27.024496",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17649,7 +17665,7 @@
    ],
    "published": "2026-10-06T06:00:04",
    "first_seen": "2026-10-06T08:49:28.504112",
-   "last_seen": "2026-10-09T00:19:23.136625",
+   "last_seen": "2026-10-09T08:43:27.025837",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17704,11 +17720,11 @@
     "anti-AI stance: against ai",
     "AI and protest terms in close proximity",
     "priority geography: la",
-    "stale (21d old) \u2014 already happened"
+    "stale (22d old) \u2014 already happened"
    ],
    "published": "2026-09-17T01:37:43.759000",
    "first_seen": "2026-09-17T07:25:28.870758",
-   "last_seen": "2026-10-09T00:19:23.137802",
+   "last_seen": "2026-10-09T08:43:27.026941",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17923,7 +17939,7 @@
    ],
    "published": "2026-09-29T22:00:52.747000",
    "first_seen": "2026-09-29T23:39:05.074770",
-   "last_seen": "2026-10-09T00:19:23.137216",
+   "last_seen": "2026-10-09T08:43:27.026401",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -18042,7 +18058,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355292",
-   "last_seen": "2026-10-09T00:19:23.135160",
+   "last_seen": "2026-10-09T08:43:27.024886",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -18104,7 +18120,7 @@
    ],
    "published": "2026-09-29T18:59:00",
    "first_seen": "2026-09-30T08:17:00.170833",
-   "last_seen": "2026-10-09T00:19:23.138586",
+   "last_seen": "2026-10-09T08:43:27.027794",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -18288,7 +18304,7 @@
    ],
    "published": "2026-08-15T18:49:05",
    "first_seen": "2026-08-16T03:12:14.750897",
-   "last_seen": "2026-10-09T00:19:23.138488",
+   "last_seen": "2026-10-09T08:43:27.027641",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -18894,7 +18910,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355270",
-   "last_seen": "2026-10-09T00:19:23.135084",
+   "last_seen": "2026-10-09T08:43:27.024813",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -18926,7 +18942,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355228",
-   "last_seen": "2026-10-09T00:19:23.134926",
+   "last_seen": "2026-10-09T08:43:27.024661",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -18982,7 +18998,7 @@
    ],
    "published": "2026-10-02T06:33:12.302055",
    "first_seen": "2026-10-02T08:12:20.848879",
-   "last_seen": "2026-10-09T00:19:23.137119",
+   "last_seen": "2026-10-09T08:43:27.026296",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -19384,7 +19400,7 @@
    ],
    "published": "2026-10-07T15:09:45.818000",
    "first_seen": "2026-10-07T19:55:39.732590",
-   "last_seen": "2026-10-09T00:19:23.137995",
+   "last_seen": "2026-10-09T08:43:27.027141",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -19413,7 +19429,7 @@
    ],
    "published": "2026-10-06T22:51:05.774000",
    "first_seen": "2026-10-06T23:46:25.462061",
-   "last_seen": "2026-10-09T00:19:23.136459",
+   "last_seen": "2026-10-09T08:43:27.025718",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -19442,7 +19458,7 @@
    ],
    "published": "2026-10-03T22:02:51.737000",
    "first_seen": "2026-10-03T22:52:23.426709",
-   "last_seen": "2026-10-09T00:19:23.136666",
+   "last_seen": "2026-10-09T08:43:27.025873",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -19529,7 +19545,7 @@
    ],
    "published": "2026-10-02T20:43:29.080000",
    "first_seen": "2026-10-02T23:44:35.786243",
-   "last_seen": "2026-10-09T00:19:23.136691",
+   "last_seen": "2026-10-09T08:43:27.025895",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -20735,7 +20751,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355274",
-   "last_seen": "2026-10-09T00:19:23.135096",
+   "last_seen": "2026-10-09T08:43:27.024826",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -20766,7 +20782,7 @@
    ],
    "published": "2026-10-05T20:43:57.731000",
    "first_seen": "2026-10-05T21:33:44.414088",
-   "last_seen": "2026-10-09T00:19:23.138302",
+   "last_seen": "2026-10-09T08:43:27.027417",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -21007,7 +21023,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-29T23:39:05.074329",
-   "last_seen": "2026-10-09T00:19:23.135616",
+   "last_seen": "2026-10-09T08:43:27.024982",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -21099,7 +21115,7 @@
    ],
    "published": "2026-09-03T15:15:26",
    "first_seen": "2026-09-04T12:43:57.505357",
-   "last_seen": "2026-10-09T00:19:23.137607",
+   "last_seen": "2026-10-09T08:43:27.026769",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -21261,7 +21277,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355252",
-   "last_seen": "2026-10-09T00:19:23.135013",
+   "last_seen": "2026-10-09T08:43:27.024740",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -21289,7 +21305,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355214",
-   "last_seen": "2026-10-09T00:19:23.134886",
+   "last_seen": "2026-10-09T08:43:27.024622",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -21411,7 +21427,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355196",
-   "last_seen": "2026-10-09T00:19:23.134812",
+   "last_seen": "2026-10-09T08:43:27.024558",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -21528,7 +21544,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355261",
-   "last_seen": "2026-10-09T00:19:23.135056",
+   "last_seen": "2026-10-09T08:43:27.024778",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -21559,7 +21575,7 @@
    ],
    "published": "2026-10-02T10:39:22",
    "first_seen": "2026-10-02T19:11:37.047572",
-   "last_seen": "2026-10-09T00:19:23.138081",
+   "last_seen": "2026-10-09T08:43:27.027231",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -21591,7 +21607,7 @@
    ],
    "published": "2026-09-22T19:17:39",
    "first_seen": "2026-09-23T07:37:16.282667",
-   "last_seen": "2026-10-09T00:19:23.136938",
+   "last_seen": "2026-10-09T08:43:27.026132",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -21623,7 +21639,7 @@
    ],
    "published": "2026-09-22T10:30:32",
    "first_seen": "2026-09-22T18:08:32.580957",
-   "last_seen": "2026-10-08T19:51:52.731886",
+   "last_seen": "2026-10-09T08:43:27.027772",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -21751,7 +21767,7 @@
    ],
    "published": "2026-10-04T12:00:00",
    "first_seen": "2026-10-04T13:54:52.108942",
-   "last_seen": "2026-10-09T00:19:23.133806",
+   "last_seen": "2026-10-09T08:43:27.023358",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -21782,7 +21798,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-29T23:39:05.074344",
-   "last_seen": "2026-10-09T00:19:23.135631",
+   "last_seen": "2026-10-09T08:43:27.024994",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -21901,7 +21917,7 @@
    ],
    "published": "2026-10-08T21:38:43.338000",
    "first_seen": "2026-10-09T00:19:23.136102",
-   "last_seen": "2026-10-09T00:19:23.136102",
+   "last_seen": "2026-10-09T08:43:27.025482",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -21929,7 +21945,7 @@
    ],
    "published": "2026-10-08T15:49:03.906000",
    "first_seen": "2026-10-08T19:51:52.729737",
-   "last_seen": "2026-10-09T00:19:23.136288",
+   "last_seen": "2026-10-09T08:43:27.025602",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -22898,7 +22914,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355247",
-   "last_seen": "2026-10-09T00:19:23.135000",
+   "last_seen": "2026-10-09T08:43:27.024726",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -22927,7 +22943,7 @@
    ],
    "published": "2026-10-08T10:00:00",
    "first_seen": "2026-10-08T19:51:52.728430",
-   "last_seen": "2026-10-09T00:19:23.134361",
+   "last_seen": "2026-10-09T08:43:27.023877",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -23073,11 +23089,11 @@
     "priority geography: san francisco",
     "core anti-AI / protest-wire source",
     "concrete logistics (address / meet-up time)",
-    "stale (8d old) \u2014 already happened"
+    "stale (9d old) \u2014 already happened"
    ],
    "published": "2026-09-30T15:39:56",
    "first_seen": "2026-09-30T19:00:48.152729",
-   "last_seen": "2026-10-09T00:19:23.134211",
+   "last_seen": "2026-10-09T08:43:27.023727",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -23104,11 +23120,11 @@
     "anti-AI stance: against ai",
     "AI and protest terms in close proximity",
     "core anti-AI / protest-wire source",
-    "stale (9d old) \u2014 already happened"
+    "stale (10d old) \u2014 already happened"
    ],
    "published": "2026-09-29T08:23:24",
    "first_seen": "2026-09-29T23:39:05.072854",
-   "last_seen": "2026-10-09T00:19:23.134016",
+   "last_seen": "2026-10-09T08:43:27.023543",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -23443,7 +23459,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355266",
-   "last_seen": "2026-10-09T00:19:23.135071",
+   "last_seen": "2026-10-09T08:43:27.024792",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -23474,7 +23490,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355257",
-   "last_seen": "2026-10-09T00:19:23.135031",
+   "last_seen": "2026-10-09T08:43:27.024755",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -23504,7 +23520,7 @@
    ],
    "published": "2026-10-08T09:54:46.778000",
    "first_seen": "2026-10-08T19:51:52.729783",
-   "last_seen": "2026-10-09T00:19:23.136312",
+   "last_seen": "2026-10-09T08:43:27.025625",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -23534,7 +23550,7 @@
    ],
    "published": "2026-10-06T09:06:41.100000",
    "first_seen": "2026-10-06T19:29:21.907235",
-   "last_seen": "2026-10-09T00:19:23.136499",
+   "last_seen": "2026-10-09T08:43:27.025754",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -23560,11 +23576,11 @@
     "anti-AI stance: ai safety",
     "AI and protest terms in close proximity",
     "priority geography: san francisco",
-    "stale (20d old) \u2014 already happened"
+    "stale (21d old) \u2014 already happened"
    ],
    "published": "2026-09-18T08:00:35.949368",
    "first_seen": "2026-09-19T12:28:28.162529",
-   "last_seen": "2026-10-09T00:19:23.137290",
+   "last_seen": "2026-10-09T08:43:27.026503",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -23809,49 +23825,19 @@
    "alerted_at": null,
    "event_time": null,
    "url_is_direct": 1
-  },
-  {
-   "fingerprint": "512b235ee6b36fb007beafb01cdad511",
-   "title": "Join the #DeFlock #Renton rally in front of City Hall as part of the National Week of Action Against ALPRs! \ud83d\uddd3\ufe0f Monday, August 17 \u25aa\ufe0f 5 \u2013 7pm \"We are NOT OK with #Flock and other AI-powered #ALPR camera",
-   "summary": "Join the #DeFlock #Renton rally in front of City Hall as part of the National Week of Action Against ALPRs! \ud83d\uddd3\ufe0f Monday, August 17 \u25aa\ufe0f 5 \u2013 7pm \"We are NOT OK with #Flock and other AI-powered #ALPR cameras in our city! Bring signs and banners.\" NoALPRs.com \ud83d\udeab deflockrenton.com/take-action \u2705",
-   "url": "https://bsky.app/profile/deflock-redmond.bsky.social/post/3msoakczewc2n",
-   "source": "Bluesky: rally against AI",
-   "source_type": "bluesky",
-   "score": 73,
-   "status": "REPORTED",
-   "region": "unknown",
-   "place": "",
-   "event_date": "2026-08-17",
-   "is_future": 1,
-   "temporality": "upcoming",
-   "reasons": [
-    "AI subject: ai",
-    "protest action: rally",
-    "AI and protest terms in close proximity",
-    "upcoming date detected: 2026-08-17",
-    "concrete logistics (address / meet-up time)",
-    "forward-looking language (protest has not happened yet)"
-   ],
-   "published": "2026-08-09T18:44:27.010000",
-   "first_seen": "2026-08-09T20:42:53.118352",
-   "last_seen": "2026-08-17T14:38:26.485191",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "url_is_direct": 1
   }
  ],
  "new_this_run": [
-  "7ee56afaada18c102ec4e7394db49f5b",
-  "a1c3b01604485634974ab3406d1ee5e8",
-  "5c3b91a8dd2d8edcc02c350fec50325c",
-  "2bf6dbdecbaf7ebaba2a9d5f7461e8be",
-  "9931574de18f3cd2ce7ed246ee58305b"
+  "b39d73ae12bd6966720ccb219dd65142",
+  "ffd6f8c847b415c7e2a138b4ae4ba5f3",
+  "3acc15730dae515c5c6bbfb5c265f64a",
+  "88b74a88ea5b9beb1a2ad6ac5a008703",
+  "33ef33c7536f85396135581d6cd1abd0"
  ],
  "runs": [
   {
-   "id": 236,
-   "started_at": "2026-10-09T00:10:18.211222",
+   "id": 237,
+   "started_at": "2026-10-09T08:33:30.420830",
    "finished_at": null,
    "collected": null,
    "scored": null,
@@ -23859,6 +23845,27 @@
    "confirmed": null,
    "alerts_sent": null,
    "stats": {},
+   "error": null
+  },
+  {
+   "id": 236,
+   "started_at": "2026-10-09T00:10:18.211222",
+   "finished_at": "2026-10-09T00:19:36.419759",
+   "collected": 2963,
+   "scored": 2642,
+   "new_signals": 5,
+   "confirmed": 1,
+   "alerts_sent": 5,
+   "stats": {
+    "google_news": 269,
+    "rss": 359,
+    "sites": 1598,
+    "reddit": 232,
+    "bluesky": 393,
+    "gdelt": 60,
+    "bing_news": 48,
+    "mobilize": 4
+   },
    "error": null
   },
   {
@@ -24235,27 +24242,6 @@
     "bluesky": 393,
     "gdelt": 49,
     "bing_news": 48,
-    "mobilize": 4
-   },
-   "error": null
-  },
-  {
-   "id": 217,
-   "started_at": "2026-10-02T23:35:12.326638",
-   "finished_at": "2026-10-02T23:44:35.877705",
-   "collected": 2856,
-   "scored": 2547,
-   "new_signals": 5,
-   "confirmed": 0,
-   "alerts_sent": 0,
-   "stats": {
-    "google_news": 287,
-    "rss": 358,
-    "sites": 1515,
-    "reddit": 232,
-    "bluesky": 393,
-    "gdelt": 20,
-    "bing_news": 47,
     "mobilize": 4
    },
    "error": null
