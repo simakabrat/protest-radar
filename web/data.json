@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T10:45:37.259378Z",
+ "generated_at": "2026-11-27T22:40:35.829880Z",
  "verdict": 0,
  "verdict_label": "NO NEWS",
  "verdict_events": [],
@@ -15,27 +15,119 @@
  "summary": {
   "total_events": 200,
   "total_tracked": 400,
-  "confirmed": 16,
-  "reported": 184,
+  "confirmed": 15,
+  "reported": 185,
   "signals": 0,
-  "new_24h": 0,
-  "upcoming_events": 92,
-  "sf_bay": 97,
+  "new_24h": 1,
+  "upcoming_events": 90,
+  "sf_bay": 95,
   "la": 3,
   "alerts_sent_this_run": 0,
-  "sources_polled": 2771
+  "sources_polled": 2836
  },
  "collector_stats": {
-  "google_news": 316,
+  "google_news": 315,
   "rss": 401,
-  "sites": 1623,
+  "sites": 1627,
   "reddit": 0,
-  "bluesky": 385,
-  "gdelt": 2,
-  "bing_news": 40,
+  "bluesky": 387,
+  "gdelt": 60,
+  "bing_news": 42,
   "mobilize": 4
  },
  "events": [
+  {
+   "event_key": "sf_bay|undated|anthropic|[\"'ban\", \"'recursive\", \"'we\", '100']",
+   "title": "Anti-AI Protesters Rally Outside Anthropic Headquarters in San Francisco - The Weekly Times",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTlc5TDdiYVNKR0tXTllrNkItOTM5SVB6NERldXdZM1dZNS1ZVHR4cU9iMzVCeEM0SGhIeE01U2F1NFk5Q1ZjUi1HNE4xUzN2bGwxY2FSN3JsZThSQi1LejNvTExxQUg4RkpuWGVEbEJnT0JPUy1YUlJzd2lZbC1oN20yVlltQi1YOFdKM09MQ0NsRXFnOXV1dlUwaWNOUk1LblVKeXNNSlRzVHl3d0w0Q1JuZ1JrdXktc1lZaFEyaXM3SnZFb01ra1ZJVmJBQTI4dGRiQlZBU0w1YlHSAeABQVVfeXFMTjFuRjBpTkdDN04ydTFVNkpoQzBRajN0LVExTnRKdXp0R1ZGeHFOSVhiblBvaTJqd2drUDZwRTlQLU44RVIwZllaZmxsaGJSU1QtT2s1aFRNdUpNM0JDNTM1QW05MTBwampsdGthb05QY0JsbXVLX3NBZ2Fia2FxX2o2TmZ6U3J6LTBqSFAzdG8ydjRJLWFHd3BZXzlQeEg3NTBkOS1EZW1GV25lOGJyMU43QWs0UFlWM0owcE54eGlhMU5adFlzd2hrNFktcEp4dnZ2YWlKdUhvb3p1Y3ZKaEs?oc=5",
+   "score": 100,
+   "status": "REPORTED",
+   "region": "sf_bay",
+   "place": "san francisco",
+   "target": "anthropic",
+   "event_date": null,
+   "temporality": "unknown",
+   "source_count": 49,
+   "sources": [
+    "Bing News: \"AI protest\" San Francisco",
+    "Bing News: \"protest\" \"Anthropic\" office",
+    "Bing News: \"protest\" \"OpenAI\" headquarters",
+    "Bing News: protest artificial intelligence rally",
+    "Bluesky: AI protest",
+    "Bluesky: AI protest San Francisco",
+    "Bluesky: anti-AI protest",
+    "Bluesky: protest Anthropic",
+    "Bluesky: rally against AI",
+    "Google News: \"AI protest\"",
+    "Google News: \"anti-AI\" rally OR march",
+    "Google News: \"protest\" \"Anthropic\" office"
+   ],
+   "reasons": [
+    "high-signal phrase: ai protest, anti-ai protest",
+    "AI subject: ai, anthropic",
+    "protest action: protest, protester, protesters, rally",
+    "anti-AI stance: anti-ai",
+    "AI and protest terms in close proximity",
+    "priority geography: san francisco",
+    "core anti-AI / protest-wire source"
+   ],
+   "first_seen": "2026-11-20T21:50:21.258205",
+   "last_seen": "2026-11-27T22:40:35.805440",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": "11:00 AM",
+   "links": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTlc5TDdiYVNKR0tXTllrNkItOTM5SVB6NERldXdZM1dZNS1ZVHR4cU9iMzVCeEM0SGhIeE01U2F1NFk5Q1ZjUi1HNE4xUzN2bGwxY2FSN3JsZThSQi1LejNvTExxQUg4RkpuWGVEbEJnT0JPUy1YUlJzd2lZbC1oN20yVlltQi1YOFdKM09MQ0NsRXFnOXV1dlUwaWNOUk1LblVKeXNNSlRzVHl3d0w0Q1JuZ1JrdXktc1lZaFEyaXM3SnZFb01ra1ZJVmJBQTI4dGRiQlZBU0w1YlHSAeABQVVfeXFMTjFuRjBpTkdDN04ydTFVNkpoQzBRajN0LVExTnRKdXp0R1ZGeHFOSVhiblBvaTJqd2drUDZwRTlQLU44RVIwZllaZmxsaGJSU1QtT2s1aFRNdUpNM0JDNTM1QW05MTBwampsdGthb05QY0JsbXVLX3NBZ2Fia2FxX2o2TmZ6U3J6LTBqSFAzdG8ydjRJLWFHd3BZXzlQeEg3NTBkOS1EZW1GV25lOGJyMU43QWs0UFlWM0owcE54eGlhMU5adFlzd2hrNFktcEp4dnZ2YWlKdUhvb3p1Y3ZKaEs?oc=5",
+     "source": "Google News: \"anti-AI\" rally OR march",
+     "title": "Anti-AI Protesters Rally Outside Anthropic Headquarters in San Francisco - News.com.au",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTmpUYnhVOEJHdFQ1R1VLRlBndVhLeGFMRUVQM2lhQ1RSaGdoQzZFU0NsMUhwRHcyeDg4S202S19rX0tPY2pnVTZ0aURtbnpORkhnZ1VucHBMbzlpWnRGZjJ4R2NvMVg4NHYtMzhuVWdhdnVIdVowVTNpbzJjclRXWl94cUxIMVlVRDN2X0MySkxMNllacUJqOEZFRUVXb1luWkRlT1psNlk3Zk15OVBzLUNuYkg1SU1vM1FNQVNGdHFzck9wX192MFFUVTR2VVE4VXd3U1EwTWQ5Y1RpUjUweEVR?oc=5",
+     "source": "Google News: \"anti-AI\" rally OR march",
+     "title": "Anti-AI Protesters Rally Outside Anthropic Headquarters in San Francisco - The Australian",
+     "direct": true
+    },
+    {
+     "url": "https://bsky.app/profile/druce.ai/post/3n2qs646nml27",
+     "source": "Bluesky: rally against AI",
+     "title": "Anti-AI protesters rally in New York and San Francisco as Anthropic debuts at a $2tn valuation after a record $81bn IPO",
+     "direct": true
+    },
+    {
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a06d73a764c74b0b96d5f4171974e&url=https%3a%2f%2fwww.msn.com%2fen-in%2fmoney%2fgeneral%2fus-protest-news-protest-outside-anthropic-headquarters-in-california-after-us-2tn-ipo-debut%2fvi-AA2hQJti&c=5915620559829632320&mkt=en-us",
+     "source": "Bing News: \"protest\" \"Anthropic\" office",
+     "title": "US protest news | Protest outside Anthropic headquarters in California after US $2TN IPO debut",
+     "direct": true
+    },
+    {
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a06d7728f401985df052b1d604d6e&url=https%3a%2f%2fwww.kqed.org%2fnews%2f12110643%2ffour-arrests-in-san-francisco-protest-outside-anthropic-headquarters-after-ipo&c=9002096907930523460&mkt=en-us",
+     "source": "Bing News: \"AI protest\" San Francisco",
+     "title": "4 Arrests in San Francisco Protest Outside Anthropic Headquarters After IPO",
+     "direct": true
+    },
+    {
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a06d7728f401985df052b1d604d6e&url=https%3a%2f%2fmissionlocal.org%2f2026%2f11%2fphotos-anthropic-ipo-san-francisco-protest-arrests%2f&c=12912749081894270366&mkt=en-us",
+     "source": "Bing News: \"AI protest\" San Francisco",
+     "title": "Photos: S.F. anti-AI protest hits Anthropic on day of $1.5 trillion IPO",
+     "direct": true
+    },
+    {
+     "url": "https://bsky.app/profile/bayarea.bsky.social/post/3n2pesesbxv2j",
+     "source": "Bluesky: anti-AI protest",
+     "title": "4 Arrests in San Francisco Protest Outside Anthropic Headquarters After IPO",
+     "direct": true
+    },
+    {
+     "url": "https://bsky.app/profile/druce.ai/post/3n2qrtaqs3q23",
+     "source": "Bluesky: protest Anthropic",
+     "title": "Former Anthropic researcher Jacob Coxon leads 'Ban RSI' protest at Anthropic's San Francisco office on its IPO day",
+     "direct": true
+    }
+   ],
+   "url_is_direct": 1
+  },
   {
    "event_key": "unknown|undated|openai|[\"'regain\", \"'rosa\", \"'stop\", '2026']",
    "title": "Wynd Kaufmyn becomes first jailed anti-AI protester after OpenAI blockade - Crypto Briefing",
@@ -122,98 +214,6 @@
      "url": "https://www.reddit.com/r/theguardian/comments/1vpr8jk/the_first_antiai_protester_to_be_jailed_has_a/",
      "source": "Reddit search: protest Anthropic",
      "title": "The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: \u2018Regain your humanity\u2019",
-     "direct": true
-    }
-   ],
-   "url_is_direct": 1
-  },
-  {
-   "event_key": "sf_bay|undated|anthropic|[\"'ban\", \"'recursive\", \"'we\", '100']",
-   "title": "Anti-AI Protesters Rally Outside Anthropic Headquarters in San Francisco - The Weekly Times",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTlc5TDdiYVNKR0tXTllrNkItOTM5SVB6NERldXdZM1dZNS1ZVHR4cU9iMzVCeEM0SGhIeE01U2F1NFk5Q1ZjUi1HNE4xUzN2bGwxY2FSN3JsZThSQi1LejNvTExxQUg4RkpuWGVEbEJnT0JPUy1YUlJzd2lZbC1oN20yVlltQi1YOFdKM09MQ0NsRXFnOXV1dlUwaWNOUk1LblVKeXNNSlRzVHl3d0w0Q1JuZ1JrdXktc1lZaFEyaXM3SnZFb01ra1ZJVmJBQTI4dGRiQlZBU0w1YlHSAeABQVVfeXFMTjFuRjBpTkdDN04ydTFVNkpoQzBRajN0LVExTnRKdXp0R1ZGeHFOSVhiblBvaTJqd2drUDZwRTlQLU44RVIwZllaZmxsaGJSU1QtT2s1aFRNdUpNM0JDNTM1QW05MTBwampsdGthb05QY0JsbXVLX3NBZ2Fia2FxX2o2TmZ6U3J6LTBqSFAzdG8ydjRJLWFHd3BZXzlQeEg3NTBkOS1EZW1GV25lOGJyMU43QWs0UFlWM0owcE54eGlhMU5adFlzd2hrNFktcEp4dnZ2YWlKdUhvb3p1Y3ZKaEs?oc=5",
-   "score": 100,
-   "status": "REPORTED",
-   "region": "sf_bay",
-   "place": "san francisco",
-   "target": "anthropic",
-   "event_date": null,
-   "temporality": "unknown",
-   "source_count": 45,
-   "sources": [
-    "Bing News: \"AI protest\" San Francisco",
-    "Bing News: \"protest\" \"Anthropic\" office",
-    "Bing News: protest artificial intelligence rally",
-    "Bluesky: AI protest San Francisco",
-    "Bluesky: StopAI",
-    "Bluesky: anti-AI protest",
-    "Bluesky: protest Anthropic",
-    "Bluesky: rally against AI",
-    "Google News: \"anti-AI\" rally OR march",
-    "Google News: \"protest\" \"Anthropic\" office",
-    "Google News: \"protest\" \"OpenAI\" headquarters",
-    "Google News: \"shut it down\" AI protest"
-   ],
-   "reasons": [
-    "high-signal phrase: ai protest, anti-ai protest",
-    "AI subject: ai, anthropic",
-    "protest action: protest, protester, protesters, rally",
-    "anti-AI stance: anti-ai",
-    "AI and protest terms in close proximity",
-    "priority geography: san francisco",
-    "core anti-AI / protest-wire source"
-   ],
-   "first_seen": "2026-11-20T21:50:21.258205",
-   "last_seen": "2026-11-27T10:45:37.243633",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": "11:00 AM",
-   "links": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTlc5TDdiYVNKR0tXTllrNkItOTM5SVB6NERldXdZM1dZNS1ZVHR4cU9iMzVCeEM0SGhIeE01U2F1NFk5Q1ZjUi1HNE4xUzN2bGwxY2FSN3JsZThSQi1LejNvTExxQUg4RkpuWGVEbEJnT0JPUy1YUlJzd2lZbC1oN20yVlltQi1YOFdKM09MQ0NsRXFnOXV1dlUwaWNOUk1LblVKeXNNSlRzVHl3d0w0Q1JuZ1JrdXktc1lZaFEyaXM3SnZFb01ra1ZJVmJBQTI4dGRiQlZBU0w1YlHSAeABQVVfeXFMTjFuRjBpTkdDN04ydTFVNkpoQzBRajN0LVExTnRKdXp0R1ZGeHFOSVhiblBvaTJqd2drUDZwRTlQLU44RVIwZllaZmxsaGJSU1QtT2s1aFRNdUpNM0JDNTM1QW05MTBwampsdGthb05QY0JsbXVLX3NBZ2Fia2FxX2o2TmZ6U3J6LTBqSFAzdG8ydjRJLWFHd3BZXzlQeEg3NTBkOS1EZW1GV25lOGJyMU43QWs0UFlWM0owcE54eGlhMU5adFlzd2hrNFktcEp4dnZ2YWlKdUhvb3p1Y3ZKaEs?oc=5",
-     "source": "Google News: \"anti-AI\" rally OR march",
-     "title": "Anti-AI Protesters Rally Outside Anthropic Headquarters in San Francisco - News.com.au",
-     "direct": true
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTmpUYnhVOEJHdFQ1R1VLRlBndVhLeGFMRUVQM2lhQ1RSaGdoQzZFU0NsMUhwRHcyeDg4S202S19rX0tPY2pnVTZ0aURtbnpORkhnZ1VucHBMbzlpWnRGZjJ4R2NvMVg4NHYtMzhuVWdhdnVIdVowVTNpbzJjclRXWl94cUxIMVlVRDN2X0MySkxMNllacUJqOEZFRUVXb1luWkRlT1psNlk3Zk15OVBzLUNuYkg1SU1vM1FNQVNGdHFzck9wX192MFFUVTR2VVE4VXd3U1EwTWQ5Y1RpUjUweEVR?oc=5",
-     "source": "Google News: \"anti-AI\" rally OR march",
-     "title": "Anti-AI Protesters Rally Outside Anthropic Headquarters in San Francisco - The Australian",
-     "direct": true
-    },
-    {
-     "url": "https://bsky.app/profile/druce.ai/post/3n2qs646nml27",
-     "source": "Bluesky: rally against AI",
-     "title": "Anti-AI protesters rally in New York and San Francisco as Anthropic debuts at a $2tn valuation after a record $81bn IPO",
-     "direct": true
-    },
-    {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b095f46de0e409f9c080c1e3c449ad5&url=https%3a%2f%2fwww.kqed.org%2fnews%2f12110643%2ffour-arrests-in-san-francisco-protest-outside-anthropic-headquarters-after-ipo&c=9002096907930523460&mkt=en-us",
-     "source": "Bing News: \"AI protest\" San Francisco",
-     "title": "4 Arrests in San Francisco Protest Outside Anthropic Headquarters After IPO",
-     "direct": true
-    },
-    {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b095f46e9704586bc6a8c263ef34da1&url=https%3a%2f%2fwww.msn.com%2fen-in%2fmoney%2fgeneral%2fus-protest-news-protest-outside-anthropic-headquarters-in-california-after-us-2tn-ipo-debut%2fvi-AA2hQJti&c=5915620559829632320&mkt=en-us",
-     "source": "Bing News: \"protest\" \"Anthropic\" office",
-     "title": "US protest news | Protest outside Anthropic headquarters in California after US $2TN IPO debut",
-     "direct": true
-    },
-    {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b095f46de0e409f9c080c1e3c449ad5&url=https%3a%2f%2fmissionlocal.org%2f2026%2f11%2fphotos-anthropic-ipo-san-francisco-protest-arrests%2f&c=12912749081894270366&mkt=en-us",
-     "source": "Bing News: \"AI protest\" San Francisco",
-     "title": "Photos: S.F. anti-AI protest hits Anthropic on day of $1.5 trillion IPO",
-     "direct": true
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQb1gzcjhFMGI5WHlkbjRoT3MxQUNJX2ljdExlSkR6ZlVYT1BIY0k3NTVDX21LeDRBWmxTcnlfXzBYMXFmR29kanJ3TmlqQ1VNVFdRWktFMWRWdjE4Z19YRDdOb1lzU1BHaGN5eGg4d2o5YzJuS2t3d0VPTUVZYlJLaktoNGRzbFc2dEFpUEJIS0NGOWpHNVhoRnpJSlkyTDVreUZhY1lJTW83RFo0T3V6YWxwMA?oc=5",
-     "source": "Google News: \"protest\" \"OpenAI\" headquarters",
-     "title": "4 Arrests in San Francisco Protest Outside Anthropic Headquarters After IPO - KQED",
-     "direct": true
-    },
-    {
-     "url": "https://bsky.app/profile/bayarea.bsky.social/post/3n2pesesbxv2j",
-     "source": "Bluesky: anti-AI protest",
-     "title": "4 Arrests in San Francisco Protest Outside Anthropic Headquarters After IPO",
      "direct": true
     }
    ],
@@ -2823,6 +2823,94 @@
    "url_is_direct": 1
   },
   {
+   "event_key": "sf_bay|undated|openai|[\"'extinction'\", '12th', '2024', '2026']",
+   "title": "San Francisco Chronicle 17 Sep 2026 Protesters call on S.F. OpenAI, Anthropic employees to quit their jobs over 'extinction' fears",
+   "url": "https://www.sfchronicle.com/bayarea/article/open-ai-anthropic-extinction-protest-22435148.php",
+   "score": 100,
+   "status": "REPORTED",
+   "region": "sf_bay",
+   "place": "san francisco",
+   "target": "openai",
+   "event_date": null,
+   "temporality": "upcoming",
+   "source_count": 17,
+   "sources": [
+    "Bing News: \"protest\" \"Anthropic\" office",
+    "Bing News: \"protest\" \"OpenAI\" headquarters",
+    "Bing News: protest artificial intelligence rally",
+    "Bluesky: protest OpenAI",
+    "Google News: \"protest\" \"Anthropic\" office",
+    "PauseAI \u2014 Blog",
+    "Stop The Race"
+   ],
+   "reasons": [
+    "high-signal phrase: ai protest, anti-ai protest",
+    "AI subject: ai, openai, anthropic, deepmind",
+    "protest action: protest, protester, protesters, march",
+    "anti-AI stance: anti-ai",
+    "AI and protest terms in close proximity",
+    "priority geography: san francisco",
+    "core anti-AI / protest-wire source",
+    "retrospective coverage (protest already happened)"
+   ],
+   "first_seen": "2026-11-04T20:50:38.851404",
+   "last_seen": "2026-11-27T22:40:35.805657",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "links": [
+    {
+     "url": "https://www.sfchronicle.com/bayarea/article/open-ai-anthropic-extinction-protest-22435148.php",
+     "source": "Stop The Race",
+     "title": "San Francisco Chronicle 17 Sep 2026 Protesters call on S.F. OpenAI, Anthropic employees to quit their jobs over 'extinct",
+     "direct": true
+    },
+    {
+     "url": "https://www.sfchronicle.com/tech/article/san-francisco-ai-protest-22340835.php",
+     "source": "Stop The Race",
+     "title": "San Francisco Chronicle 11 Jul 2026 S.F. protesters march on OpenAI, Anthropic and Google DeepMind to demand: \u2018Stop the ",
+     "direct": true
+    },
+    {
+     "url": "https://sfstandard.com/2026/07/11/anti-ai-protest-openai-anthropic-google-san-francisco/",
+     "source": "Stop The Race",
+     "title": "The San Francisco Standard 11 Jul 2026 SF's anti-AI protesters just marched past three tech giants",
+     "direct": true
+    },
+    {
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a06d73a764c74b0b96d5f4171974e&url=https%3a%2f%2fwww.financialexpress.com%2fworld-news%2fus-news%2fstop-ai-race-workers-students-protest-at-openai-anthropic-googles-us-offices-as-layoffs-surge%2f4289945%2f&c=2279704773048693827&mkt=en-us",
+     "source": "Bing News: \"protest\" \"Anthropic\" office",
+     "title": "\u2018Stop AI Race\u2019: Workers, students protest at OpenAI, Anthropic, Google\u2019s US offices as layoffs surge",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMzhvVlRMMjRwYVYtOUZ3T0E2SXMySExONS1DaHVfTUFYakxxTDJDdUpXc1FIZWdQWWlWME5hbG1maEM5X24zQTdhZUZvazFEblRselAzMExpa0ZrZFZMekRidlQ0ZjczanlJaDZLeEhjdHRSd05ZNWFOUkpMYXdvcVh4eWFFMHZPUFk5YkFR?oc=5",
+     "source": "Google News: \"protest\" \"Anthropic\" office",
+     "title": "Activists are on a third day of hunger strike outside Anthropic's San Francisco office over AI's \"recursive self-improve",
+     "direct": true
+    },
+    {
+     "url": "https://bsky.app/profile/howardbreen.bsky.social/post/3mx5pry7cbk2f",
+     "source": "Bluesky: protest OpenAI",
+     "title": "Activists protest outside OpenAI conference in San Francisco youtu.be/71LqGMni_Xo?...",
+     "direct": true
+    },
+    {
+     "url": "https://pauseai.info/2024-february",
+     "source": "PauseAI \u2014 Blog",
+     "title": "PauseAI / No AGI Protest @ OpenAI San Francisco - February 12th, 2024",
+     "direct": true
+    },
+    {
+     "url": "https://bsky.app/profile/toppnews.bsky.social/post/3mwuquhspyq2u",
+     "source": "Bluesky: protest OpenAI",
+     "title": "#agent #agents #AI #artificial intelligence #California #ChatGPT #intelligence #Meta #Muse #OpenAI #protest #protesters ",
+     "direct": true
+    }
+   ],
+   "url_is_direct": 1
+  },
+  {
    "event_key": "sf_bay|undated|openai|['12th', '200', '2024', '2026']",
    "title": "Hundreds of protesters march to OpenAI and Anthropic offices, say they want AI race to stop now ->India Today | More on \"AI safety protest San Francisco\" at BigEarthData.ai | #ArtificialIntelligence #",
    "url": "https://bsky.app/profile/rankednews.bsky.social/post/3mtafoq6lgi2y",
@@ -3684,92 +3772,6 @@
      "url": "https://bsky.app/profile/toppnews.bsky.social/post/3mvrp7u3z3x23",
      "source": "Bluesky: protest OpenAI",
      "title": "#AI #AI safety #Anthropic #OpenAI #protest #protesters #San Francisco #target \ud83c\udf10 www.newsmart.ch",
-     "direct": true
-    }
-   ],
-   "url_is_direct": 1
-  },
-  {
-   "event_key": "sf_bay|undated|openai|[\"'extinction'\", '12th', '2024', '2026']",
-   "title": "San Francisco Chronicle 17 Sep 2026 Protesters call on S.F. OpenAI, Anthropic employees to quit their jobs over 'extinction' fears",
-   "url": "https://www.sfchronicle.com/bayarea/article/open-ai-anthropic-extinction-protest-22435148.php",
-   "score": 100,
-   "status": "REPORTED",
-   "region": "sf_bay",
-   "place": "san francisco",
-   "target": "openai",
-   "event_date": null,
-   "temporality": "upcoming",
-   "source_count": 15,
-   "sources": [
-    "Bing News: \"protest\" \"Anthropic\" office",
-    "Bing News: \"protest\" \"OpenAI\" headquarters",
-    "Bluesky: protest OpenAI",
-    "PauseAI \u2014 Blog",
-    "Stop The Race"
-   ],
-   "reasons": [
-    "high-signal phrase: ai protest, anti-ai protest",
-    "AI subject: ai, openai, anthropic, deepmind",
-    "protest action: protest, protester, protesters, march",
-    "anti-AI stance: anti-ai",
-    "AI and protest terms in close proximity",
-    "priority geography: san francisco",
-    "core anti-AI / protest-wire source",
-    "retrospective coverage (protest already happened)"
-   ],
-   "first_seen": "2026-11-04T20:50:38.851404",
-   "last_seen": "2026-11-27T10:45:37.243871",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "links": [
-    {
-     "url": "https://www.sfchronicle.com/bayarea/article/open-ai-anthropic-extinction-protest-22435148.php",
-     "source": "Stop The Race",
-     "title": "San Francisco Chronicle 17 Sep 2026 Protesters call on S.F. OpenAI, Anthropic employees to quit their jobs over 'extinct",
-     "direct": true
-    },
-    {
-     "url": "https://www.sfchronicle.com/tech/article/san-francisco-ai-protest-22340835.php",
-     "source": "Stop The Race",
-     "title": "San Francisco Chronicle 11 Jul 2026 S.F. protesters march on OpenAI, Anthropic and Google DeepMind to demand: \u2018Stop the ",
-     "direct": true
-    },
-    {
-     "url": "https://sfstandard.com/2026/07/11/anti-ai-protest-openai-anthropic-google-san-francisco/",
-     "source": "Stop The Race",
-     "title": "The San Francisco Standard 11 Jul 2026 SF's anti-AI protesters just marched past three tech giants",
-     "direct": true
-    },
-    {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b095f46e9704586bc6a8c263ef34da1&url=https%3a%2f%2fwww.financialexpress.com%2fworld-news%2fus-news%2fstop-ai-race-workers-students-protest-at-openai-anthropic-googles-us-offices-as-layoffs-surge%2f4289945%2f&c=2279704773048693827&mkt=en-us",
-     "source": "Bing News: \"protest\" \"Anthropic\" office",
-     "title": "\u2018Stop AI Race\u2019: Workers, students protest at OpenAI, Anthropic, Google\u2019s US offices as layoffs surge",
-     "direct": true
-    },
-    {
-     "url": "https://bsky.app/profile/howardbreen.bsky.social/post/3mx5pry7cbk2f",
-     "source": "Bluesky: protest OpenAI",
-     "title": "Activists protest outside OpenAI conference in San Francisco youtu.be/71LqGMni_Xo?...",
-     "direct": true
-    },
-    {
-     "url": "https://pauseai.info/2024-february",
-     "source": "PauseAI \u2014 Blog",
-     "title": "PauseAI / No AGI Protest @ OpenAI San Francisco - February 12th, 2024",
-     "direct": true
-    },
-    {
-     "url": "https://bsky.app/profile/toppnews.bsky.social/post/3mwuquhspyq2u",
-     "source": "Bluesky: protest OpenAI",
-     "title": "#agent #agents #AI #artificial intelligence #California #ChatGPT #intelligence #Meta #Muse #OpenAI #protest #protesters ",
-     "direct": true
-    },
-    {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b095f46534b4f16b69dfbf9b011216b&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fus%2farticles%2fprotesters-call-f-openai-anthropic-200328528.html&c=11369378277793436370&mkt=en-us",
-     "source": "Bing News: \"protest\" \"OpenAI\" headquarters",
-     "title": "Protesters call on S.F. OpenAI, Anthropic employees to quit their jobs over \u2018extinction' fears",
      "direct": true
     }
    ],
@@ -5573,6 +5575,94 @@
      "url": "https://bsky.app/profile/therightarticle.bsky.social/post/3mzpccz2niy2t",
      "source": "Bluesky: march against AI",
      "title": "76 organisations to march in major AI data centre protest \u2013 see full list https://www.thenational.scot/news/26707438.ful",
+     "direct": true
+    }
+   ],
+   "url_is_direct": 1
+  },
+  {
+   "event_key": "unknown|undated|anthropic|[\"'we\", 'activist', 'after', 'against']",
+   "title": "Anti-AI protesters rally against Anthropic after $2 trillion stock market debut - Free Press Kashmir",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWHpXMkNqR1NGRUs4ZGpiR3VJS1hocnFKSnFEVGtTckJfY2huOEppc0taZmlzUmd4b09IeVZxbktVUjNkTFlYX1NMSDM4UUd5SmwybjRPYjlkVTVJTHN5NUFMTlExZ3RiWHBWUjF4QVJDQ3FHa01PQmJydGpPVGdNQWVKMVVzeFVhYm43ck5Ca01MN0c1SnNVNFQ5N3FCakozRFhuT3VYNENON0FobDVsYVlaWUVTQ3FRZVQ0edIBwgFBVV95cUxPWkdxMTdTVUd1ak9IWFYzcW96TTl4a3k4VkwteUplM2hGSmc2dTI0UmhsbnJVcVQtb2lnNU9VNnd5eUhLcHhSMm9XUl8wRXBBWmpnd0hNOWZPdkU1ZnRvSGlwM3lWOEJta25SUWJkMW5YeUF3MVRtTEhZMHFqNS01RmZyN09RT3l0c0hkSi1QaFY1RjljcndkbENDYnQwYTJHam5pV3JJY0VPem1TNnVkT3BVQkhuMnlSeDdTZnNuakZvQQ?oc=5",
+   "score": 100,
+   "status": "REPORTED",
+   "region": "unknown",
+   "place": "",
+   "target": "anthropic",
+   "event_date": null,
+   "temporality": "unknown",
+   "source_count": 11,
+   "sources": [
+    "Bing News: \"protest\" \"Anthropic\" office",
+    "Bluesky: AI protest",
+    "Bluesky: protest Anthropic",
+    "Google News: \"AI protest\"",
+    "Google News: \"anti-AI\" rally OR march",
+    "Google News: \"protest\" \"Anthropic\" office",
+    "Google News: demonstration \"artificial intelligence\" San Francisco",
+    "Google News: protest artificial intelligence rally"
+   ],
+   "reasons": [
+    "high-signal phrase: ai protest, anti-ai protest",
+    "AI subject: ai, anthropic",
+    "protest action: protest, protester, protesters, rally",
+    "anti-AI stance: anti-ai",
+    "AI and protest terms in close proximity",
+    "core anti-AI / protest-wire source",
+    "noise terms: stock"
+   ],
+   "first_seen": "2026-11-27T22:40:35.805721",
+   "last_seen": "2026-11-27T22:40:35.805721",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "links": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWHpXMkNqR1NGRUs4ZGpiR3VJS1hocnFKSnFEVGtTckJfY2huOEppc0taZmlzUmd4b09IeVZxbktVUjNkTFlYX1NMSDM4UUd5SmwybjRPYjlkVTVJTHN5NUFMTlExZ3RiWHBWUjF4QVJDQ3FHa01PQmJydGpPVGdNQWVKMVVzeFVhYm43ck5Ca01MN0c1SnNVNFQ5N3FCakozRFhuT3VYNENON0FobDVsYVlaWUVTQ3FRZVQ0edIBwgFBVV95cUxPWkdxMTdTVUd1ak9IWFYzcW96TTl4a3k4VkwteUplM2hGSmc2dTI0UmhsbnJVcVQtb2lnNU9VNnd5eUhLcHhSMm9XUl8wRXBBWmpnd0hNOWZPdkU1ZnRvSGlwM3lWOEJta25SUWJkMW5YeUF3MVRtTEhZMHFqNS01RmZyN09RT3l0c0hkSi1QaFY1RjljcndkbENDYnQwYTJHam5pV3JJY0VPem1TNnVkT3BVQkhuMnlSeDdTZnNuakZvQQ?oc=5",
+     "source": "Google News: \"anti-AI\" rally OR march",
+     "title": "Anti-AI protesters rally against Anthropic after $2 trillion stock market debut - Free Press Kashmir",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYnJYckREOUpzR0VTNlV4NUhtRE5FV2pUa1piYWNSNGYybV9Gb3Q0ZWdCQm9kXzlvdHNMNTVhaEN3d1JnQUFuOUcweEZ5bE5OcG9uc1JfRE41LUlyRTJLYWxHMHVxSEhnUDhXVFgzSVFyUm9CR09tSHFsTFoyM2kyUDBTRmhEYmdIRTkxYQ?oc=5",
+     "source": "Google News: \"AI protest\"",
+     "title": "Photos: S.F. anti-AI protest hits Anthropic on day of $1.5 trillion IPO - Mission Local",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ2NaQmluX2lqZDU3VWw1YlNYWExvUlpOejNtdktDaUZoTG9KaF9KcTdKTWlsOHpVQ2VyRUk0THgxNlJOT1I2eU9sU3J1QzlRVktmQ3JIZjU2ZTMzRU16amM3XzdGN1FUV0JRd1NRdU1qN3ZHWXpiUGowTmRTekdjblROREl5dk56Mk8xRjBVb3Y0b09YZXdKeUpDeTBwRWFPaWVNRko3Ymdkdw?oc=5",
+     "source": "Google News: \"protest\" \"Anthropic\" office",
+     "title": "Anthropic\u2019s $2 Trillion IPO Draws Protesters Over AI Safety: \u201cWe Don\u2019t Want To Die\u201d - Gadget Review",
+     "direct": true
+    },
+    {
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a06d73a764c74b0b96d5f4171974e&url=https%3a%2f%2fwww.businessinsider.com%2fjacob-coxon-ban-rsi-protest-anthropic-ipo-day-2026-11&c=1632724399959013117&mkt=en-us",
+     "source": "Bing News: \"protest\" \"Anthropic\" office",
+     "title": "Jacob Coxon speaks out in an IPO day protest at Anthropic's office",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ0oySnNwUjZXazdBUVFDMXdLbWpLZ3JLNWxNM2l0ZktHWTA2eU9jZFp3NDRmZ2UxczgzNzNpVnZVeXdMSWt0MGYydVZ1TFlFNy1hZjVZVmpTN05RejJ5SWtEMnlwODllczIzOENqdDVnVUhobEQ3aDhKWmRVZWhnaw?oc=5",
+     "source": "Google News: \"protest\" \"Anthropic\" office",
+     "title": "Hunger Strike Outside Anthropic Hits Day Three - Gadget Review",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQVY1NDBzVEtXVVViaEp5OGpyRkFJU21obFdXb3lIcm1rZ09YYjR6aVdzS055OGxzeldJQ1BPckszQnMzTUowRklTajl0LTU5anhUX2J1cUdLYXB4VFRjNzRzMTBIdHkydTUzNXFBTHBOb2lPUW9hRkdfMlFYQmdmNllxUjc5OXc?oc=5",
+     "source": "Google News: protest artificial intelligence rally",
+     "title": "Anthropic IPO Draws Protests Over AI Safety and Healthcare - Unite.AI",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVUtkZ242Yk1ycTdnVzFKdTRwLVQ2dEpTQTRVckhxRmRCS1FPYWNYV2FzdlJtWmZ1Sm5IblFmSTdnUnBHZzhMdWphc2xlT3JQSnlack5IWEpheXJ4Y0xKTlZsSUtYSTJlN1ZESFFJcVQwMU53RDZiM2xTR1JRcG5qSEZ2cTBranl4TmpwMTVFNUV2UGstOE5teUlSQVRvWjFUal9IYW1JbVM?oc=5",
+     "source": "Google News: demonstration \"artificial intelligence\" San Francisco",
+     "title": "Video. US: Protesters demand human control over AI after Anthropic's IPO - Euronews.com",
+     "direct": true
+    },
+    {
+     "url": "https://bsky.app/profile/puretech.news/post/3n3cmyhnwsx2q",
+     "source": "Bluesky: AI protest",
+     "title": "Hunger strike outside Anthropic HQ enters third day as activist demands \"AI might kill everyone\" warning #Technology #So",
      "direct": true
     }
    ],
@@ -10504,6 +10594,52 @@
    "url_is_direct": 1
   },
   {
+   "event_key": "us|undated|general|['aaj', 'against', 'companies', 'demonstrators']",
+   "title": "Protest Against AI Companies in New York as Times Square Demonstrators Are Detained - Aaj News - Aaj TV",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcW02LXk3MEp1TU1OMHA5YjRxZFFaWk12blMwWm11T2wwVEZyX3o2dDZDTGVCSk1JbWp4ZnR5TmIyd1hobldMSVN5Q05meUVkcHFhNEU2blpkSlF5RXlFSlFEMm9DLVJaeGdzNkZSdlBZLVhOcmNTR1dudTItOGxZUVNhOTFLRUFyQnZQelh1WlI1MFBBenZBdnBJaWFUYU9YbEhzeHNqV3IyZUt6TDNTRkFhMGNYWWM4el85VGFGaFpvY1c2YUwyaTRR0gFTQVVfeXFMUF9uRjVJSXdaVTdSYVpqSnBrVGQ2LW1EYW5DSFpXb2JSMUppWjJFalBNYW14bUVpQ1ljZWdVRWtKcUxBaWVqN0FXTmJzQ0JuMDNxRTQ?oc=5",
+   "score": 100,
+   "status": "REPORTED",
+   "region": "us",
+   "place": "new york",
+   "target": "general",
+   "event_date": null,
+   "temporality": "unknown",
+   "source_count": 2,
+   "sources": [
+    "Google News: \"AI protest\"",
+    "Google News: \"protest against AI\""
+   ],
+   "reasons": [
+    "high-signal phrase: protest against ai",
+    "AI subject: ai",
+    "protest action: protest",
+    "anti-AI stance: against ai",
+    "AI and protest terms in close proximity",
+    "US geography: new york",
+    "core anti-AI / protest-wire source"
+   ],
+   "first_seen": "2026-11-20T09:54:37.295240",
+   "last_seen": "2026-11-27T22:40:35.805819",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "links": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcW02LXk3MEp1TU1OMHA5YjRxZFFaWk12blMwWm11T2wwVEZyX3o2dDZDTGVCSk1JbWp4ZnR5TmIyd1hobldMSVN5Q05meUVkcHFhNEU2blpkSlF5RXlFSlFEMm9DLVJaeGdzNkZSdlBZLVhOcmNTR1dudTItOGxZUVNhOTFLRUFyQnZQelh1WlI1MFBBenZBdnBJaWFUYU9YbEhzeHNqV3IyZUt6TDNTRkFhMGNYWWM4el85VGFGaFpvY1c2YUwyaTRR0gFTQVVfeXFMUF9uRjVJSXdaVTdSYVpqSnBrVGQ2LW1EYW5DSFpXb2JSMUppWjJFalBNYW14bUVpQ1ljZWdVRWtKcUxBaWVqN0FXTmJzQ0JuMDNxRTQ?oc=5",
+     "source": "Google News: \"protest against AI\"",
+     "title": "Protest Against AI Companies in New York as Times Square Demonstrators Are Detained - Aaj News - Aaj English TV",
+     "direct": true
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yeU5TQUgweWlhZ3BQR01iSTJyOHFiUlIzSE9mVkE5T3B2bWZWdUxLT1FyMDRJLXhOTEpiTVNzZTFpUWhYd2xVbl9UMktkTl9hZ2ZV?oc=5",
+     "source": "Google News: \"AI protest\"",
+     "title": "Today's New York Protest for Ai Weiwei [UPDATE] - Hyperallergic",
+     "direct": true
+    }
+   ],
+   "url_is_direct": 1
+  },
+  {
    "event_key": "sf_bay|undated|anthropic|['anthropic', 'anti', 'ask', 'day']",
    "title": "Faced with global extinction, anti-AI protestors ask Anthropic to \u2018please stop\u2019 - Gazetteer SF",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMnFOV3dRWEFCTEpmSklZU2pmcVRhOUM2RXJDSXZkZzdqcVFvSmxnNlVhRmNjOTJKcXpUQWJjZzZsZnlPMFZCYVZJMjdyN24tZzQ0cGlsdW9pUnh3Tld2Z3N1WTU3S1ItREZwUXFpbXZxZVZ3RVBmMXQzMUZDZ1Fmay00T2x5TElFc1hmVXREZC1FYU9NcGdKWDdkX2RBbWJqSGc?oc=5",
@@ -10577,7 +10713,7 @@
     "stale (1d old) \u2014 already happened"
    ],
    "first_seen": "2026-11-20T09:54:37.295322",
-   "last_seen": "2026-11-27T10:45:37.243917",
+   "last_seen": "2026-11-27T22:40:35.805865",
    "alerted": 0,
    "alerted_at": null,
    "event_time": "4:47 PM",
@@ -10589,7 +10725,7 @@
      "direct": true
     },
     {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b095f46025a45c2948d35fecd6d60b5&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftechnology%2fartificial-intelligence%2fus-protesters-demand-human-control-over-ai-after-anthropic-s-ipo%2far-AA2hPG4X&c=6199320724117399382&mkt=en-us",
+     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a06d701114466b4b6d5cae6b6c9a5&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftechnology%2fartificial-intelligence%2fus-protesters-demand-human-control-over-ai-after-anthropic-s-ipo%2far-AA2hPG4X&c=6199320724117399382&mkt=en-us",
      "source": "Bing News: protest artificial intelligence rally",
      "title": "US: Protesters demand human control over AI after Anthropic's IPO",
      "direct": true
@@ -10622,7 +10758,7 @@
     "forward-looking language (protest has not happened yet)"
    ],
    "first_seen": "2026-07-29T06:33:32.358966",
-   "last_seen": "2026-11-26T23:00:01.218171",
+   "last_seen": "2026-11-27T22:40:35.806000",
    "alerted": 1,
    "alerted_at": "2026-07-29T06:33:32.359629",
    "event_time": null,
@@ -11859,7 +11995,7 @@
     "retrospective coverage (protest already happened)"
    ],
    "first_seen": "2026-09-25T13:27:42.593722",
-   "last_seen": "2026-11-27T10:45:37.243969",
+   "last_seen": "2026-11-27T22:40:35.806032",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12537,84 +12673,6 @@
     }
    ],
    "url_is_direct": 1
-  },
-  {
-   "event_key": "sf_bay|undated|openai|['herself', 'jail', 'not', 'one']",
-   "title": "\u2018I\u2019m not the one that should be in jail\u2019: OpenAI protester, 69, turns herself in",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae63291d84c476fa6dd9db5be721ca7&url=https%3a%2f%2fsfstandard.com%2f2026%2f08%2f14%2f69-s-first-person-jailed-protesting-ai-has-regrets%2f&c=13237725394799752957&mkt=en-ca",
-   "score": 100,
-   "status": "REPORTED",
-   "region": "sf_bay",
-   "place": "san francisco",
-   "target": "openai",
-   "event_date": null,
-   "temporality": "upcoming",
-   "source_count": 1,
-   "sources": [
-    "Bing News: \"protest\" \"OpenAI\" headquarters"
-   ],
-   "reasons": [
-    "high-signal phrase: ai protest",
-    "AI subject: openai",
-    "protest action: protest, protester",
-    "AI and protest terms in close proximity",
-    "priority geography: san francisco",
-    "forward-looking language (protest has not happened yet)",
-    "stale (76d old) \u2014 already happened"
-   ],
-   "first_seen": "2026-10-29T08:17:09.354525",
-   "last_seen": "2026-10-31T18:25:33.583566",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "links": [
-    {
-     "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae63291d84c476fa6dd9db5be721ca7&url=https%3a%2f%2fsfstandard.com%2f2026%2f08%2f14%2f69-s-first-person-jailed-protesting-ai-has-regrets%2f&c=13237725394799752957&mkt=en-ca",
-     "source": "Bing News: \"protest\" \"OpenAI\" headquarters",
-     "title": "\u2018I\u2019m not the one that should be in jail\u2019: OpenAI protester, 69, turns herself in",
-     "direct": true
-    }
-   ],
-   "url_is_direct": 1
-  },
-  {
-   "event_key": "sf_bay|d:2026-11-14|openai|['montr', 'nov', 'nyc', 'paris']",
-   "title": "Protest AI in Person on Sat, Nov 14 (SF, DC, NYC, Toronto, Montr\u00e9al, Paris)",
-   "url": "https://www.reddit.com/r/ControlProblem/comments/1xki1fg/protest_ai_in_person_on_sat_nov_14_sf_dc_nyc/",
-   "score": 100,
-   "status": "CONFIRMED",
-   "region": "sf_bay",
-   "place": "sf",
-   "target": "openai",
-   "event_date": "2026-11-14",
-   "temporality": "upcoming",
-   "source_count": 1,
-   "sources": [
-    "r/ControlProblem"
-   ],
-   "reasons": [
-    "high-signal phrase: protest ai",
-    "AI subject: ai, openai",
-    "protest action: protest, march",
-    "AI and protest terms in close proximity",
-    "priority geography: sf",
-    "upcoming date detected: 2026-11-14",
-    "forward-looking language (protest has not happened yet)"
-   ],
-   "first_seen": "2026-10-31T23:17:03.980741",
-   "last_seen": "2026-11-04T08:52:24.750684",
-   "alerted": 1,
-   "alerted_at": "2026-10-31T23:17:16.258306",
-   "event_time": null,
-   "links": [
-    {
-     "url": "https://www.reddit.com/r/ControlProblem/comments/1xki1fg/protest_ai_in_person_on_sat_nov_14_sf_dc_nyc/",
-     "source": "r/ControlProblem",
-     "title": "Protest AI in Person on Sat, Nov 14 (SF, DC, NYC, Toronto, Montr\u00e9al, Paris)",
-     "direct": true
-    }
-   ],
-   "url_is_direct": 1
   }
  ],
  "items": [
@@ -12643,7 +12701,7 @@
    ],
    "published": "2026-11-20T01:10:52",
    "first_seen": "2026-11-24T01:39:40.978139",
-   "last_seen": "2026-11-27T10:45:37.234312",
+   "last_seen": "2026-11-27T22:40:35.790591",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12704,7 +12762,7 @@
    ],
    "published": "2026-11-23T00:10:00",
    "first_seen": "2026-11-23T10:33:32.803687",
-   "last_seen": "2026-11-27T10:45:37.233867",
+   "last_seen": "2026-11-27T22:40:35.789703",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12734,7 +12792,7 @@
    ],
    "published": "2026-11-20T01:40:36",
    "first_seen": "2026-11-21T09:26:30.389087",
-   "last_seen": "2026-11-27T10:45:37.236352",
+   "last_seen": "2026-11-27T22:40:35.794513",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12765,7 +12823,7 @@
    ],
    "published": "2026-11-20T14:26:36.720301",
    "first_seen": "2026-11-20T21:50:21.245634",
-   "last_seen": "2026-11-27T10:45:37.236018",
+   "last_seen": "2026-11-27T22:40:35.793843",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12804,37 +12862,6 @@
    "url_is_direct": 1
   },
   {
-   "fingerprint": "7ec3d8b35075afb2dc65baa5d9ea3718",
-   "title": "4 Arrests in San Francisco Protest Outside Anthropic Headquarters After IPO",
-   "summary": "Anti-AI protests in San Francisco and New York over AI risk coincided with the company\u2019s historic public offering.",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0018d28d664cf586390ff2a4e35915&url=https%3a%2f%2fwww.kqed.org%2fnews%2f12110643%2ffour-arrests-in-san-francisco-protest-outside-anthropic-headquarters-after-ipo&c=9002096907930523460&mkt=en-us",
-   "source": "Bing News: \"protest\" \"Anthropic\" office",
-   "source_type": "news_search",
-   "score": 100,
-   "status": "REPORTED",
-   "region": "sf_bay",
-   "place": "san francisco",
-   "event_date": null,
-   "is_future": 0,
-   "temporality": "unknown",
-   "reasons": [
-    "high-signal phrase: ai protest, anti-ai protest, protest outside anthropic",
-    "AI subject: ai, anthropic",
-    "protest action: protest, protests",
-    "anti-AI stance: anti-ai, ai risk",
-    "AI and protest terms in close proximity",
-    "priority geography: san francisco",
-    "noise terms: ipo"
-   ],
-   "published": "2026-11-19T16:47:00",
-   "first_seen": "2026-11-20T09:54:37.286810",
-   "last_seen": "2026-11-27T10:45:37.236174",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "url_is_direct": 1
-  },
-  {
    "fingerprint": "67325c42e8216a227c3978440157cb9e",
    "title": "4 Arrests in San Francisco Protest Outside Anthropic Headquarters After IPO Anti-AI protests in San Francisco and New York over AI risk coincided with the company\u2019s historic public offering. Nov 19, 2",
    "summary": "4 Arrests in San Francisco Protest Outside Anthropic Headquarters After IPO Anti-AI protests in San Francisco and New York over AI risk coincided with the company\u2019s historic public offering. Nov 19, 2026 Updated 4:47 pm PT Samantha KennedyJuan Carlos Lara Police officers arrest Co-founder of Stop\u2026",
@@ -12861,7 +12888,7 @@
    ],
    "published": "2026-11-20T08:05:24",
    "first_seen": "2026-11-20T09:54:37.285519",
-   "last_seen": "2026-11-27T10:45:37.235253",
+   "last_seen": "2026-11-27T22:40:35.792416",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12923,7 +12950,7 @@
    ],
    "published": "2026-11-20T01:10:52",
    "first_seen": "2026-11-20T09:54:37.284679",
-   "last_seen": "2026-11-27T10:45:37.234321",
+   "last_seen": "2026-11-27T22:40:35.790615",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -12985,7 +13012,7 @@
    ],
    "published": "2026-11-20T07:05:50",
    "first_seen": "2026-11-20T09:54:37.284631",
-   "last_seen": "2026-11-27T10:45:37.234221",
+   "last_seen": "2026-11-27T22:40:35.790553",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -13047,7 +13074,7 @@
    ],
    "published": "2026-11-20T05:25:09",
    "first_seen": "2026-11-20T09:54:37.284343",
-   "last_seen": "2026-11-27T10:45:37.234025",
+   "last_seen": "2026-11-27T22:40:35.789994",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -13105,11 +13132,12 @@
     "anti-AI stance: anti-ai",
     "AI and protest terms in close proximity",
     "priority geography: sf",
-    "core anti-AI / protest-wire source"
+    "core anti-AI / protest-wire source",
+    "stale (8d old) \u2014 already happened"
    ],
    "published": "2026-11-19T21:49:00",
    "first_seen": "2026-11-19T22:08:53.922636",
-   "last_seen": "2026-11-27T10:45:37.234144",
+   "last_seen": "2026-11-27T22:40:35.790298",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -14562,7 +14590,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-23T07:37:16.281944",
-   "last_seen": "2026-11-27T10:45:37.234927",
+   "last_seen": "2026-11-27T22:40:35.791639",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -14594,7 +14622,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-23T07:37:16.281918",
-   "last_seen": "2026-11-27T10:45:37.234920",
+   "last_seen": "2026-11-27T22:40:35.791625",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -14626,7 +14654,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-23T07:37:16.281892",
-   "last_seen": "2026-11-27T10:45:37.234907",
+   "last_seen": "2026-11-27T22:40:35.791602",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -14658,7 +14686,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-23T07:37:16.281825",
-   "last_seen": "2026-11-27T10:45:37.234894",
+   "last_seen": "2026-11-27T22:40:35.791576",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -14690,7 +14718,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-23T07:37:16.281764",
-   "last_seen": "2026-11-27T10:45:37.234868",
+   "last_seen": "2026-11-27T22:40:35.791529",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -16659,7 +16687,7 @@
    ],
    "published": "2026-07-13T00:26:00",
    "first_seen": "2026-07-29T19:39:45.064958",
-   "last_seen": "2026-11-27T10:45:37.236370",
+   "last_seen": "2026-11-27T22:40:35.794490",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -16751,6 +16779,37 @@
    "published": "2026-07-28T07:08:47",
    "first_seen": "2026-07-29T06:33:32.355380",
    "last_seen": "2026-07-29T06:33:32.355380",
+   "alerted": 1,
+   "alerted_at": null,
+   "event_time": null,
+   "url_is_direct": 1
+  },
+  {
+   "fingerprint": "f8029c3322083dce88e6b3a196c12096",
+   "title": "PauseAI Protests",
+   "summary": "PauseAI Protests Upcoming protest See our events for upcoming protests. Past Protests 2025 13th of December, Amsterdam 30th of June, London 7th - 11th of February, 15+ cities 2024 21st of November, 10+ cities 22nd of September, NYC 30th of July, Washington, DC (World Pause Coalition) 23rd of July, San Francisco, London, Paris 13th of May, San Francisco, London, Stockholm, Berlin, Den Haag, Rome, P",
+   "url": "https://pauseai.info/protests",
+   "source": "PauseAI \u2014 Protests",
+   "source_type": "html",
+   "score": 100,
+   "status": "CONFIRMED",
+   "region": "sf_bay",
+   "place": "san francisco",
+   "event_date": null,
+   "is_future": 0,
+   "temporality": "upcoming",
+   "reasons": [
+    "high-signal phrase: ai protest, pauseai protest",
+    "protest action: protest, protests",
+    "anti-AI stance: pauseai",
+    "priority geography: san francisco",
+    "core anti-AI / protest-wire source",
+    "noise terms: stock",
+    "forward-looking language (protest has not happened yet)"
+   ],
+   "published": null,
+   "first_seen": "2026-07-29T06:33:32.355187",
+   "last_seen": "2026-11-27T22:40:35.791101",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -17132,6 +17191,38 @@
    "url_is_direct": 1
   },
   {
+   "fingerprint": "7ec3d8b35075afb2dc65baa5d9ea3718",
+   "title": "4 Arrests in San Francisco Protest Outside Anthropic Headquarters After IPO",
+   "summary": "Anti-AI protests in San Francisco and New York over AI risk coincided with the company\u2019s historic public offering.",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0018d28d664cf586390ff2a4e35915&url=https%3a%2f%2fwww.kqed.org%2fnews%2f12110643%2ffour-arrests-in-san-francisco-protest-outside-anthropic-headquarters-after-ipo&c=9002096907930523460&mkt=en-us",
+   "source": "Bing News: \"protest\" \"Anthropic\" office",
+   "source_type": "news_search",
+   "score": 97,
+   "status": "REPORTED",
+   "region": "sf_bay",
+   "place": "san francisco",
+   "event_date": null,
+   "is_future": 0,
+   "temporality": "unknown",
+   "reasons": [
+    "high-signal phrase: ai protest, anti-ai protest, protest outside anthropic",
+    "AI subject: ai, anthropic",
+    "protest action: protest, protests",
+    "anti-AI stance: anti-ai, ai risk",
+    "AI and protest terms in close proximity",
+    "priority geography: san francisco",
+    "noise terms: ipo",
+    "stale (8d old) \u2014 already happened"
+   ],
+   "published": "2026-11-19T16:47:00",
+   "first_seen": "2026-11-20T09:54:37.286810",
+   "last_seen": "2026-11-27T22:40:35.794089",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "url_is_direct": 1
+  },
+  {
    "fingerprint": "59ab47e328549ca9e0640bd8ba94a4a3",
    "title": "Photos: S.F. anti-AI protest hits Anthropic on day of $1.5 trillion IPO",
    "summary": "Protesters chanted and begged for a ban on AI, Anthropic and \u201cRSI\u201d \u2014 or \u201crecursive self-improvement,\u201d whereby AI systems design and build themselves in a potentially catastrophic runaway process. They ...",
@@ -17157,7 +17248,7 @@
    ],
    "published": "2026-11-19T09:21:00",
    "first_seen": "2026-11-20T09:54:37.286763",
-   "last_seen": "2026-11-27T10:45:37.236187",
+   "last_seen": "2026-11-27T22:40:35.794113",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17213,11 +17304,11 @@
     "protest action: protest, protester, protesters, rally",
     "AI and protest terms in close proximity",
     "priority geography: san francisco",
-    "stale (70d old) \u2014 already happened"
+    "stale (71d old) \u2014 already happened"
    ],
    "published": "2026-09-17T14:45:00",
    "first_seen": "2026-09-17T22:52:30.177206",
-   "last_seen": "2026-11-27T10:45:37.236193",
+   "last_seen": "2026-11-27T22:40:35.794127",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17370,37 +17461,6 @@
    "published": "2026-11-20T06:29:31",
    "first_seen": "2026-11-20T21:50:21.242486",
    "last_seen": "2026-11-26T23:00:01.201083",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "url_is_direct": 1
-  },
-  {
-   "fingerprint": "8c1cccc29a3dc04a0e8e70704667f2b7",
-   "title": "4 Arrests in San Francisco Protest Outside Anthropic Headquarters After IPO - KQED",
-   "summary": "4 Arrests in San Francisco Protest Outside Anthropic Headquarters After IPO &nbsp;&nbsp; KQED",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQb1gzcjhFMGI5WHlkbjRoT3MxQUNJX2ljdExlSkR6ZlVYT1BIY0k3NTVDX21LeDRBWmxTcnlfXzBYMXFmR29kanJ3TmlqQ1VNVFdRWktFMWRWdjE4Z19YRDdOb1lzU1BHaGN5eGg4d2o5YzJuS2t3d0VPTUVZYlJLaktoNGRzbFc2dEFpUEJIS0NGOWpHNVhoRnpJSlkyTDVreUZhY1lJTW83RFo0T3V6YWxwMA?oc=5",
-   "source": "Google News: \"protest\" \"Anthropic\" office",
-   "source_type": "news_search",
-   "score": 96,
-   "status": "REPORTED",
-   "region": "sf_bay",
-   "place": "san francisco",
-   "event_date": null,
-   "is_future": 0,
-   "temporality": "unknown",
-   "reasons": [
-    "high-signal phrase: protest outside anthropic",
-    "AI subject: anthropic",
-    "protest action: protest",
-    "AI and protest terms in close proximity",
-    "priority geography: san francisco",
-    "core anti-AI / protest-wire source",
-    "noise terms: ipo"
-   ],
-   "published": "2026-11-19T23:57:22",
-   "first_seen": "2026-11-20T09:54:37.284375",
-   "last_seen": "2026-11-27T10:45:37.234054",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17822,7 +17882,7 @@
    ],
    "published": "2026-11-22T12:08:00",
    "first_seen": "2026-11-22T20:45:36.410419",
-   "last_seen": "2026-11-27T10:45:37.234354",
+   "last_seen": "2026-11-27T22:40:35.790503",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -17883,7 +17943,7 @@
    ],
    "published": "2026-11-11T08:26:49",
    "first_seen": "2026-11-11T21:15:29.351940",
-   "last_seen": "2026-11-27T10:45:37.236149",
+   "last_seen": "2026-11-27T22:40:35.794153",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -18034,7 +18094,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-23T07:37:16.281850",
-   "last_seen": "2026-11-27T10:45:37.234901",
+   "last_seen": "2026-11-27T22:40:35.791589",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -18093,7 +18153,7 @@
    ],
    "published": "2026-11-20T15:33:50",
    "first_seen": "2026-11-21T09:26:30.386418",
-   "last_seen": "2026-11-27T10:45:37.234299",
+   "last_seen": "2026-11-27T22:40:35.790569",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -18211,11 +18271,11 @@
     "AI and protest terms in close proximity",
     "priority geography: san francisco",
     "retrospective coverage (protest already happened)",
-    "stale (642d old) \u2014 already happened"
+    "stale (643d old) \u2014 already happened"
    ],
    "published": "2025-02-22T21:37:00",
    "first_seen": "2026-11-12T09:34:20.147080",
-   "last_seen": "2026-11-27T10:45:37.236206",
+   "last_seen": "2026-11-27T22:40:35.794310",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -19475,37 +19535,8 @@
    ],
    "published": "2025-02-25T07:28:00",
    "first_seen": "2026-07-29T19:39:45.064934",
-   "last_seen": "2026-11-27T10:45:37.236297",
+   "last_seen": "2026-11-27T22:40:35.794380",
    "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "url_is_direct": 1
-  },
-  {
-   "fingerprint": "f8029c3322083dce88e6b3a196c12096",
-   "title": "PauseAI Protests",
-   "summary": "PauseAI Protests Upcoming protest See our events for upcoming protests. Past Protests 2025 13th of December, Amsterdam 30th of June, London 7th - 11th of February, 15+ cities 2024 21st of November, 10+ cities 22nd of September, NYC 30th of July, Washington, DC (World Pause Coalition) 23rd of July, San Francisco, London, Paris 13th of May, San Francisco, London, Stockholm, Berlin, Den Haag, Rome, P",
-   "url": "https://pauseai.info/protests",
-   "source": "PauseAI \u2014 Protests",
-   "source_type": "html",
-   "score": 93,
-   "status": "REPORTED",
-   "region": "sf_bay",
-   "place": "san francisco",
-   "event_date": null,
-   "is_future": 0,
-   "temporality": "upcoming",
-   "reasons": [
-    "high-signal phrase: ai protest, pauseai protest",
-    "protest action: protest, protests",
-    "anti-AI stance: pauseai",
-    "core anti-AI / protest-wire source",
-    "forward-looking language (protest has not happened yet)"
-   ],
-   "published": null,
-   "first_seen": "2026-07-29T06:33:32.355187",
-   "last_seen": "2026-11-27T10:45:37.234828",
-   "alerted": 1,
    "alerted_at": null,
    "event_time": null,
    "url_is_direct": 1
@@ -19924,7 +19955,7 @@
    ],
    "published": "2026-11-19T13:00:37.179000",
    "first_seen": "2026-11-19T22:08:53.925099",
-   "last_seen": "2026-11-27T10:45:37.236131",
+   "last_seen": "2026-11-27T22:40:35.794066",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -20344,7 +20375,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-25T07:23:09.086834",
-   "last_seen": "2026-11-27T10:45:37.234969",
+   "last_seen": "2026-11-27T22:40:35.791718",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -20497,7 +20528,7 @@
    ],
    "published": null,
    "first_seen": "2026-08-25T03:09:04.068538",
-   "last_seen": "2026-11-27T10:45:37.234981",
+   "last_seen": "2026-11-27T22:40:35.791741",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -20674,7 +20705,7 @@
    ],
    "published": null,
    "first_seen": "2026-09-23T07:37:16.281803",
-   "last_seen": "2026-11-27T10:45:37.234888",
+   "last_seen": "2026-11-27T22:40:35.791562",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -20705,7 +20736,7 @@
    ],
    "published": "2026-09-17T01:37:43.759000",
    "first_seen": "2026-09-17T07:25:28.870758",
-   "last_seen": "2026-11-27T10:45:37.235905",
+   "last_seen": "2026-11-27T22:40:35.793607",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -20860,6 +20891,35 @@
    "published": "2026-07-14T20:52:47.090000",
    "first_seen": "2026-07-29T19:39:45.064558",
    "last_seen": "2026-08-03T04:18:14.786549",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "url_is_direct": 1
+  },
+  {
+   "fingerprint": "fd488a387d9ed5b2f42db23cd41dc746",
+   "title": "Activists are on a third day of hunger strike outside Anthropic's San Francisco office over AI's \"recursive self-improvement\" and are threatening to take on OpenAI - dev.ua",
+   "summary": "Activists are on a third day of hunger strike outside Anthropic's San Francisco office over AI's \"recursive self-improvement\" and are threatening to take on OpenAI &nbsp;&nbsp; dev.ua",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMzhvVlRMMjRwYVYtOUZ3T0E2SXMySExONS1DaHVfTUFYakxxTDJDdUpXc1FIZWdQWWlWME5hbG1maEM5X24zQTdhZUZvazFEblRselAzMExpa0ZrZFZMekRidlQ0ZjczanlJaDZLeEhjdHRSd05ZNWFOUkpMYXdvcVh4eWFFMHZPUFk5YkFR?oc=5",
+   "source": "Google News: \"protest\" \"Anthropic\" office",
+   "source_type": "news_search",
+   "score": 88,
+   "status": "REPORTED",
+   "region": "sf_bay",
+   "place": "san francisco",
+   "event_date": null,
+   "is_future": 0,
+   "temporality": "unknown",
+   "reasons": [
+    "AI subject: ai, openai, anthropic",
+    "protest action: strike, hunger strike",
+    "AI and protest terms in close proximity",
+    "priority geography: san francisco",
+    "core anti-AI / protest-wire source"
+   ],
+   "published": "2026-11-27T13:05:00",
+   "first_seen": "2026-11-27T22:40:35.790323",
+   "last_seen": "2026-11-27T22:40:35.790323",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -21155,7 +21215,7 @@
    ],
    "published": "2026-10-06T07:13:36.585000",
    "first_seen": "2026-10-06T08:49:28.503996",
-   "last_seen": "2026-11-27T10:45:37.235788",
+   "last_seen": "2026-11-27T22:40:35.793444",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -21394,7 +21454,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355292",
-   "last_seen": "2026-11-27T10:45:37.234822",
+   "last_seen": "2026-11-27T22:40:35.791486",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -21821,7 +21881,7 @@
    ],
    "published": "2026-11-21T22:01:40",
    "first_seen": "2026-11-22T09:36:27.175289",
-   "last_seen": "2026-11-27T10:45:37.234380",
+   "last_seen": "2026-11-27T22:40:35.790722",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -21851,7 +21911,7 @@
    ],
    "published": "2026-11-20T14:20:32.313003",
    "first_seen": "2026-11-20T21:50:21.243950",
-   "last_seen": "2026-11-27T10:45:37.235544",
+   "last_seen": "2026-11-27T22:40:35.792977",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -21881,38 +21941,7 @@
    ],
    "published": "2026-11-19T23:57:22",
    "first_seen": "2026-11-20T09:54:37.285623",
-   "last_seen": "2026-11-27T10:45:37.235277",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "url_is_direct": 1
-  },
-  {
-   "fingerprint": "89540f1f520755c78e6f331ee8186fee",
-   "title": "Photos: S.F. anti-AI protest hits Anthropic on day of $1.5 trillion IPO - Mission Local",
-   "summary": "Photos: S.F. anti-AI protest hits Anthropic on day of $1.5 trillion IPO &nbsp;&nbsp; Mission Local",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYnJYckREOUpzR0VTNlV4NUhtRE5FV2pUa1piYWNSNGYybV9Gb3Q0ZWdCQm9kXzlvdHNMNTVhaEN3d1JnQUFuOUcweEZ5bE5OcG9uc1JfRE41LUlyRTJLYWxHMHVxSEhnUDhXVFgzSVFyUm9CR09tSHFsTFoyM2kyUDBTRmhEYmdIRTkxYQ?oc=5",
-   "source": "Google News: \"AI protest\"",
-   "source_type": "news_search",
-   "score": 86,
-   "status": "REPORTED",
-   "region": "unknown",
-   "place": "",
-   "event_date": null,
-   "is_future": 0,
-   "temporality": "unknown",
-   "reasons": [
-    "high-signal phrase: ai protest, anti-ai protest",
-    "AI subject: ai, anthropic",
-    "protest action: protest",
-    "anti-AI stance: anti-ai",
-    "AI and protest terms in close proximity",
-    "core anti-AI / protest-wire source",
-    "noise terms: ipo"
-   ],
-   "published": "2026-11-20T01:18:45",
-   "first_seen": "2026-11-20T09:54:37.283821",
-   "last_seen": "2026-11-27T10:45:37.233411",
+   "last_seen": "2026-11-27T22:40:35.792464",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -22782,7 +22811,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355270",
-   "last_seen": "2026-11-27T10:45:37.234784",
+   "last_seen": "2026-11-27T22:40:35.791410",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -22814,7 +22843,7 @@
    ],
    "published": null,
    "first_seen": "2026-07-29T06:33:32.355228",
-   "last_seen": "2026-11-27T10:45:37.234713",
+   "last_seen": "2026-11-27T22:40:35.791265",
    "alerted": 1,
    "alerted_at": null,
    "event_time": null,
@@ -23339,35 +23368,6 @@
    "url_is_direct": 1
   },
   {
-   "fingerprint": "1f0946f87405f895be6cd18be8511a09",
-   "title": "Activists began a hunger strike outside Anthropic. 19 to protest recursive self-improvement technology. Protesters demand a legislative session on recursive. Callender plans to target OpenAI next afte",
-   "summary": "Activists began a hunger strike outside Anthropic. 19 to protest recursive self-improvement technology. Protesters demand a legislative session on recursive. Callender plans to target OpenAI next after concluding. The report was published on 2026-11-27. Source: Tom's Hardware \u2014 tomshardware.com",
-   "url": "https://bsky.app/profile/aman179102.bsky.social/post/3n3bydgb3qf24",
-   "source": "Bluesky: protest OpenAI",
-   "source_type": "bluesky",
-   "score": 84,
-   "status": "REPORTED",
-   "region": "unknown",
-   "place": "",
-   "event_date": "2026-11-27",
-   "is_future": 1,
-   "temporality": "upcoming",
-   "reasons": [
-    "AI subject: openai, anthropic",
-    "protest action: protest, protester, protesters, strike",
-    "AI and protest terms in close proximity",
-    "upcoming date detected: 2026-11-27",
-    "forward-looking language (protest has not happened yet)"
-   ],
-   "published": "2026-11-27T10:32:13.385000",
-   "first_seen": "2026-11-27T10:45:37.235362",
-   "last_seen": "2026-11-27T10:45:37.235362",
-   "alerted": 0,
-   "alerted_at": null,
-   "event_time": null,
-   "url_is_direct": 1
-  },
-  {
    "fingerprint": "feade2aa33c01b45aba129cdad49bafe",
    "title": "Thousands turn out in Edinburgh to protest against AI data centres buff.ly/LfVxzgs",
    "summary": "Thousands turn out in Edinburgh to protest against AI data centres buff.ly/LfVxzgs",
@@ -23451,7 +23451,7 @@
    ],
    "published": "2026-11-18T20:01:09.161000",
    "first_seen": "2026-11-18T21:52:46.264881",
-   "last_seen": "2026-11-27T10:45:37.236143",
+   "last_seen": "2026-11-27T22:40:35.794078",
    "alerted": 0,
    "alerted_at": null,
    "event_time": null,
@@ -24682,17 +24682,90 @@
    "alerted_at": null,
    "event_time": null,
    "url_is_direct": 1
+  },
+  {
+   "fingerprint": "f03953ef47fc8363ef9d559f4e292529",
+   "title": "Ranking AI uses as someone generally against AI",
+   "summary": "AI isn't one thing, it's a lot of different things, but people treat it like it's all the same thing all too frequently, so I wanted to untangle the different threads of AI uses and rank them based on how much promise I see in them for the future. - Already good, will get better - Medical AIs - Whether it's detection models - detecting tumors, diabetes from eye scans - or models that simulate potential vaccine/medicines en masse giving researchers leads for new drugs, I think this is THE most promising field in AI research. It still requires human oversight of course, we're dealing with lives ",
+   "url": "https://www.reddit.com/r/aiwars/comments/1vyw80o/ranking_ai_uses_as_someone_generally_against_ai/",
+   "source": "r/aiwars",
+   "source_type": "reddit",
+   "score": 84,
+   "status": "REPORTED",
+   "region": "unknown",
+   "place": "",
+   "event_date": null,
+   "is_future": 0,
+   "temporality": "unknown",
+   "reasons": [
+    "high-signal phrase: rally against ai",
+    "AI subject: ai",
+    "protest action: rally",
+    "anti-AI stance: against ai",
+    "AI and protest terms in close proximity"
+   ],
+   "published": "2026-08-26T12:51:28",
+   "first_seen": "2026-08-26T14:53:33.048292",
+   "last_seen": "2026-08-26T14:53:33.048292",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "url_is_direct": 1
+  },
+  {
+   "fingerprint": "6f826788b92a868863e75624cce9b868",
+   "title": "If you want to protest against AI or death of physical maybe just make a post, tell a buddy, make a video. That stuff actually helps us. Otherwise you're just joining the trending outrage. #indieDev",
+   "summary": "If you want to protest against AI or death of physical maybe just make a post, tell a buddy, make a video. That stuff actually helps us. Otherwise you're just joining the trending outrage. #indieDev",
+   "url": "https://bsky.app/profile/egvroom.bsky.social/post/3mtw46asea227",
+   "source": "Bluesky: AI protest",
+   "source_type": "bluesky",
+   "score": 84,
+   "status": "REPORTED",
+   "region": "unknown",
+   "place": "",
+   "event_date": null,
+   "is_future": 0,
+   "temporality": "unknown",
+   "reasons": [
+    "high-signal phrase: protest against ai",
+    "AI subject: ai",
+    "protest action: protest",
+    "anti-AI stance: against ai",
+    "AI and protest terms in close proximity"
+   ],
+   "published": "2026-08-25T15:12:36.601000",
+   "first_seen": "2026-08-25T20:38:53.424326",
+   "last_seen": "2026-08-26T03:17:58.681149",
+   "alerted": 0,
+   "alerted_at": null,
+   "event_time": null,
+   "url_is_direct": 1
   }
  ],
  "new_this_run": [
-  "0f811b5f6cbaf51641631c9e9f77abd6",
-  "1fffec89d2e9e297bd57847ad6dfcb4b",
-  "1f0946f87405f895be6cd18be8511a09"
+  "61c155c6207584439c64e864cb3e1171",
+  "f46f79dabf081c47c7da79774681ae17",
+  "bfe52ce052009e4c42335491aefbf8e3",
+  "b2405b8ee529780f6154b24b187c2fb9",
+  "fd488a387d9ed5b2f42db23cd41dc746",
+  "e3642916794da60c3f9d9c64379b5865",
+  "f7f892d947307e3b7472d88139a54248",
+  "a2fbc89602698d584cfd21de71d46b5a",
+  "94c3d7534efaf733cdd28ea4e1b24498",
+  "8e5d02eaf371303461c0b764f77b64fb",
+  "6456e535d5baa6ea3392880ca686312a",
+  "294ff53c25ad3a636ceb6c6f4151359a",
+  "caf654606fcde3879f48452213076088",
+  "ad51c432a6c95d7baf701a4671308144",
+  "539b7790158e7a043262f2844cf723e5",
+  "bcc30bb56a037c6cca907de32874b346",
+  "9bb21dda627b363904adfc880295112b",
+  "60cffa3a6de9438801720ceca0c9fc5a"
  ],
  "runs": [
   {
-   "id": 372,
-   "started_at": "2026-11-27T10:35:50.270601",
+   "id": 373,
+   "started_at": "2026-11-27T22:30:21.689614",
    "finished_at": null,
    "collected": null,
    "scored": null,
@@ -24700,6 +24773,27 @@
    "confirmed": null,
    "alerts_sent": null,
    "stats": {},
+   "error": null
+  },
+  {
+   "id": 372,
+   "started_at": "2026-11-27T10:35:50.270601",
+   "finished_at": "2026-11-27T10:45:37.271665",
+   "collected": 2771,
+   "scored": 2435,
+   "new_signals": 3,
+   "confirmed": 0,
+   "alerts_sent": 0,
+   "stats": {
+    "google_news": 316,
+    "rss": 401,
+    "sites": 1623,
+    "reddit": 0,
+    "bluesky": 385,
+    "gdelt": 2,
+    "bing_news": 40,
+    "mobilize": 4
+   },
    "error": null
   },
   {
@@ -25076,27 +25170,6 @@
     "bluesky": 393,
     "gdelt": 0,
     "bing_news": 38,
-    "mobilize": 4
-   },
-   "error": null
-  },
-  {
-   "id": 353,
-   "started_at": "2026-11-17T22:03:18.596007",
-   "finished_at": "2026-11-17T22:13:30.153074",
-   "collected": 2746,
-   "scored": 2436,
-   "new_signals": 21,
-   "confirmed": 0,
-   "alerts_sent": 0,
-   "stats": {
-    "google_news": 270,
-    "rss": 403,
-    "sites": 1638,
-    "reddit": 0,
-    "bluesky": 393,
-    "gdelt": 1,
-    "bing_news": 37,
     "mobilize": 4
    },
    "error": null
